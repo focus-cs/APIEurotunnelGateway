@@ -1,0 +1,224 @@
+00:02:44:524 - INFO - Run - [main] Demarrage de l'API: Tue Aug 30 00:02:44 CEST 2016
+00:02:44:529 - INFO - Run - [connexion] Chargement parametre connexion:Tue Aug 30 00:02:44 CEST 2016
+00:02:44:529 - INFO - Run - [connexion] Initialisation de la Session:Tue Aug 30 00:02:44 CEST 2016
+00:03:21:430 - INFO - Run - [connexion] Connecté: Tue Aug 30 00:03:21 CEST 2016 Ã  l'instance sciforma
+00:03:21:430 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Tue Aug 30 00:03:21 CEST 2016
+00:03:21:435 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Tue Aug 30 00:03:21 CEST 2016
+00:03:21:438 - INFO - Run - [doImportSap] Importation des données XML de SAP: Tue Aug 30 00:03:21 CEST 2016
+00:03:21:439 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:03:21:723 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:03:21:735 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+00:05:50:943 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF45 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:944 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFZX pour le projet Projets LSM antérieurs ? 2015
+00:05:50:947 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF89 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:948 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet Projets LSM antérieurs ? 2015
+00:05:50:949 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF131 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:949 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF100 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:963 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF55 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:963 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF05 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:965 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF07 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:965 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF11 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:965 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF12 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:965 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFBT pour le projet Projets LSM antérieurs ? 2015
+00:05:50:966 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF58 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:966 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF31 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:966 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF88 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:969 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF80 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:969 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF34 pour le projet Projets LSM antérieurs ? 2015
+00:05:50:970 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF127 pour le projet Projets LSM antérieurs ? 2015
+00:06:31:294 - INFO - Run - [main] Demarrage de l'API: Tue Aug 30 00:06:31 CEST 2016
+00:06:31:296 - INFO - Run - [connexion] Chargement parametre connexion:Tue Aug 30 00:06:31 CEST 2016
+00:06:31:296 - INFO - Run - [connexion] Initialisation de la Session:Tue Aug 30 00:06:31 CEST 2016
+00:07:04:403 - INFO - Run - [connexion] Connecté: Tue Aug 30 00:07:04 CEST 2016 Ã  l'instance sciforma
+00:07:04:403 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Tue Aug 30 00:07:04 CEST 2016
+00:07:04:407 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Tue Aug 30 00:07:04 CEST 2016
+00:07:04:408 - INFO - Run - [doImportSap] Importation des données XML de SAP: Tue Aug 30 00:07:04 CEST 2016
+00:07:04:408 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:07:04:717 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:07:04:732 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+00:07:07:676 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF45 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:676 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFZX pour le projet Projets LSM antérieurs ? 2015
+00:07:07:676 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF89 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:676 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet Projets LSM antérieurs ? 2015
+00:07:07:677 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF131 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:677 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF100 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:679 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF55 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:679 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF05 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:679 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF07 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:679 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF11 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:679 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF12 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:679 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFBT pour le projet Projets LSM antérieurs ? 2015
+00:07:07:680 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF58 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:680 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF31 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:680 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF88 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:680 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF80 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:680 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF34 pour le projet Projets LSM antérieurs ? 2015
+00:07:07:680 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF127 pour le projet Projets LSM antérieurs ? 2015
+00:07:35:837 - INFO - Run - [main] Demarrage de l'API: Tue Aug 30 00:07:35 CEST 2016
+00:07:35:840 - INFO - Run - [connexion] Chargement parametre connexion:Tue Aug 30 00:07:35 CEST 2016
+00:07:35:840 - INFO - Run - [connexion] Initialisation de la Session:Tue Aug 30 00:07:35 CEST 2016
+00:08:06:307 - INFO - Run - [connexion] Connecté: Tue Aug 30 00:08:06 CEST 2016 Ã  l'instance sciforma
+00:08:06:307 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Tue Aug 30 00:08:06 CEST 2016
+00:08:06:312 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Tue Aug 30 00:08:06 CEST 2016
+00:08:06:313 - INFO - Run - [doImportSap] Importation des données XML de SAP: Tue Aug 30 00:08:06 CEST 2016
+00:08:06:313 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:08:06:603 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:08:06:622 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+00:08:08:694 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF45 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:694 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFZX pour le projet Projets LSM antérieurs ? 2015
+00:08:08:695 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF89 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:695 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet Projets LSM antérieurs ? 2015
+00:08:08:695 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF131 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:695 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF100 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:696 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF55 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:699 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF05 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:700 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF07 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:701 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF11 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:701 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF12 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:701 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFBT pour le projet Projets LSM antérieurs ? 2015
+00:08:08:701 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF58 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:702 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF31 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:702 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF88 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:702 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF80 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:702 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF34 pour le projet Projets LSM antérieurs ? 2015
+00:08:08:702 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF127 pour le projet Projets LSM antérieurs ? 2015
+00:09:22:280 - INFO - Run - [main] Demarrage de l'API: Tue Aug 30 00:09:22 CEST 2016
+00:09:22:286 - INFO - Run - [connexion] Chargement parametre connexion:Tue Aug 30 00:09:22 CEST 2016
+00:09:22:286 - INFO - Run - [connexion] Initialisation de la Session:Tue Aug 30 00:09:22 CEST 2016
+00:09:53:992 - INFO - Run - [connexion] Connecté: Tue Aug 30 00:09:53 CEST 2016 Ã  l'instance sciforma
+00:09:53:992 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Tue Aug 30 00:09:53 CEST 2016
+00:09:53:997 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Tue Aug 30 00:09:53 CEST 2016
+00:09:53:997 - INFO - Run - [doImportSap] Importation des données XML de SAP: Tue Aug 30 00:09:53 CEST 2016
+00:09:53:998 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:09:54:370 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:09:54:393 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+00:14:29:086 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF45 pour le projet Projets LSM antérieurs ? 2015
+00:15:24:388 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFZX pour le projet Projets LSM antérieurs ? 2015
+00:15:31:774 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF89 pour le projet Projets LSM antérieurs ? 2015
+00:15:39:133 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet Projets LSM antérieurs ? 2015
+00:15:46:390 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF131 pour le projet Projets LSM antérieurs ? 2015
+00:15:52:069 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF100 pour le projet Projets LSM antérieurs ? 2015
+00:15:57:072 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF55 pour le projet Projets LSM antérieurs ? 2015
+00:16:02:492 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF05 pour le projet Projets LSM antérieurs ? 2015
+00:16:07:997 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF07 pour le projet Projets LSM antérieurs ? 2015
+00:16:14:032 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF11 pour le projet Projets LSM antérieurs ? 2015
+00:16:19:666 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF12 pour le projet Projets LSM antérieurs ? 2015
+00:16:25:472 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFBT pour le projet Projets LSM antérieurs ? 2015
+00:16:30:063 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF58 pour le projet Projets LSM antérieurs ? 2015
+00:16:36:856 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF31 pour le projet Projets LSM antérieurs ? 2015
+00:16:43:639 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF88 pour le projet Projets LSM antérieurs ? 2015
+00:17:54:880 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF80 pour le projet Projets LSM antérieurs ? 2015
+00:18:02:754 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF34 pour le projet Projets LSM antérieurs ? 2015
+00:18:09:385 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF127 pour le projet Projets LSM antérieurs ? 2015
+00:18:43:587 - INFO - Run - [doImportSap] Code projet trouvé: RF127 [Code 1/1]
+00:18:52:245 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF127
+00:19:18:012 - INFO - Run - [doImportSap] Recherche de l'id projet: SCI000414
+00:20:02:869 - INFO - Run - [main] Demarrage de l'API: Tue Aug 30 00:20:02 CEST 2016
+00:20:02:871 - INFO - Run - [connexion] Chargement parametre connexion:Tue Aug 30 00:20:02 CEST 2016
+00:20:02:871 - INFO - Run - [connexion] Initialisation de la Session:Tue Aug 30 00:20:02 CEST 2016
+00:20:35:993 - INFO - Run - [connexion] Connecté: Tue Aug 30 00:20:35 CEST 2016 Ã  l'instance sciforma
+00:20:35:994 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Tue Aug 30 00:20:35 CEST 2016
+00:20:36:001 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Tue Aug 30 00:20:36 CEST 2016
+00:20:36:001 - INFO - Run - [doImportSap] Importation des données XML de SAP: Tue Aug 30 00:20:36 CEST 2016
+00:20:36:001 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:20:36:268 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:20:36:278 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+00:21:44:344 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF45 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:345 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFZX pour le projet Projets LSM antérieurs ? 2015
+00:21:44:345 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF89 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:345 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet Projets LSM antérieurs ? 2015
+00:21:44:345 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF131 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:345 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF100 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:348 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF55 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:348 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF05 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:349 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF07 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:349 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF11 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:349 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF12 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:349 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFBT pour le projet Projets LSM antérieurs ? 2015
+00:21:44:349 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF58 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:350 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF31 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:350 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF88 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:350 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF80 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:352 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF34 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:352 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF127 pour le projet Projets LSM antérieurs ? 2015
+00:21:44:565 - INFO - Run - [doImportSap] Code projet trouvé: RF127 [Code 1/1]
+00:21:51:653 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF127
+00:21:51:653 - INFO - Run - [doImportSap] Recherche de l'id projet: SCI000414
+00:32:23:597 - INFO - Run - [main] Demarrage de l'API: Tue Aug 30 00:32:23 CEST 2016
+00:32:23:599 - INFO - Run - [connexion] Chargement parametre connexion:Tue Aug 30 00:32:23 CEST 2016
+00:32:23:599 - INFO - Run - [connexion] Initialisation de la Session:Tue Aug 30 00:32:23 CEST 2016
+00:32:54:926 - INFO - Run - [connexion] Connecté: Tue Aug 30 00:32:54 CEST 2016 Ã  l'instance sciforma
+00:32:54:926 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Tue Aug 30 00:32:54 CEST 2016
+00:32:55:247 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Tue Aug 30 00:32:55 CEST 2016
+00:32:55:247 - INFO - Run - [doImportSap] Importation des données XML de SAP: Tue Aug 30 00:32:55 CEST 2016
+00:32:55:247 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:32:55:431 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+00:32:55:440 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+00:32:57:324 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF45 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:324 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFZX pour le projet Projets LSM antérieurs ? 2015
+00:32:57:324 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF89 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:325 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet Projets LSM antérieurs ? 2015
+00:32:57:325 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF131 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:325 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF100 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:327 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF55 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:327 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF05 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:327 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF07 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:327 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF11 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:328 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF12 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:328 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFBT pour le projet Projets LSM antérieurs ? 2015
+00:32:57:328 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF58 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:328 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF31 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:328 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF88 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:329 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF80 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:329 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF34 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:329 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF127 pour le projet Projets LSM antérieurs ? 2015
+00:32:57:533 - INFO - Run - [doImportSap] Code projet trouvé: RF127 [Code 1/1]
+00:33:26:542 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF127
+00:33:26:543 - INFO - Run - [doImportSap] Recherche de l'id projet: SCI000414
+00:34:15:946 - INFO - Run - [doImportSap] Projet trouvé: Projets LSM antérieurs ? 2015
+00:34:16:200 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: RF127
+00:34:16:424 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF127
+00:34:16:424 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 43.83 de: Tue Apr 01 00:00:00 CEST 2014 a: Wed Apr 30 23:59:59 CEST 2014
+00:34:16:425 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 31120.04 de: Thu May 01 00:00:00 CEST 2014 a: Sat May 31 23:59:59 CEST 2014
+00:34:16:425 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 40160.96 de: Sun Jun 01 00:00:00 CEST 2014 a: Mon Jun 30 23:59:59 CEST 2014
+00:34:16:425 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 18706.53 de: Tue Jul 01 00:00:00 CEST 2014 a: Thu Jul 31 23:59:59 CEST 2014
+00:34:16:425 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 620.63 de: Fri Aug 01 00:00:00 CEST 2014 a: Sun Aug 31 23:59:59 CEST 2014
+00:34:16:426 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 8277.04 de: Mon Sep 01 00:00:00 CEST 2014 a: Tue Sep 30 23:59:59 CEST 2014
+00:34:16:426 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 937.55 de: Wed Oct 01 00:00:00 CEST 2014 a: Fri Oct 31 23:59:59 CET 2014
+00:34:16:426 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 0.65 de: Sat Nov 01 00:00:00 CET 2014 a: Sun Nov 30 23:59:59 CET 2014
+00:34:16:426 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 1558.2 de: Thu Jan 01 00:00:00 CET 2015 a: Sat Jan 31 23:59:59 CET 2015
+00:34:16:427 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 3091.61 de: Sun Feb 01 00:00:00 CET 2015 a: Tue Mar 03 23:59:59 CET 2015
+00:34:16:428 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 44163.83
+00:34:16:428 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF127
+00:34:16:428 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF127
+00:34:16:436 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 43.83 de: Tue Apr 01 00:00:00 CEST 2014 a: Wed Apr 30 23:59:59 CEST 2014
+00:34:16:437 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 31120.04 de: Thu May 01 00:00:00 CEST 2014 a: Sat May 31 23:59:59 CEST 2014
+00:34:16:437 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 40160.96 de: Sun Jun 01 00:00:00 CEST 2014 a: Mon Jun 30 23:59:59 CEST 2014
+00:34:16:437 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 18706.53 de: Tue Jul 01 00:00:00 CEST 2014 a: Thu Jul 31 23:59:59 CEST 2014
+00:34:16:437 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 620.63 de: Fri Aug 01 00:00:00 CEST 2014 a: Sun Aug 31 23:59:59 CEST 2014
+00:34:16:438 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 8277.04 de: Mon Sep 01 00:00:00 CEST 2014 a: Tue Sep 30 23:59:59 CEST 2014
+00:34:16:438 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 937.55 de: Wed Oct 01 00:00:00 CEST 2014 a: Fri Oct 31 23:59:59 CET 2014
+00:34:16:438 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 0.65 de: Sat Nov 01 00:00:00 CET 2014 a: Sun Nov 30 23:59:59 CET 2014
+00:34:16:438 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 1558.2 de: Thu Jan 01 00:00:00 CET 2015 a: Sat Jan 31 23:59:59 CET 2015
+00:34:16:438 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 3091.61 de: Sun Feb 01 00:00:00 CET 2015 a: Tue Mar 03 23:59:59 CET 2015
+00:34:16:440 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 44163.83
+00:34:16:440 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF127
+00:34:17:295 - INFO - Run - [logCodeProjectNotUse] ==============================  
+00:34:22:794 - INFO - Run - [logCodeProjectNotUse] Le code RF07 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:23:164 - INFO - Run - [logCodeProjectNotUse] Le code RFLO qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:23:527 - INFO - Run - [logCodeProjectNotUse] Le code RF05 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:23:892 - INFO - Run - [logCodeProjectNotUse] Le code RF34 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:24:268 - INFO - Run - [logCodeProjectNotUse] Le code RF31 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:24:621 - INFO - Run - [logCodeProjectNotUse] Le code RF100 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:24:983 - INFO - Run - [logCodeProjectNotUse] Le code RF131 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:25:358 - INFO - Run - [logCodeProjectNotUse] Le code RF45 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:26:172 - INFO - Run - [logCodeProjectNotUse] Le code RF12 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:26:530 - INFO - Run - [logCodeProjectNotUse] Le code RF11 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:26:880 - INFO - Run - [logCodeProjectNotUse] Le code RFBT qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:27:230 - INFO - Run - [logCodeProjectNotUse] Le code RFZX qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:27:574 - INFO - Run - [logCodeProjectNotUse] Le code RF58 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:27:912 - INFO - Run - [logCodeProjectNotUse] Le code RF89 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:28:298 - INFO - Run - [logCodeProjectNotUse] Le code RF88 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:28:658 - INFO - Run - [logCodeProjectNotUse] Le code RF55 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:29:005 - INFO - Run - [logCodeProjectNotUse] Le code RF80 qui se trouve dans le(s) projet(s) [SCI000414 | ] Projets LSM antérieurs ? 2015 |  n'est pas utilisé.
+00:34:29:224 - INFO - Run - [main] Fermeture de l'API: Tue Aug 30 00:34:29 CEST 2016

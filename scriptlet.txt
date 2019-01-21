@@ -1,0 +1,14 @@
+// Fermeture projet
+
+importPackage(com.sciforma.psnext.api);
+importPackage(java.lang);
+importPackage(java.util);
+importPackage(javax.swing);
+
+// == Begin of the scriptlet ==
+
+g = new Global();
+s = new UISession();
+
+p = g.getReferenceField("[Current Project]").get(0);
+p.close();

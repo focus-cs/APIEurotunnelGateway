@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+            *** GENERATED FROM xml_binding_cfg.xml - DO NOT EDIT  ***
+            *** Configure thru JAXB Wizard.                       ***
+        --><project name="APIEurotunnelGateway_jaxb" default="default" basedir=".">
+    <target name="xjc-typedef-target" depends="-init-project">
+        <typedef classname="com.sun.tools.xjc.XJCTask" name="xjc" xmlns:s="http://xml.netbeans.org/schema/JAXBWizConfig">
+            <classpath path="${jaxbwiz.xjcdef.classpath}"/>
+        </typedef>
+    </target>
+    <target name="jaxb-clean-code-generation" depends="clean,jaxb-code-generation"/>
+    <target name="jaxb-code-generation" depends="xjc-typedef-target,-do-init,-init-macrodef-javac">
+        <mkdir dir="${build.generated.sources.dir}/jaxb" xmlns:s="http://xml.netbeans.org/schema/JAXBWizConfig"/>
+        <mkdir dir="build/generated/jaxbCache" xmlns:s="http://xml.netbeans.org/schema/JAXBWizConfig"/>
+        <mkdir dir="build/generated/jaxbCache/ECRImportBinding"/>
+        <xjc package="generated.importecr" destdir="build/generated/jaxbCache/ECRImportBinding" catalog="catalog.xml">
+            <classpath>
+                <pathelement location="${src.dir}"/>
+                <pathelement path="${jaxbwiz.xjcrun.classpath}"/>
+            </classpath>
+            <arg value="-xmlschema"/>
+            <schema file="xml-resources/jaxb/ECRImportBinding/ecm_import.xsd"/>
+            <depends file="xml-resources/jaxb/ECRImportBinding/ecm_import.xsd"/>
+            <produces dir="build/generated/jaxbCache/ECRImportBinding"/>
+        </xjc>
+        <copy todir="${build.generated.sources.dir}/jaxb">
+            <fileset dir="build/generated/jaxbCache/ECRImportBinding"/>
+        </copy>
+        <mkdir dir="build/generated/jaxbCache/ECMExportBinding"/>
+        <xjc package="generated.exportecr" destdir="build/generated/jaxbCache/ECMExportBinding" catalog="catalog.xml">
+            <classpath>
+                <pathelement location="${src.dir}"/>
+                <pathelement path="${jaxbwiz.xjcrun.classpath}"/>
+            </classpath>
+            <arg value="-xmlschema"/>
+            <schema file="xml-resources/jaxb/ECMExportBinding/ecm_export.xsd"/>
+            <depends file="xml-resources/jaxb/ECMExportBinding/ecm_export.xsd"/>
+            <produces dir="build/generated/jaxbCache/ECMExportBinding"/>
+        </xjc>
+        <copy todir="${build.generated.sources.dir}/jaxb">
+            <fileset dir="build/generated/jaxbCache/ECMExportBinding"/>
+        </copy>
+        <mkdir dir="build/generated/jaxbCache/SapBinding"/>
+        <xjc package="generated.importsap" destdir="build/generated/jaxbCache/SapBinding" catalog="catalog.xml">
+            <classpath>
+                <pathelement location="${src.dir}"/>
+                <pathelement path="${jaxbwiz.xjcrun.classpath}"/>
+            </classpath>
+            <arg value="-xmlschema"/>
+            <schema file="xml-resources/jaxb/SapBinding/saptosciforma.xsd"/>
+            <depends file="xml-resources/jaxb/SapBinding/saptosciforma.xsd"/>
+            <produces dir="build/generated/jaxbCache/SapBinding"/>
+        </xjc>
+        <copy todir="${build.generated.sources.dir}/jaxb">
+            <fileset dir="build/generated/jaxbCache/SapBinding"/>
+        </copy>
+    </target>
+</project>

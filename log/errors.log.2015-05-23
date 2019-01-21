@@ -1,0 +1,221 @@
+10:13:46:143 - INFO - Run - [main] Demarrage de l'API: Sat May 23 10:13:46 CEST 2015
+10:13:46:146 - INFO - Run - [connexion] Chargement parametre connexion:Sat May 23 10:13:46 CEST 2015
+10:13:46:146 - INFO - Run - [connexion] Initialisation de la Session:Sat May 23 10:13:46 CEST 2015
+10:14:03:407 - INFO - Run - [connexion] Connecté: Sat May 23 10:14:03 CEST 2015 Ã  l'instance sciforma
+10:14:03:407 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Sat May 23 10:14:03 CEST 2015
+10:14:03:410 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Sat May 23 10:14:03 CEST 2015
+10:14:03:410 - INFO - Run - [doImportSap] Importation des données XML de SAP: Sat May 23 10:14:03 CEST 2015
+10:14:03:411 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+10:14:03:596 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+10:14:03:608 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+10:14:04:747 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF141 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:14:04:747 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF121 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:14:04:747 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF118 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:14:05:609 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC COSTA/BREDA Aménagements poste Chef de train
+10:14:09:225 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF61 pour le projet Demandes Rolling Stock 2015
+10:14:12:018 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3075F04I pour le projet ECR1974B - REMPLACEMENT GEG C09
+10:14:12:859 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z3102I pour le type LSM
+10:14:12:860 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR1974C - RETROFIT GROUPES FROIDS BATIMENTS C3/C4/B22/D44/D32
+10:14:13:724 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3129F04I pour le projet ECR 2117 B Remplacement automate C100 M&E panel
+10:14:15:397 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3135F04I
+ pour le projet ECR 2117 C  Remplct PLC  station de drainage tunnel 
+10:14:17:106 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3269I pour le projet ECR 3203 REMPLACEMENT  R22
+10:14:17:997 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z2835I pour le type 
+10:14:18:002 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3205 - FLEXIPLUS NEW BUILD
+10:14:19:646 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test pour le type OPEX
+10:14:19:648 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+10:14:19:649 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test 2 pour le type CAPEX
+10:14:19:649 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+10:14:20:478 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3165 pour le projet ECR 3669 Déflecteurs
+10:14:22:139 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04i pour le projet ECR 3964 Pagodes 2015
+10:14:22:139 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04 pour le projet ECR 3964 Pagodes 2015
+10:14:22:963 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2052 pour le projet Gestion de Projet collaboratif
+10:14:22:964 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2463I pour le projet Gestion de Projet collaboratif
+10:14:35:851 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3321F04 pour le projet Remise en service du train 71/80
+10:14:36:675 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2219I pour le projet Remplacement ADV Tunnel (201/203)
+10:14:38:312 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025 pour le projet Scénario 3 : Test projet pour valider API SAP
+10:14:38:313 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025I pour le projet Scénario 3 : Test projet pour valider API SAP
+10:14:40:077 - INFO - Run - [doImportSap] Code projet trouvé: RF141 [Code 1/3]
+10:14:40:078 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF141
+10:14:40:078 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+10:14:40:239 - INFO - Run - [doImportSap]Projet verrouillé: 3913
+10:14:40:239 - INFO - Run - [doImportSap] Code projet trouvé: RF118 [Code 2/3]
+10:14:40:239 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF118
+10:14:40:239 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+10:14:40:397 - INFO - Run - [doImportSap]Projet verrouillé: 3913
+10:14:40:397 - INFO - Run - [doImportSap] Code projet trouvé: RF121 [Code 3/3]
+10:14:40:397 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF121
+10:14:40:397 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+10:14:40:566 - INFO - Run - [doImportSap]Projet verrouillé: 3913
+10:14:40:567 - INFO - Run - [logCodeProjectNotUse] ==============================  
+10:14:40:724 - INFO - Run - [logCodeProjectNotUse] Le code Z3135F04I
+ qui se trouve dans le projet [ECR 2117 C] ECR 2117 C  Remplct PLC  station de drainage tunnel  n'est pas utilisé.
+10:14:40:879 - INFO - Run - [logCodeProjectNotUse] Le code Z2025I qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+10:14:40:880 - INFO - Run - [logCodeProjectNotUse] Le code RF121 qui se trouve dans le projet [3913] AMC BREDA/COSTA: AMC TV et AMC WIFI n'est pas utilisé.
+10:14:40:880 - INFO - Run - [logCodeProjectNotUse] Le code Z2219I qui se trouve dans le projet [1AGHARI] Remplacement ADV Tunnel (201/203) n'est pas utilisé.
+10:14:40:880 - INFO - Run - [logCodeProjectNotUse] Le code Z2463I qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+10:14:40:880 - INFO - Run - [logCodeProjectNotUse] Le code RF61 qui se trouve dans le projet [1AG63M4] Demandes Rolling Stock 2015 n'est pas utilisé.
+10:14:40:880 - INFO - Run - [logCodeProjectNotUse] Le code Z3321F04 qui se trouve dans le projet [1ACBR8N] Remise en service du train 71/80 n'est pas utilisé.
+10:14:40:880 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04i qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+10:14:41:033 - INFO - Run - [logCodeProjectNotUse] Le code Z2025 qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+10:14:41:033 - INFO - Run - [logCodeProjectNotUse] Le code Z3165 qui se trouve dans le projet [3669] ECR 3669 Déflecteurs n'est pas utilisé.
+10:14:41:033 - INFO - Run - [logCodeProjectNotUse] Le code Z2052 qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+10:14:41:033 - INFO - Run - [logCodeProjectNotUse] Le code Z3269I qui se trouve dans le projet [3203] ECR 3203 REMPLACEMENT  R22 n'est pas utilisé.
+10:14:41:033 - INFO - Run - [logCodeProjectNotUse] Le code RF118 qui se trouve dans le projet [3913] AMC BREDA/COSTA: AMC TV et AMC WIFI n'est pas utilisé.
+10:14:41:033 - INFO - Run - [logCodeProjectNotUse] Le code Z3129F04I qui se trouve dans le projet [2117B] ECR 2117 B Remplacement automate C100 M&E panel n'est pas utilisé.
+10:14:41:033 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04 qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+10:14:41:033 - INFO - Run - [logCodeProjectNotUse] Le code RF141 qui se trouve dans le projet [3913] AMC BREDA/COSTA: AMC TV et AMC WIFI n'est pas utilisé.
+10:14:41:034 - INFO - Run - [logCodeProjectNotUse] Le code Z3075F04I qui se trouve dans le projet [1974B] ECR1974B - REMPLACEMENT GEG C09 n'est pas utilisé.
+10:14:41:034 - INFO - Run - [logCodeProjectNotUse] Le code Z3330I qui se trouve dans le projet [3179(1)] AMC COSTA/BREDA Aménagements poste Chef de train n'est pas utilisé.
+10:14:41:186 - INFO - Run - [main] Fermeture de l'API: Sat May 23 10:14:41 CEST 2015
+10:16:22:395 - INFO - Run - [main] Demarrage de l'API: Sat May 23 10:16:22 CEST 2015
+10:16:22:397 - INFO - Run - [connexion] Chargement parametre connexion:Sat May 23 10:16:22 CEST 2015
+10:16:22:397 - INFO - Run - [connexion] Initialisation de la Session:Sat May 23 10:16:22 CEST 2015
+10:16:39:116 - INFO - Run - [connexion] Connecté: Sat May 23 10:16:39 CEST 2015 Ã  l'instance sciforma
+10:16:39:116 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Sat May 23 10:16:39 CEST 2015
+10:16:39:118 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Sat May 23 10:16:39 CEST 2015
+10:16:39:119 - INFO - Run - [doImportSap] Importation des données XML de SAP: Sat May 23 10:16:39 CEST 2015
+10:16:39:119 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+10:16:39:298 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+10:16:39:308 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+10:16:40:534 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF141 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:16:40:534 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF121 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:16:40:535 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF118 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:16:41:457 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC COSTA/BREDA Aménagements poste Chef de train
+10:16:44:626 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF61 pour le projet Demandes Rolling Stock 2015
+10:16:47:264 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3075F04I pour le projet ECR1974B - REMPLACEMENT GEG C09
+10:16:48:108 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z3102I pour le type LSM
+10:16:48:108 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR1974C - RETROFIT GROUPES FROIDS BATIMENTS C3/C4/B22/D44/D32
+10:16:49:002 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3129F04I pour le projet ECR 2117 B Remplacement automate C100 M&E panel
+10:16:50:719 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3135F04I
+ pour le projet ECR 2117 C  Remplct PLC  station de drainage tunnel 
+10:16:52:388 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3269I pour le projet ECR 3203 REMPLACEMENT  R22
+10:16:53:312 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z2835I pour le type 
+10:16:53:318 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3205 - FLEXIPLUS NEW BUILD
+10:16:55:057 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test pour le type OPEX
+10:16:55:059 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+10:16:55:059 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test 2 pour le type CAPEX
+10:16:55:059 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+10:16:55:890 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3165 pour le projet ECR 3669 Déflecteurs
+10:16:57:575 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04i pour le projet ECR 3964 Pagodes 2015
+10:16:57:576 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04 pour le projet ECR 3964 Pagodes 2015
+10:16:58:437 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2052 pour le projet Gestion de Projet collaboratif
+10:16:58:438 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2463I pour le projet Gestion de Projet collaboratif
+10:17:11:454 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3321F04 pour le projet Remise en service du train 71/80
+10:17:12:290 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2219I pour le projet Remplacement ADV Tunnel (201/203)
+10:17:13:964 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025 pour le projet Scénario 3 : Test projet pour valider API SAP
+10:17:13:965 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025I pour le projet Scénario 3 : Test projet pour valider API SAP
+10:17:15:754 - INFO - Run - [doImportSap] Code projet trouvé: RF141 [Code 1/3]
+10:17:15:755 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF141
+10:17:15:755 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+10:17:16:476 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:19:15:850 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: RF141
+10:19:17:865 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF141
+10:22:58:594 - INFO - Run - [main] Demarrage de l'API: Sat May 23 10:22:58 CEST 2015
+10:22:58:596 - INFO - Run - [connexion] Chargement parametre connexion:Sat May 23 10:22:58 CEST 2015
+10:22:58:597 - INFO - Run - [connexion] Initialisation de la Session:Sat May 23 10:22:58 CEST 2015
+10:23:14:365 - INFO - Run - [connexion] Connecté: Sat May 23 10:23:14 CEST 2015 Ã  l'instance sciforma
+10:23:14:366 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Sat May 23 10:23:14 CEST 2015
+10:23:14:369 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Sat May 23 10:23:14 CEST 2015
+10:23:14:370 - INFO - Run - [doImportSap] Importation des données XML de SAP: Sat May 23 10:23:14 CEST 2015
+10:23:14:370 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+10:23:14:532 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+10:23:14:541 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+10:23:15:720 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF141 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:23:15:720 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF121 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:23:15:720 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF118 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:23:16:559 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC COSTA/BREDA Aménagements poste Chef de train
+10:23:19:867 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF61 pour le projet Demandes Rolling Stock 2015
+10:23:22:701 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3075F04I pour le projet ECR1974B - REMPLACEMENT GEG C09
+10:23:23:617 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z3102I pour le type LSM
+10:23:23:617 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR1974C - RETROFIT GROUPES FROIDS BATIMENTS C3/C4/B22/D44/D32
+10:23:24:500 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3129F04I pour le projet ECR 2117 B Remplacement automate C100 M&E panel
+10:23:26:170 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3135F04I
+ pour le projet ECR 2117 C  Remplct PLC  station de drainage tunnel 
+10:23:27:953 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3269I pour le projet ECR 3203 REMPLACEMENT  R22
+10:23:28:880 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z2835I pour le type 
+10:23:28:887 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3205 - FLEXIPLUS NEW BUILD
+10:23:30:579 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test pour le type OPEX
+10:23:30:581 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+10:23:30:582 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test 2 pour le type CAPEX
+10:23:30:582 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+10:23:31:452 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3165 pour le projet ECR 3669 Déflecteurs
+10:23:33:205 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04i pour le projet ECR 3964 Pagodes 2015
+10:23:33:206 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04 pour le projet ECR 3964 Pagodes 2015
+10:23:34:045 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2052 pour le projet Gestion de Projet collaboratif
+10:23:34:045 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2463I pour le projet Gestion de Projet collaboratif
+10:23:47:971 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3321F04 pour le projet Remise en service du train 71/80
+10:23:48:840 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2219I pour le projet Remplacement ADV Tunnel (201/203)
+10:23:50:528 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025 pour le projet Scénario 3 : Test projet pour valider API SAP
+10:23:50:528 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025I pour le projet Scénario 3 : Test projet pour valider API SAP
+10:23:52:285 - INFO - Run - [doImportSap] Code projet trouvé: RF141 [Code 1/3]
+10:23:52:285 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF141
+10:23:52:285 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+10:23:53:013 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:23:53:169 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: RF141
+10:23:53:170 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF141
+10:23:53:171 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 113849.45 de: Sat Nov 01 00:00:00 CET 2014 a: Sun Nov 30 23:59:59 CET 2014
+10:23:53:171 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 40777.67 de: Mon Dec 01 00:00:00 CET 2014 a: Wed Dec 31 23:59:59 CET 2014
+10:23:53:171 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 66565.35 de: Thu Jan 01 00:00:00 CET 2015 a: Sat Jan 31 23:59:59 CET 2015
+10:23:53:172 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 7355.26 de: Sun Feb 01 00:00:00 CET 2015 a: Sat Feb 28 23:59:59 CET 2015
+10:23:53:172 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 58334.11 de: Sun Mar 01 00:00:00 CET 2015 a: Tue Mar 31 23:59:59 CEST 2015
+10:23:53:173 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 110.55 de: Wed Apr 01 00:00:00 CEST 2015 a: Thu Apr 30 23:59:59 CEST 2015
+10:23:53:183 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 112251.0
+10:23:53:184 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF141
+10:23:53:809 - INFO - Run - [doImportSap] Code projet trouvé: RF118 [Code 2/3]
+10:23:53:809 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF118
+10:23:53:809 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+10:23:54:562 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:23:54:721 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: RF118
+10:23:54:721 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF118
+10:23:54:721 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 151.94 de: Sat Mar 01 00:00:00 CET 2014 a: Mon Mar 31 23:59:59 CEST 2014
+10:23:54:722 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 64852.0 de: Tue Apr 01 00:00:00 CEST 2014 a: Wed Apr 30 23:59:59 CEST 2014
+10:23:54:722 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 50895.46 de: Thu May 01 00:00:00 CEST 2014 a: Sat May 31 23:59:59 CEST 2014
+10:23:54:722 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 7222.02 de: Sun Jun 01 00:00:00 CEST 2014 a: Mon Jun 30 23:59:59 CEST 2014
+10:23:54:722 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 3532.39 de: Tue Jul 01 00:00:00 CEST 2014 a: Thu Jul 31 23:59:59 CEST 2014
+10:23:54:723 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 52956.55 de: Fri Aug 01 00:00:00 CEST 2014 a: Sun Aug 31 23:59:59 CEST 2014
+10:23:54:723 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 22312.07 de: Mon Sep 01 00:00:00 CEST 2014 a: Tue Sep 30 23:59:59 CEST 2014
+10:23:54:723 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 27765.41 de: Wed Oct 01 00:00:00 CEST 2014 a: Fri Oct 31 23:59:59 CET 2014
+10:23:54:723 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 68163.21 de: Sat Nov 01 00:00:00 CET 2014 a: Sun Nov 30 23:59:59 CET 2014
+10:23:54:723 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 445.7 de: Mon Dec 01 00:00:00 CET 2014 a: Wed Dec 31 23:59:59 CET 2014
+10:23:54:724 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 15329.25 de: Thu Jan 01 00:00:00 CET 2015 a: Sat Jan 31 23:59:59 CET 2015
+10:23:54:724 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 42006.67 de: Sun Feb 01 00:00:00 CET 2015 a: Sat Feb 28 23:59:59 CET 2015
+10:23:54:724 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 28902.12 de: Sun Mar 01 00:00:00 CET 2015 a: Tue Mar 31 23:59:59 CEST 2015
+10:23:54:724 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 24343.57 de: Wed Apr 01 00:00:00 CEST 2015 a: Thu Apr 30 23:59:59 CEST 2015
+10:23:54:725 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 193602.95
+10:23:54:725 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF118
+10:23:55:281 - INFO - Run - [doImportSap] Code projet trouvé: RF121 [Code 3/3]
+10:23:55:281 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF121
+10:23:55:281 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+10:23:55:998 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+10:23:56:138 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: RF121
+10:23:56:139 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF121
+10:23:56:139 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 51022.34 de: Tue Apr 01 00:00:00 CEST 2014 a: Wed Apr 30 23:59:59 CEST 2014
+10:23:56:139 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 59085.85 de: Thu May 01 00:00:00 CEST 2014 a: Sat May 31 23:59:59 CEST 2014
+10:23:56:140 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 42323.45 de: Sun Jun 01 00:00:00 CEST 2014 a: Mon Jun 30 23:59:59 CEST 2014
+10:23:56:140 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 3212.59 de: Tue Jul 01 00:00:00 CEST 2014 a: Thu Jul 31 23:59:59 CEST 2014
+10:23:56:141 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 11080.61 de: Fri Aug 01 00:00:00 CEST 2014 a: Sun Aug 31 23:59:59 CEST 2014
+10:23:56:141 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 635.84 de: Mon Sep 01 00:00:00 CEST 2014 a: Tue Sep 30 23:59:59 CEST 2014
+10:23:56:141 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 19587.79 de: Wed Oct 01 00:00:00 CEST 2014 a: Fri Oct 31 23:59:59 CET 2014
+10:23:56:142 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 836.98 de: Sun Feb 01 00:00:00 CET 2015 a: Sat Feb 28 23:59:59 CET 2015
+10:23:56:142 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 594.0 de: Sun Mar 01 00:00:00 CET 2015 a: Tue Mar 31 23:59:59 CEST 2015
+10:23:56:143 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 96725.6
+10:23:56:143 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF121
+10:23:56:697 - INFO - Run - [logCodeProjectNotUse] ==============================  
+10:23:56:849 - INFO - Run - [logCodeProjectNotUse] Le code Z3135F04I
+ qui se trouve dans le projet [ECR 2117 C] ECR 2117 C  Remplct PLC  station de drainage tunnel  n'est pas utilisé.
+10:23:57:009 - INFO - Run - [logCodeProjectNotUse] Le code Z2025I qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+10:23:57:009 - INFO - Run - [logCodeProjectNotUse] Le code Z2219I qui se trouve dans le projet [1AGHARI] Remplacement ADV Tunnel (201/203) n'est pas utilisé.
+10:23:57:010 - INFO - Run - [logCodeProjectNotUse] Le code Z2463I qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+10:23:57:010 - INFO - Run - [logCodeProjectNotUse] Le code RF61 qui se trouve dans le projet [1AG63M4] Demandes Rolling Stock 2015 n'est pas utilisé.
+10:23:57:010 - INFO - Run - [logCodeProjectNotUse] Le code Z3321F04 qui se trouve dans le projet [1ACBR8N] Remise en service du train 71/80 n'est pas utilisé.
+10:23:57:010 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04i qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+10:23:57:164 - INFO - Run - [logCodeProjectNotUse] Le code Z2025 qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+10:23:57:164 - INFO - Run - [logCodeProjectNotUse] Le code Z3165 qui se trouve dans le projet [3669] ECR 3669 Déflecteurs n'est pas utilisé.
+10:23:57:164 - INFO - Run - [logCodeProjectNotUse] Le code Z2052 qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+10:23:57:164 - INFO - Run - [logCodeProjectNotUse] Le code Z3269I qui se trouve dans le projet [3203] ECR 3203 REMPLACEMENT  R22 n'est pas utilisé.
+10:23:57:164 - INFO - Run - [logCodeProjectNotUse] Le code Z3129F04I qui se trouve dans le projet [2117B] ECR 2117 B Remplacement automate C100 M&E panel n'est pas utilisé.
+10:23:57:165 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04 qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+10:23:57:165 - INFO - Run - [logCodeProjectNotUse] Le code Z3075F04I qui se trouve dans le projet [1974B] ECR1974B - REMPLACEMENT GEG C09 n'est pas utilisé.
+10:23:57:165 - INFO - Run - [logCodeProjectNotUse] Le code Z3330I qui se trouve dans le projet [3179(1)] AMC COSTA/BREDA Aménagements poste Chef de train n'est pas utilisé.
+10:23:57:311 - INFO - Run - [main] Fermeture de l'API: Sat May 23 10:23:57 CEST 2015

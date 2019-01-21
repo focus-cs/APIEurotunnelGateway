@@ -1,0 +1,57 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ECRs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ECR" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="statuts">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="statut" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="statut_createur"/>
+                          <xs:element type="xs:string" name="statut_date"/>
+                          <xs:element type="xs:string" name="statut_datefin"/>
+                          <xs:element type="xs:string" name="statut_code"/>
+                          <xs:element type="xs:string" name="indicateur_comment"/>
+                          <xs:element type="xs:string" name="indicateur_qualite"/>
+                          <xs:element type="xs:string" name="indicateur_cout"/>
+                          <xs:element type="xs:string" name="indicateur_delai"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <!--xs:element name="impacts">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element type="xs:string" name="impact_risk_system_analysis"/>
+                      <xs:element type="xs:string" name="impact_greenproject"/>
+                      <xs:element type="xs:string" name="impact_tunnel_intervention"/>
+                      <xs:element type="xs:string" name="impact_pocket_book_impacts"/>
+                      <xs:element type="xs:string" name="impact_rcc_impacts"/>
+                      <xs:element type="xs:string" name="impact_master_plan"/>
+                      <xs:element type="xs:string" name="impact_maintenance_instruction_impacts"/>
+                      <xs:element type="xs:string" name="impact_cir"/>
+                      <xs:element type="xs:string" name="impact_network_contribution"/>
+                      <xs:element type="xs:string" name="impact_tableau_de_bord_impacts"/>
+                      <xs:element type="xs:string" name="impact_programme"/>
+                      <xs:element type="xs:string" name="impact_fonctional_identities_impacts"/>
+                      <xs:element type="xs:string" name="impact_on_spare_parts_requests"/>
+                      <xs:element type="xs:string" name="impact_maintenance_plan_impacts"/>
+                      <xs:element type="xs:string" name="impact_works_on_plateforms"/>
+                      <xs:element type="xs:string" name="impact_no_impacts"/>
+                    </xs:sequence>
+                  </xs:complexType>
+              </xs:element-->
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="code_label"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

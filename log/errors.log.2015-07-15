@@ -1,0 +1,10 @@
+16:46:17:858 - INFO - Run - [main] Demarrage de l'API: Wed Jul 15 16:46:17 CEST 2015
+16:46:17:867 - INFO - Run - [connexion] Chargement parametre connexion:Wed Jul 15 16:46:17 CEST 2015
+16:46:17:867 - INFO - Run - [connexion] Initialisation de la Session:Wed Jul 15 16:46:17 CEST 2015
+16:46:37:112 - INFO - Run - [connexion] Connecté: Wed Jul 15 16:46:37 CEST 2015 Ã  l'instance sciforma
+16:46:37:113 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Wed Jul 15 16:46:37 CEST 2015
+16:46:37:116 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Wed Jul 15 16:46:37 CEST 2015
+16:46:37:117 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Wed Jul 15 16:46:37 CEST 2015
+16:46:49:051 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+16:46:50:451 - INFO - Run - [doImportEcm]Projet enregistré : Wed Jul 15 16:46:50 CEST 2015
+16:46:50:667 - INFO - Run - [main] Fermeture de l'API: Wed Jul 15 16:46:50 CEST 2015

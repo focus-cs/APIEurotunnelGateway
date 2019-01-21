@@ -1,0 +1,132 @@
+11:40:19:355 - INFO - Run - [main] Demarrage de l'API: Thu Sep 17 11:40:19 CEST 2015
+11:40:19:370 - INFO - Run - [connexion] Chargement parametre connexion:Thu Sep 17 11:40:19 CEST 2015
+11:40:19:370 - INFO - Run - [connexion] Initialisation de la Session:Thu Sep 17 11:40:19 CEST 2015
+11:40:44:541 - INFO - Run - [connexion] Connecté: Thu Sep 17 11:40:44 CEST 2015 Ã  l'instance sciforma
+11:40:44:541 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Thu Sep 17 11:40:44 CEST 2015
+11:40:44:649 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Thu Sep 17 11:40:44 CEST 2015
+11:40:44:650 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Thu Sep 17 11:40:44 CEST 2015
+11:41:00:467 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+11:41:01:607 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "ROLLING STOCK.BOGIE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1292)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:286)
+	at com.eurotunnel.sciforma.Run.main(Run.java:141)
+
+Server timestamp: 17 Sep 2015 11:41:01 CEST
+
+Servlet Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:980)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:286)
+	at com.eurotunnel.sciforma.Run.main(Run.java:141)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "ROLLING STOCK.BOGIE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1292)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	... 3 more
+11:41:02:308 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaThu Sep 17 11:41:02 CEST 2015
+com.sciforma.psnext.api.InternalFailure: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+
+Context:
+   Error when saving project in Project.serverSave():
+Exception and stack:
+com.sciforma.psnext.projectplanner.ProjectProcessor$SaveException: The project ID is not unique.  Please enter a different ID and try again.
+	at com.sciforma.psnext.projectplanner.ProjectProcessor.a(ProjectProcessor.java:148)
+	at com.sciforma.psnext.projectplanner.Project$1.a(Project.java:2386)
+	at com.sciforma.psnext.util.WorkerThreadManager.k(WorkerThreadManager.java:158)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:202)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:176)
+	at com.sciforma.psnext.util.WorkerThreadManager.b(WorkerThreadManager.java:168)
+	at com.sciforma.psnext.util.WorkerThreadManager.f(WorkerThreadManager.java:164)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2393)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2466)
+	at com.sciforma.psnext.api.Project.save(Project.java:2293)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:777)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:659)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:539)
+	at com.eurotunnel.sciforma.Run.main(Run.java:141)
+
+
+Server timestamp: 17 Sep 2015 11:41:02 CEST
+
+Servlet Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:123)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.Project.save(Project.java:2310)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:777)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:659)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:539)
+	at com.eurotunnel.sciforma.Run.main(Run.java:141)
+11:41:02:675 - INFO - Run - [main] Fermeture de l'API: Thu Sep 17 11:41:02 CEST 2015
+11:41:29:153 - INFO - Run - [main] Demarrage de l'API: Thu Sep 17 11:41:29 CEST 2015
+11:41:29:155 - INFO - Run - [connexion] Chargement parametre connexion:Thu Sep 17 11:41:29 CEST 2015
+11:41:29:155 - INFO - Run - [connexion] Initialisation de la Session:Thu Sep 17 11:41:29 CEST 2015
+11:41:48:627 - INFO - Run - [connexion] Connecté: Thu Sep 17 11:41:48 CEST 2015 Ã  l'instance sciforma
+11:41:48:627 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Thu Sep 17 11:41:48 CEST 2015
+11:41:48:688 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Thu Sep 17 11:41:48 CEST 2015
+11:41:48:689 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Thu Sep 17 11:41:48 CEST 2015
+11:42:01:757 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+11:42:02:084 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "ROLLING STOCK.BOGIE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1292)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:286)
+	at com.eurotunnel.sciforma.Run.main(Run.java:141)
+
+Server timestamp: 17 Sep 2015 11:42:02 CEST
+
+Servlet Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:980)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:286)
+	at com.eurotunnel.sciforma.Run.main(Run.java:141)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "ROLLING STOCK.BOGIE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1292)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	... 3 more
+11:42:03:218 - INFO - Run - [doImportEcm]Projet enregistré : Thu Sep 17 11:42:03 CEST 2015
+11:42:03:382 - INFO - Run - [main] Fermeture de l'API: Thu Sep 17 11:42:03 CEST 2015

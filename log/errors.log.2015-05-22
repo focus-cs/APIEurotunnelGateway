@@ -1,0 +1,406 @@
+17:01:07:826 - INFO - Run - [main] Demarrage de l'API: Fri May 22 17:01:07 CEST 2015
+17:01:07:827 - INFO - Run - [connexion] Chargement param?tre connexion:Fri May 22 17:01:07 CEST 2015
+17:01:07:828 - INFO - Run - [connexion] Initialisation de la Session:Fri May 22 17:01:07 CEST 2015
+17:01:22:460 - INFO - Run - [connexion] Connecté: Fri May 22 17:01:22 CEST 2015 Ã  l'instance sciforma
+17:01:22:460 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des param?tres de l'application:Fri May 22 17:01:22 CEST 2015
+17:01:22:465 - INFO - Run - [chargementParametreSciforma] Fin du chargement des param?tres de l'application:Fri May 22 17:01:22 CEST 2015
+17:01:22:465 - INFO - Run - [doImportSap] Importation des données XML de SAP: Fri May 22 17:01:22 CEST 2015
+17:01:22:466 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+17:01:22:616 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+17:01:22:625 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+17:01:23:810 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF141 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:01:23:811 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF118 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:01:23:811 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF121 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:01:24:659 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC COSTA/BREDA Aménagements poste Chef de train
+17:01:27:718 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF61 pour le projet Demandes Rolling Stock 2015
+17:01:31:039 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3075F04I pour le projet ECR1974B - REMPLACEMENT GEG C09
+17:01:31:886 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z3102I pour le type LSM
+17:01:31:886 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR1974C - RETROFIT GROUPES FROIDS BATIMENTS C3/C4/B22/D44/D32
+17:01:32:732 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3129F04I pour le projet ECR 2117 B Remplacement automate C100 M&E panel
+17:01:34:394 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3135F04I
+ pour le projet ECR 2117 C  Remplct PLC  station de drainage tunnel 
+17:01:36:075 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3269I pour le projet ECR 3203 REMPLACEMENT  R22
+17:01:36:986 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z2835I pour le type 
+17:01:36:993 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3205 - FLEXIPLUS NEW BUILD
+17:01:38:671 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test pour le type OPEX
+17:01:38:673 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+17:01:38:673 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test 2 pour le type CAPEX
+17:01:38:674 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+17:01:39:510 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3165 pour le projet ECR 3669 Déflecteurs
+17:01:41:171 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04i pour le projet ECR 3964 Pagodes 2015
+17:01:41:171 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04 pour le projet ECR 3964 Pagodes 2015
+17:01:42:056 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2052 pour le projet Gestion de Projet collaboratif
+17:01:42:056 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2463I pour le projet Gestion de Projet collaboratif
+17:01:55:271 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3321F04 pour le projet Remise en service du train 71/80
+17:01:56:140 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2219I pour le projet Remplacement ADV Tunnel (201/203)
+17:01:57:792 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025 pour le projet Scénario 3 : Test projet pour valider API SAP
+17:01:57:792 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025I pour le projet Scénario 3 : Test projet pour valider API SAP
+17:01:59:680 - INFO - Run - [doImportSap] Code projet trouvé: RF141 [Code 1/3]
+17:01:59:680 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF141
+17:01:59:680 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:02:00:417 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:02:00:553 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:00:553 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF141
+17:02:00:566 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 113849.45 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:02:00:566 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 40777.67 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:02:00:566 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 66565.35 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:02:00:567 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 7355.26 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:00:567 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 58334.11 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:00:567 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 110.55 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:02:00:578 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 112251.0
+17:02:00:578 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF141
+17:02:00:578 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:00:578 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF141
+17:02:00:578 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 113849.45 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:02:00:578 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 40777.67 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:02:00:579 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 66565.35 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:02:00:579 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 7355.26 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:00:579 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 58334.11 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:00:579 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 110.55 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:02:00:580 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 112251.0
+17:02:00:580 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF141
+17:02:00:580 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:00:580 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF141
+17:02:00:580 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 113849.45 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:02:00:580 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 40777.67 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:02:00:581 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 66565.35 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:02:00:581 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 7355.26 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:00:581 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 58334.11 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:00:581 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 110.55 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:02:00:581 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 112251.0
+17:02:00:582 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF141
+17:02:01:157 - INFO - Run - [doImportSap] Code projet trouvé: RF118 [Code 2/3]
+17:02:01:158 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF118
+17:02:01:158 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:02:01:874 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:02:02:017 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:02:017 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF118
+17:02:02:018 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 151.94 de: Sat Mar 01 00:00:00 CET 2014 ?: Mon Mar 31 23:59:59 CEST 2014
+17:02:02:018 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 64852.0 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:02:02:019 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 50895.46 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:02:02:019 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 7222.02 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:02:02:020 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 3532.39 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:02:02:020 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 52956.55 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:02:02:020 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 22312.07 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:02:02:021 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 27765.41 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:02:02:021 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 68163.21 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:02:02:022 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 445.7 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:02:02:022 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 15329.25 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:02:02:022 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 42006.67 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:02:023 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 28902.12 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:02:023 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 24343.57 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:02:02:024 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 193602.95
+17:02:02:025 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF118
+17:02:02:025 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:02:025 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF118
+17:02:02:026 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 151.94 de: Sat Mar 01 00:00:00 CET 2014 ?: Mon Mar 31 23:59:59 CEST 2014
+17:02:02:026 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 64852.0 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:02:02:026 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 50895.46 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:02:02:027 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 7222.02 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:02:02:027 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 3532.39 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:02:02:028 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 52956.55 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:02:02:028 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 22312.07 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:02:02:028 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 27765.41 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:02:02:029 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 68163.21 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:02:02:029 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 445.7 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:02:02:029 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 15329.25 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:02:02:030 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 42006.67 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:02:030 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 28902.12 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:02:030 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 24343.57 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:02:02:031 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 193602.95
+17:02:02:032 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF118
+17:02:02:032 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:02:032 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF118
+17:02:02:033 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 151.94 de: Sat Mar 01 00:00:00 CET 2014 ?: Mon Mar 31 23:59:59 CEST 2014
+17:02:02:033 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 64852.0 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:02:02:033 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 50895.46 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:02:02:034 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 7222.02 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:02:02:034 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 3532.39 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:02:02:034 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 52956.55 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:02:02:035 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 22312.07 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:02:02:035 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 27765.41 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:02:02:035 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 68163.21 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:02:02:036 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 445.7 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:02:02:036 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 15329.25 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:02:02:036 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 42006.67 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:02:037 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 28902.12 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:02:037 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 24343.57 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:02:02:038 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 193602.95
+17:02:02:038 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF118
+17:02:02:621 - INFO - Run - [doImportSap] Code projet trouvé: RF121 [Code 3/3]
+17:02:02:621 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF121
+17:02:02:621 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:02:03:377 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:02:03:528 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:03:529 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF121
+17:02:03:530 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 51022.34 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:02:03:530 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 59085.85 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:02:03:531 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 42323.45 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:02:03:531 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 3212.59 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:02:03:531 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 11080.61 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:02:03:532 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 635.84 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:02:03:532 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 19587.79 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:02:03:532 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 836.98 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:03:533 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 594.0 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:03:534 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 96725.6
+17:02:03:534 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF121
+17:02:03:535 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:03:535 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF121
+17:02:03:536 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 51022.34 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:02:03:536 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 59085.85 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:02:03:537 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 42323.45 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:02:03:537 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 3212.59 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:02:03:537 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 11080.61 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:02:03:538 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 635.84 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:02:03:538 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 19587.79 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:02:03:538 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 836.98 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:03:539 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 594.0 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:03:540 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 96725.6
+17:02:03:540 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF121
+17:02:03:540 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:02:03:540 - INFO - Run - [updateDVR] Début mise ? jour vue de don;ée pour le code: RF121
+17:02:03:542 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 51022.34 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:02:03:542 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 59085.85 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:02:03:542 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 42323.45 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:02:03:543 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 3212.59 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:02:03:543 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 11080.61 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:02:03:543 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 635.84 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:02:03:544 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 19587.79 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:02:03:544 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 836.98 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:02:03:544 - INFO - Run - [updateDVR] Mise ? jour DoubleDatedData: 594.0 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:02:03:546 - INFO - Run - [updateDVR] Mise ? jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 96725.6
+17:02:03:546 - INFO - Run - [updateDVR] Fin mise ? jour vue de don;ée pour le code: RF121
+17:02:04:227 - INFO - Run - [logCodeProjectNotUse] ==============================  
+17:02:04:389 - INFO - Run - [logCodeProjectNotUse] Le code Z3135F04I
+ qui se trouve dans le projet [ECR 2117 C] ECR 2117 C  Remplct PLC  station de drainage tunnel  n'est pas utilisé.
+17:02:04:549 - INFO - Run - [logCodeProjectNotUse] Le code Z2025I qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+17:02:04:550 - INFO - Run - [logCodeProjectNotUse] Le code Z2219I qui se trouve dans le projet [1AGHARI] Remplacement ADV Tunnel (201/203) n'est pas utilisé.
+17:02:04:550 - INFO - Run - [logCodeProjectNotUse] Le code Z2463I qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+17:02:04:550 - INFO - Run - [logCodeProjectNotUse] Le code RF61 qui se trouve dans le projet [1AG63M4] Demandes Rolling Stock 2015 n'est pas utilisé.
+17:02:04:550 - INFO - Run - [logCodeProjectNotUse] Le code Z3321F04 qui se trouve dans le projet [1ACBR8N] Remise en service du train 71/80 n'est pas utilisé.
+17:02:04:550 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04i qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+17:02:04:708 - INFO - Run - [logCodeProjectNotUse] Le code Z2025 qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+17:02:04:708 - INFO - Run - [logCodeProjectNotUse] Le code Z3165 qui se trouve dans le projet [3669] ECR 3669 Déflecteurs n'est pas utilisé.
+17:02:04:708 - INFO - Run - [logCodeProjectNotUse] Le code Z2052 qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+17:02:04:708 - INFO - Run - [logCodeProjectNotUse] Le code Z3269I qui se trouve dans le projet [3203] ECR 3203 REMPLACEMENT  R22 n'est pas utilisé.
+17:02:04:708 - INFO - Run - [logCodeProjectNotUse] Le code Z3129F04I qui se trouve dans le projet [2117B] ECR 2117 B Remplacement automate C100 M&E panel n'est pas utilisé.
+17:02:04:708 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04 qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+17:02:04:709 - INFO - Run - [logCodeProjectNotUse] Le code Z3075F04I qui se trouve dans le projet [1974B] ECR1974B - REMPLACEMENT GEG C09 n'est pas utilisé.
+17:02:04:709 - INFO - Run - [logCodeProjectNotUse] Le code Z3330I qui se trouve dans le projet [3179(1)] AMC COSTA/BREDA Aménagements poste Chef de train n'est pas utilisé.
+17:02:04:863 - INFO - Run - [main] Fermeture de l'API: Fri May 22 17:02:04 CEST 2015
+17:05:05:807 - INFO - Run - [main] Demarrage de l'API: Fri May 22 17:05:05 CEST 2015
+17:05:05:809 - INFO - Run - [connexion] Chargement param?tre connexion:Fri May 22 17:05:05 CEST 2015
+17:05:05:809 - INFO - Run - [connexion] Initialisation de la Session:Fri May 22 17:05:05 CEST 2015
+17:05:20:825 - INFO - Run - [connexion] Connecté: Fri May 22 17:05:20 CEST 2015 Ã  l'instance sciforma
+17:05:20:826 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des param?tres de l'application:Fri May 22 17:05:20 CEST 2015
+17:05:20:830 - INFO - Run - [chargementParametreSciforma] Fin du chargement des param?tres de l'application:Fri May 22 17:05:20 CEST 2015
+17:05:20:831 - INFO - Run - [doImportSap] Importation des données XML de SAP: Fri May 22 17:05:20 CEST 2015
+17:05:20:831 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+17:05:20:982 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+17:05:20:991 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+17:05:22:104 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF141 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:05:22:104 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF121 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:05:22:104 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF118 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:05:22:935 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC COSTA/BREDA Aménagements poste Chef de train
+17:05:26:546 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF61 pour le projet Demandes Rolling Stock 2015
+17:05:29:466 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3075F04I pour le projet ECR1974B - REMPLACEMENT GEG C09
+17:05:30:302 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z3102I pour le type LSM
+17:05:30:303 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR1974C - RETROFIT GROUPES FROIDS BATIMENTS C3/C4/B22/D44/D32
+17:05:31:141 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3129F04I pour le projet ECR 2117 B Remplacement automate C100 M&E panel
+17:05:32:847 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3135F04I
+ pour le projet ECR 2117 C  Remplct PLC  station de drainage tunnel 
+17:05:34:535 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3269I pour le projet ECR 3203 REMPLACEMENT  R22
+17:05:35:434 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z2835I pour le type 
+17:05:35:441 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3205 - FLEXIPLUS NEW BUILD
+17:05:37:154 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test pour le type OPEX
+17:05:37:156 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+17:05:37:157 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test 2 pour le type CAPEX
+17:05:37:157 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+17:05:37:985 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3165 pour le projet ECR 3669 Déflecteurs
+17:05:39:661 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04i pour le projet ECR 3964 Pagodes 2015
+17:05:39:662 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04 pour le projet ECR 3964 Pagodes 2015
+17:05:40:565 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2052 pour le projet Gestion de Projet collaboratif
+17:05:40:566 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2463I pour le projet Gestion de Projet collaboratif
+17:05:53:899 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3321F04 pour le projet Remise en service du train 71/80
+17:05:54:731 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2219I pour le projet Remplacement ADV Tunnel (201/203)
+17:05:56:372 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025 pour le projet Scénario 3 : Test projet pour valider API SAP
+17:05:56:373 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025I pour le projet Scénario 3 : Test projet pour valider API SAP
+17:05:58:271 - INFO - Run - [doImportSap] Code projet trouvé: RF141 [Code 1/3]
+17:05:58:271 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF141
+17:05:58:271 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:05:58:984 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:05:59:126 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:05:59:127 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF141
+17:05:59:130 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 113849.45 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:05:59:130 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 40777.67 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:05:59:131 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 66565.35 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:05:59:131 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 7355.26 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:05:59:132 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 58334.11 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:05:59:132 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 110.55 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:05:59:136 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 112251.0
+17:05:59:136 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF141
+17:05:59:730 - INFO - Run - [doImportSap] Code projet trouvé: RF118 [Code 2/3]
+17:05:59:730 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF118
+17:05:59:730 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:06:00:446 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:06:00:590 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:06:00:590 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF118
+17:06:00:592 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 151.94 de: Sat Mar 01 00:00:00 CET 2014 ?: Mon Mar 31 23:59:59 CEST 2014
+17:06:00:592 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 64852.0 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:06:00:592 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 50895.46 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:06:00:593 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 7222.02 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:06:00:593 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 3532.39 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:06:00:593 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 52956.55 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:06:00:594 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 22312.07 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:06:00:594 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 27765.41 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:06:00:595 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 68163.21 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:06:00:595 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 445.7 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:06:00:595 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 15329.25 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:06:00:596 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 42006.67 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:06:00:596 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 28902.12 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:06:00:596 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 24343.57 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:06:00:598 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 193602.95
+17:06:00:598 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF118
+17:06:01:185 - INFO - Run - [doImportSap] Code projet trouvé: RF121 [Code 3/3]
+17:06:01:186 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF121
+17:06:01:186 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:06:01:931 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:06:02:084 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: LSM
+17:06:02:084 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF121
+17:06:02:085 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 51022.34 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:06:02:086 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 59085.85 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:06:02:086 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 42323.45 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:06:02:087 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 3212.59 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:06:02:087 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 11080.61 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:06:02:088 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 635.84 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:06:02:088 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 19587.79 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:06:02:088 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 836.98 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:06:02:089 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 594.0 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:06:02:090 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 96725.6
+17:06:02:090 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF121
+17:06:02:645 - INFO - Run - [logCodeProjectNotUse] ==============================  
+17:06:02:805 - INFO - Run - [logCodeProjectNotUse] Le code Z3135F04I
+ qui se trouve dans le projet [ECR 2117 C] ECR 2117 C  Remplct PLC  station de drainage tunnel  n'est pas utilisé.
+17:06:02:964 - INFO - Run - [logCodeProjectNotUse] Le code Z2025I qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+17:06:02:964 - INFO - Run - [logCodeProjectNotUse] Le code Z2219I qui se trouve dans le projet [1AGHARI] Remplacement ADV Tunnel (201/203) n'est pas utilisé.
+17:06:02:964 - INFO - Run - [logCodeProjectNotUse] Le code Z2463I qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+17:06:02:965 - INFO - Run - [logCodeProjectNotUse] Le code RF61 qui se trouve dans le projet [1AG63M4] Demandes Rolling Stock 2015 n'est pas utilisé.
+17:06:02:965 - INFO - Run - [logCodeProjectNotUse] Le code Z3321F04 qui se trouve dans le projet [1ACBR8N] Remise en service du train 71/80 n'est pas utilisé.
+17:06:02:965 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04i qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+17:06:03:133 - INFO - Run - [logCodeProjectNotUse] Le code Z2025 qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+17:06:03:133 - INFO - Run - [logCodeProjectNotUse] Le code Z3165 qui se trouve dans le projet [3669] ECR 3669 Déflecteurs n'est pas utilisé.
+17:06:03:133 - INFO - Run - [logCodeProjectNotUse] Le code Z2052 qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+17:06:03:134 - INFO - Run - [logCodeProjectNotUse] Le code Z3269I qui se trouve dans le projet [3203] ECR 3203 REMPLACEMENT  R22 n'est pas utilisé.
+17:06:03:134 - INFO - Run - [logCodeProjectNotUse] Le code Z3129F04I qui se trouve dans le projet [2117B] ECR 2117 B Remplacement automate C100 M&E panel n'est pas utilisé.
+17:06:03:134 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04 qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+17:06:03:134 - INFO - Run - [logCodeProjectNotUse] Le code Z3075F04I qui se trouve dans le projet [1974B] ECR1974B - REMPLACEMENT GEG C09 n'est pas utilisé.
+17:06:03:134 - INFO - Run - [logCodeProjectNotUse] Le code Z3330I qui se trouve dans le projet [3179(1)] AMC COSTA/BREDA Aménagements poste Chef de train n'est pas utilisé.
+17:06:03:285 - INFO - Run - [main] Fermeture de l'API: Fri May 22 17:06:03 CEST 2015
+17:16:53:767 - INFO - Run - [main] Demarrage de l'API: Fri May 22 17:16:53 CEST 2015
+17:16:53:768 - INFO - Run - [connexion] Chargement param?tre connexion:Fri May 22 17:16:53 CEST 2015
+17:16:53:769 - INFO - Run - [connexion] Initialisation de la Session:Fri May 22 17:16:53 CEST 2015
+17:17:08:308 - INFO - Run - [connexion] Connecté: Fri May 22 17:17:08 CEST 2015 Ã  l'instance sciforma
+17:17:08:308 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des param?tres de l'application:Fri May 22 17:17:08 CEST 2015
+17:17:08:312 - INFO - Run - [chargementParametreSciforma] Fin du chargement des param?tres de l'application:Fri May 22 17:17:08 CEST 2015
+17:17:08:313 - INFO - Run - [doImportSap] Importation des données XML de SAP: Fri May 22 17:17:08 CEST 2015
+17:17:08:313 - INFO - Run - [doImportSap] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+17:17:08:458 - INFO - Run - [doImportSap] Unmarshalling du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\Project.xml
+17:17:08:467 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+17:17:09:686 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF141 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:17:09:686 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF121 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:17:09:687 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF118 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:17:10:629 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC COSTA/BREDA Aménagements poste Chef de train
+17:17:13:732 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF61 pour le projet Demandes Rolling Stock 2015
+17:17:16:509 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3075F04I pour le projet ECR1974B - REMPLACEMENT GEG C09
+17:17:17:702 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z3102I pour le type LSM
+17:17:17:702 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR1974C - RETROFIT GROUPES FROIDS BATIMENTS C3/C4/B22/D44/D32
+17:17:18:559 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3129F04I pour le projet ECR 2117 B Remplacement automate C100 M&E panel
+17:17:20:224 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3135F04I
+ pour le projet ECR 2117 C  Remplct PLC  station de drainage tunnel 
+17:17:21:976 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3269I pour le projet ECR 3203 REMPLACEMENT  R22
+17:17:22:928 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Z2835I pour le type 
+17:17:22:935 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3205 - FLEXIPLUS NEW BUILD
+17:17:24:598 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test pour le type OPEX
+17:17:24:601 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+17:17:24:601 - INFO - Run - [loadCodeProject] Discordance de données code vdd: Code test 2 pour le type CAPEX
+17:17:24:601 - INFO - Run - [loadCodeProject] Mise en mémoire du code null pour le projet ECR3643 GABARIT DE HAUTEUR
+17:17:25:465 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3165 pour le projet ECR 3669 Déflecteurs
+17:17:27:228 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04i pour le projet ECR 3964 Pagodes 2015
+17:17:27:228 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368F04 pour le projet ECR 3964 Pagodes 2015
+17:17:28:075 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2052 pour le projet Gestion de Projet collaboratif
+17:17:28:075 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2463I pour le projet Gestion de Projet collaboratif
+17:17:41:308 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3321F04 pour le projet Remise en service du train 71/80
+17:17:42:150 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2219I pour le projet Remplacement ADV Tunnel (201/203)
+17:17:43:836 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025 pour le projet Scénario 3 : Test projet pour valider API SAP
+17:17:43:836 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2025I pour le projet Scénario 3 : Test projet pour valider API SAP
+17:17:45:607 - INFO - Run - [doImportSap] Code projet trouvé: RF141 [Code 1/3]
+17:17:45:608 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF141
+17:17:45:608 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:17:46:326 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:17:46:469 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: RF141
+17:17:46:469 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF141
+17:17:46:472 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 113849.45 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:17:46:473 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 40777.67 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:17:46:473 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 66565.35 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:17:46:474 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 7355.26 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:17:46:474 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 58334.11 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:17:46:474 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 110.55 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:17:46:478 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 112251.0
+17:17:46:478 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF141
+17:17:47:071 - INFO - Run - [doImportSap] Code projet trouvé: RF118 [Code 2/3]
+17:17:47:072 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF118
+17:17:47:072 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:17:47:827 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:17:47:970 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: RF118
+17:17:47:971 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF118
+17:17:47:972 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 151.94 de: Sat Mar 01 00:00:00 CET 2014 ?: Mon Mar 31 23:59:59 CEST 2014
+17:17:47:973 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 64852.0 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:17:47:973 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 50895.46 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:17:47:973 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 7222.02 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:17:47:974 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 3532.39 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:17:47:974 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 52956.55 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:17:47:975 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 22312.07 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:17:47:975 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 27765.41 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:17:47:975 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 68163.21 de: Sat Nov 01 00:00:00 CET 2014 ?: Sun Nov 30 23:59:59 CET 2014
+17:17:47:976 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 445.7 de: Mon Dec 01 00:00:00 CET 2014 ?: Wed Dec 31 23:59:59 CET 2014
+17:17:47:976 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 15329.25 de: Thu Jan 01 00:00:00 CET 2015 ?: Sat Jan 31 23:59:59 CET 2015
+17:17:47:977 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 42006.67 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:17:47:977 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 28902.12 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:17:47:977 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 24343.57 de: Wed Apr 01 00:00:00 CEST 2015 ?: Thu Apr 30 23:59:59 CEST 2015
+17:17:47:979 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 193602.95
+17:17:47:979 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF118
+17:17:48:543 - INFO - Run - [doImportSap] Code projet trouvé: RF121 [Code 3/3]
+17:17:48:544 - INFO - Run - [findIdProjet] Recherche d'un id project pour le code: RF121
+17:17:48:544 - INFO - Run - [doImportSap] Recherche de l'id projet: 3913
+17:17:49:257 - INFO - Run - [doImportSap] Projet trouvé: AMC BREDA/COSTA: AMC TV et AMC WIFI
+17:17:49:400 - INFO - Run - [doImportSap][UPDATE] enregistrement  dans la vdd pour le code: RF121
+17:17:49:400 - INFO - Run - [updateDVR] Début mise a jour vue de donnee pour le code: RF121
+17:17:49:402 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 51022.34 de: Tue Apr 01 00:00:00 CEST 2014 ?: Wed Apr 30 23:59:59 CEST 2014
+17:17:49:402 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 59085.85 de: Thu May 01 00:00:00 CEST 2014 ?: Sat May 31 23:59:59 CEST 2014
+17:17:49:402 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 42323.45 de: Sun Jun 01 00:00:00 CEST 2014 ?: Mon Jun 30 23:59:59 CEST 2014
+17:17:49:403 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 3212.59 de: Tue Jul 01 00:00:00 CEST 2014 ?: Thu Jul 31 23:59:59 CEST 2014
+17:17:49:403 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 11080.61 de: Fri Aug 01 00:00:00 CEST 2014 ?: Sun Aug 31 23:59:59 CEST 2014
+17:17:49:404 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 635.84 de: Mon Sep 01 00:00:00 CEST 2014 ?: Tue Sep 30 23:59:59 CEST 2014
+17:17:49:404 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 19587.79 de: Wed Oct 01 00:00:00 CEST 2014 ?: Fri Oct 31 23:59:59 CET 2014
+17:17:49:404 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 836.98 de: Sun Feb 01 00:00:00 CET 2015 ?: Sat Feb 28 23:59:59 CET 2015
+17:17:49:405 - INFO - Run - [updateDVR] Mise a jour DoubleDatedData: 594.0 de: Sun Mar 01 00:00:00 CET 2015 ?: Tue Mar 31 23:59:59 CEST 2015
+17:17:49:406 - INFO - Run - [updateDVR] Mise a jour VDD_PROJET_BUDGET_ENGAGE_COMMANDE: 96725.6
+17:17:49:406 - INFO - Run - [updateDVR] Fin mise a jour vue de donnee pour le code: RF121
+17:17:50:038 - INFO - Run - [logCodeProjectNotUse] ==============================  
+17:17:50:209 - INFO - Run - [logCodeProjectNotUse] Le code Z3135F04I
+ qui se trouve dans le projet [ECR 2117 C] ECR 2117 C  Remplct PLC  station de drainage tunnel  n'est pas utilisé.
+17:17:50:370 - INFO - Run - [logCodeProjectNotUse] Le code Z2025I qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+17:17:50:371 - INFO - Run - [logCodeProjectNotUse] Le code Z2219I qui se trouve dans le projet [1AGHARI] Remplacement ADV Tunnel (201/203) n'est pas utilisé.
+17:17:50:371 - INFO - Run - [logCodeProjectNotUse] Le code Z2463I qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+17:17:50:371 - INFO - Run - [logCodeProjectNotUse] Le code RF61 qui se trouve dans le projet [1AG63M4] Demandes Rolling Stock 2015 n'est pas utilisé.
+17:17:50:371 - INFO - Run - [logCodeProjectNotUse] Le code Z3321F04 qui se trouve dans le projet [1ACBR8N] Remise en service du train 71/80 n'est pas utilisé.
+17:17:50:371 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04i qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+17:17:50:541 - INFO - Run - [logCodeProjectNotUse] Le code Z2025 qui se trouve dans le projet [SCI001243] Scénario 3 : Test projet pour valider API SAP n'est pas utilisé.
+17:17:50:541 - INFO - Run - [logCodeProjectNotUse] Le code Z3165 qui se trouve dans le projet [3669] ECR 3669 Déflecteurs n'est pas utilisé.
+17:17:50:541 - INFO - Run - [logCodeProjectNotUse] Le code Z2052 qui se trouve dans le projet [1GPCMIS] Gestion de Projet collaboratif n'est pas utilisé.
+17:17:50:541 - INFO - Run - [logCodeProjectNotUse] Le code Z3269I qui se trouve dans le projet [3203] ECR 3203 REMPLACEMENT  R22 n'est pas utilisé.
+17:17:50:541 - INFO - Run - [logCodeProjectNotUse] Le code Z3129F04I qui se trouve dans le projet [2117B] ECR 2117 B Remplacement automate C100 M&E panel n'est pas utilisé.
+17:17:50:541 - INFO - Run - [logCodeProjectNotUse] Le code Z3368F04 qui se trouve dans le projet [1AE3TDT] ECR 3964 Pagodes 2015 n'est pas utilisé.
+17:17:50:541 - INFO - Run - [logCodeProjectNotUse] Le code Z3075F04I qui se trouve dans le projet [1974B] ECR1974B - REMPLACEMENT GEG C09 n'est pas utilisé.
+17:17:50:542 - INFO - Run - [logCodeProjectNotUse] Le code Z3330I qui se trouve dans le projet [3179(1)] AMC COSTA/BREDA Aménagements poste Chef de train n'est pas utilisé.
+17:17:50:689 - INFO - Run - [main] Fermeture de l'API: Fri May 22 17:17:50 CEST 2015

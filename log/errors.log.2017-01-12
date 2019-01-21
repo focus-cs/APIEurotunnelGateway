@@ -1,0 +1,287 @@
+16:11:57:226 - INFO - Run - [main][V1.7] Demarrage de l'API: Thu Jan 12 16:11:57 CET 2017
+16:11:57:232 - INFO - Run - [connexion] Chargement parametre connexion:Thu Jan 12 16:11:57 CET 2017
+16:11:57:233 - INFO - Run - [connexion] Initialisation de la Session:Thu Jan 12 16:11:57 CET 2017
+16:11:59:805 - ERROR - Run - [connexion] Erreur dans la connection de ... sciforma
+com.sciforma.psnext.api.PSException: There were problems processing your initial login to Sciforma.
+Please contact your System Administrator to be sure that the server is running 
+and that the database is available and has been initialized properly.
+
+Sciforma is exiting.
+	at com.sciforma.psnext.client.OnlineClientSession.ax(OnlineClientSession.java:362)
+	at com.sciforma.psnext.client.PersistentClientSession.a(PersistentClientSession.java:139)
+	at com.sciforma.psnext.api.Session.login(Session.java:314)
+	at com.sciforma.psnext.api.Session.login(Session.java:163)
+	at com.eurotunnel.sciforma.Run.connection(Run.java:178)
+	at com.eurotunnel.sciforma.Run.main(Run.java:135)
+Caused by: com.sciforma.psnext.util.HttpIOException: Failure occurred when beginning to read response from server (ServletConnection.processRespHeader()).
+	at com.sciforma.psnext.util.ServletConnection.a(ServletConnection.java:411)
+	at com.sciforma.psnext.util.ServletConnection.f(ServletConnection.java:387)
+	at com.sciforma.psnext.framework.PreStartupDataProcessor.a(PreStartupDataProcessor.java:235)
+	at com.sciforma.psnext.client.PersistentClientSession.ax(PersistentClientSession.java:174)
+	at com.sciforma.psnext.client.OnlineClientSession.ax(OnlineClientSession.java:294)
+	... 5 more
+Caused by: java.util.zip.ZipException: Not in GZIP format
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:79)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91)
+	at com.sciforma.psnext.util.ServletConnection.a(ServletConnection.java:401)
+	... 9 more
+16:12:00:102 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Thu Jan 12 16:12:00 CET 2017
+16:12:00:108 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Thu Jan 12 16:12:00 CET 2017
+16:12:00:108 - INFO - Run - [doImportSap] Importation des données XML de SAP: Thu Jan 12 16:12:00 CET 2017
+16:12:00:109 - INFO - Run - [doImportSap] Lecture du fichier: D:\\Professionnel\\Eurotunnel\\Projects-20161012211247.xml
+16:12:02:379 - INFO - Run - [doImportSap] Unmarshalling du fichier: D:\\Professionnel\\Eurotunnel\\Projects-20161012211247.xml
+16:12:03:627 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+16:12:03:629 - ERROR - Run - [loadCodeProject] Erreur dans la lecture des codes budgétaireThu Jan 12 16:12:03 CET 2017
+com.sciforma.psnext.api.AccessException: You must log in first.
+	at com.sciforma.psnext.api.AbstractSession.checkLoginStatus(AbstractSession.java:261)
+	at com.sciforma.psnext.api.AbstractSession.getProjectList(AbstractSession.java:288)
+	at com.sciforma.psnext.api.AbstractSession.getProjectList(AbstractSession.java:177)
+	at com.eurotunnel.sciforma.Run.loadCodeProject(Run.java:744)
+	at com.eurotunnel.sciforma.Run.doImportSap(Run.java:194)
+	at com.eurotunnel.sciforma.Run.main(Run.java:142)
+16:12:03:630 - ERROR - Run - [doImportSap] Erreur dans classe SciformaThu Jan 12 16:12:03 CET 2017
+com.sciforma.psnext.api.AccessException: Logout failed because you are not logged in.
+	at com.sciforma.psnext.api.Session.logout(Session.java:346)
+	at com.eurotunnel.sciforma.Run.loadCodeProject(Run.java:814)
+	at com.eurotunnel.sciforma.Run.doImportSap(Run.java:194)
+	at com.eurotunnel.sciforma.Run.main(Run.java:142)
+16:12:03:630 - INFO - Run - [logCodeProjectNotUse] ==============================  
+16:14:23:305 - INFO - Run - [main][V1.7] Demarrage de l'API: Thu Jan 12 16:14:23 CET 2017
+16:14:23:314 - INFO - Run - [connexion] Chargement parametre connexion:Thu Jan 12 16:14:23 CET 2017
+16:14:23:314 - INFO - Run - [connexion] Initialisation de la Session:Thu Jan 12 16:14:23 CET 2017
+16:14:25:446 - ERROR - Run - [connexion] Erreur dans la connection de ... sciforma
+com.sciforma.psnext.api.PSException: There were problems processing your initial login to Sciforma.
+Please contact your System Administrator to be sure that the server is running 
+and that the database is available and has been initialized properly.
+
+Sciforma is exiting.
+	at com.sciforma.psnext.client.OnlineClientSession.ax(OnlineClientSession.java:362)
+	at com.sciforma.psnext.client.PersistentClientSession.a(PersistentClientSession.java:139)
+	at com.sciforma.psnext.api.Session.login(Session.java:314)
+	at com.sciforma.psnext.api.Session.login(Session.java:163)
+	at com.eurotunnel.sciforma.Run.connection(Run.java:178)
+	at com.eurotunnel.sciforma.Run.main(Run.java:135)
+Caused by: com.sciforma.psnext.util.HttpIOException: Failure occurred when beginning to read response from server (ServletConnection.processRespHeader()).
+	at com.sciforma.psnext.util.ServletConnection.a(ServletConnection.java:411)
+	at com.sciforma.psnext.util.ServletConnection.f(ServletConnection.java:387)
+	at com.sciforma.psnext.framework.PreStartupDataProcessor.a(PreStartupDataProcessor.java:235)
+	at com.sciforma.psnext.client.PersistentClientSession.ax(PersistentClientSession.java:174)
+	at com.sciforma.psnext.client.OnlineClientSession.ax(OnlineClientSession.java:294)
+	... 5 more
+Caused by: java.util.zip.ZipException: Not in GZIP format
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:165)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:79)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91)
+	at com.sciforma.psnext.util.ServletConnection.a(ServletConnection.java:401)
+	... 9 more
+16:14:25:448 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Thu Jan 12 16:14:25 CET 2017
+16:14:25:451 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Thu Jan 12 16:14:25 CET 2017
+16:14:25:452 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Thu Jan 12 16:14:25 CET 2017
+16:14:25:453 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaThu Jan 12 16:14:25 CET 2017
+com.sciforma.psnext.api.AccessException: You must log in first.
+	at com.sciforma.psnext.api.AbstractSession.checkLoginStatus(AbstractSession.java:261)
+	at com.sciforma.psnext.api.AbstractSession.getUserList(AbstractSession.java:410)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:240)
+	at com.eurotunnel.sciforma.Run.main(Run.java:146)
+16:15:31:872 - INFO - Run - [main][V1.7] Demarrage de l'API: Thu Jan 12 16:15:31 CET 2017
+16:15:31:880 - INFO - Run - [connexion] Chargement parametre connexion:Thu Jan 12 16:15:31 CET 2017
+16:15:31:881 - INFO - Run - [connexion] Initialisation de la Session:Thu Jan 12 16:15:31 CET 2017
+16:29:39:726 - INFO - Run - [main][V1.7] Demarrage de l'API: Thu Jan 12 16:29:39 CET 2017
+16:29:39:733 - INFO - Run - [connexion] Chargement parametre connexion:Thu Jan 12 16:29:39 CET 2017
+16:29:39:733 - INFO - Run - [connexion] Initialisation de la Session:Thu Jan 12 16:29:39 CET 2017
+16:30:23:958 - INFO - Run - [connexion] Connecté: Thu Jan 12 16:30:23 CET 2017 Ã  l'instance sciforma
+16:30:23:959 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Thu Jan 12 16:30:23 CET 2017
+16:30:23:963 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Thu Jan 12 16:30:23 CET 2017
+16:30:23:964 - INFO - Run - [doImportSap] Importation des données XML de SAP: Thu Jan 12 16:30:23 CET 2017
+16:30:23:965 - INFO - Run - [doImportSap] Lecture du fichier: D:\\Professionnel\\Eurotunnel\\Projects-20161012211247.xml
+16:30:24:491 - INFO - Run - [doImportSap] Unmarshalling du fichier: D:\\Professionnel\\Eurotunnel\\Projects-20161012211247.xml
+16:30:25:282 - INFO - Run - [loadCodeProject] Mise en mémoire code project
+16:30:29:193 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3213F04I pour le projet Achat d'une caméra rapide 
+16:30:38:423 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+16:30:38:424 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3879 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+16:30:38:424 - INFO - Run - [loadCodeProject] Mise en mémoire du code AB30 pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+16:30:38:424 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2680I pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+16:30:38:425 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+16:30:38:425 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3879I pour le projet AMC BREDA/COSTA: AMC TV et AMC WIFI
+16:30:39:793 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC COSTA/BREDA Aménagements poste Chef de train
+16:30:41:023 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330I pour le projet AMC COSTA/BREDA Augmentation capacité
+16:30:42:409 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3330 pour le projet AMC COSTA Remplacement fen?tre de baies et remise en état des joints
+16:30:45:164 - INFO - Run - [loadCodeProject] Mise en mémoire du code RA08 pour le projet Amélioration du syst?me de traction éléctrique autonome
+16:30:45:165 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3085I pour le projet Amélioration du syst?me de traction éléctrique autonome
+16:30:45:165 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2707I pour le projet Amélioration du syst?me de traction éléctrique autonome
+16:30:46:615 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet Aménagement local miniposte SDL
+16:30:50:288 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2723I pour le projet BATTERIE 110V LOCO 9040 9100 9700 
+16:30:51:713 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2583I pour le projet BATTERIE 110V PAX ET HGV FIAT BREDA
+16:30:51:714 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2583 pour le projet BATTERIE 110V PAX ET HGV FIAT BREDA
+16:30:54:904 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet BOITE DE JONCTION LIGNES DE TRAIN 1500VCC  SDL
+16:30:56:609 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet Bornier Boite de Jonction 110V PAX X702 (SDL)
+16:30:57:818 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet CABLAGE HGVL FIAT
+16:31:01:158 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet Camp Pictogrammes champs magnétiques
+16:31:04:180 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet COFFRE HPD AMC BRÉDA (HAUTE TENSION)
+16:31:05:647 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRNA pour le projet Conception syst?me d'aspiration embarqué
+16:31:08:448 - INFO - Run - [loadCodeProject] Mise en mémoire du code MBEWG209 pour le projet Contrat anticorrosion
+16:31:09:647 - INFO - Run - [loadCodeProject] Mise en mémoire du code MBEP pour le projet Contrat essieux FRET
+16:31:09:648 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3200I pour le projet Contrat essieux FRET
+16:31:11:480 - INFO - Run - [loadCodeProject] Mise en mémoire du code MBE7 pour le projet Contrat essieux locomotives
+16:31:13:037 - INFO - Run - [loadCodeProject] Mise en mémoire du code MBEN pour le projet Contrat essieux PAX
+16:31:13:037 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3093I pour le projet Contrat essieux PAX
+16:31:17:276 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRAT pour le projet Création d’un banc test des compresseurs au F45
+16:31:25:487 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF182 pour le projet détartrage des canalisations eaux usées des toilettes PASSAGERS
+16:31:55:711 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF104 pour le projet DMOD1255 - Remplacement carter calorifugeage HGCA
+16:31:57:250 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet ECR000774-SDC/DDC - REMPLACEMENT PLAQUES DE SEUIL CORRODÉES DES BARRI?RES COUPE-FEU 
+16:31:59:156 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet ECR000787-VOLET PORTES COUPE FEU SDC  ET DDC 
+16:32:00:387 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet ECR000832-BARRES DE SEUILS PORTES COUPE FEU DESSOUDEES 
+16:32:02:114 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet ECR001273-DÉTROMPAGE CONNECTEURS LIAISON CAISSE/BOGIE LOCOMOTIVE 
+16:32:03:838 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet ECR001335-Débouchage canalisation cuve eau noire 
+16:32:05:313 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet ECR002196-PLATINE PNEUMATIQUE FIRE BARRIERE ET23939 
+16:32:06:810 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet ECR002649-FILTRE EAU CLAIRE LAVABO SDL 
+16:32:08:040 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet ECR002728-VERROUILLAGE DES TRAPPES DE PLAFOND DE PORTE COUPE FEU SDC PAX 
+16:32:09:260 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet ECR003705-RIDEAU DES PORTES COUPE FEU PAX Vs nouveau volet 
+16:32:10:544 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF59 pour le projet ECR 0949 Trottoirs
+16:32:13:742 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF43 pour le projet ECR 1594 Remplacement passerelles ARBEL
+16:32:15:412 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3075I pour le projet ECR1974B - REMPLACEMENT GEG C09
+16:32:16:629 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3102F04I pour le projet ECR1974C - RETROFIT GROUPES FROIDS BATIMENTS C3/C4/B22/D44/D32
+16:32:17:840 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3129I pour le projet ECR 2117 B Remplacement automate C100 M&E panel
+16:32:19:708 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3135I pour le projet ECR 2117 C  Remplct PLC  station de drainage tunnel 
+16:32:24:563 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRPA pour le projet ECR 2508 Ajout protection structure toilettes
+16:32:26:070 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3088I pour le projet ECR2668 - WEIGH IN MOTION SYSTEM - FREIGHT CHECKIN
+16:32:27:614 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet ECR 2744 Remplacement platelages PAX
+16:32:30:549 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3627 pour le projet ECR 3203 B refroidissement tunnel par eau de mer 
+16:32:32:090 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3269I pour le projet ECR 3203 REMPLACEMENT  R22
+16:32:33:290 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3095I pour le projet ECR3205A REMPLACEMENT DES SALONS FLEXIPLUS FRANCE 
+16:32:35:208 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3095I pour le projet ECR3205 - FLEXIPLUS NEW BUILD
+16:32:38:785 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet ECR 3328C Remplacement du syst?me de confinement incendie sur les navettes PAX
+16:32:40:027 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF135 pour le projet ECR3426 : Tour en Fosse Double F37 - Révision ? 10 ans
+16:32:41:581 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF96 pour le projet ECR3427 : Révision WMS - Wheel Measurement System
+16:32:43:241 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet ECR 3553 étanchéité toiture PAX
+16:32:45:647 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet ECR 3557/2774/1407/FCA9/FBA9 - REV Elemets du syst. Toilettes FRET (Bréda et Costa)
+16:32:49:116 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3037 pour le projet ECR3643 GABARIT DE HAUTEUR
+16:32:50:458 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368I pour le projet ECR 3669 Déflecteurs
+16:32:50:459 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3165I pour le projet ECR 3669 Déflecteurs
+16:32:51:989 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3077I pour le projet ECR 3684 Pagodes 2014
+16:32:53:526 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3105I pour le projet ECR3690 : Achat de 2 locomotives Krupp / Projet Eleclink
+16:32:54:741 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF140 pour le projet ECR 3701 Remplacement porte coffre CSU-FDE
+16:32:55:955 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet ECR 3702 Etanchéité vestibule loco
+16:32:57:624 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3754 pour le projet ECR 3712 Expertise durée de vie résiduelle BREDA + AMC COSTA
+16:33:02:157 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3539 pour le projet ECR 3925 : Achat de 1 locomotive Krupp pour le yard FR
+16:33:02:157 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3539I pour le projet ECR 3925 : Achat de 1 locomotive Krupp pour le yard FR
+16:33:03:751 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF159 pour le projet ECR3925RR : Pérennisation de la flotte Rail-Route
+16:33:03:752 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3544I pour le projet ECR3925RR : Pérennisation de la flotte Rail-Route
+16:33:05:346 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3350I pour le projet ecr 3951-3952-3643 detection antenne 
+16:33:05:347 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3350 pour le projet ecr 3951-3952-3643 detection antenne 
+16:33:07:015 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368I pour le projet ECR 3964 Pagodes 2015
+16:33:07:016 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3368 pour le projet ECR 3964 Pagodes 2015
+16:33:11:890 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3610I pour le projet ECR 4100 C  Portail voie F/G 
+16:33:13:521 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3606I pour le projet  ecr 4103 motorisation portails tunnels
+16:33:15:285 - INFO - Run - [loadCodeProject] Mise en mémoire du code PRÉVISION pour le projet ECR4105 ADDITIONAL STAFF CAR PARKING 
+16:33:16:801 - INFO - Run - [loadCodeProject] Mise en mémoire du code PRÉVISION pour le projet ECR4106 ADDITIONAL TOILET BLOCK UK BOARDING AREA 
+16:33:18:019 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3697 pour le projet ECR4145 Agrandissement Réservoirs Fret
+16:33:19:690 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF39 pour le projet ÉPREUVE DECENNALE DES BOUTEILLES HALON DU MATÉRIEL ROULANT
+16:33:23:810 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3703 pour le projet Etude de fonctionnement des loco Brush sous 27,5 KV
+16:33:27:698 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet Etudes des Portes de passages des P.C.F (duretés)
+16:33:29:884 - INFO - Run - [loadCodeProject] Mise en mémoire du code MAXB pour le projet Evolution du traitement Anticorrosion
+16:33:31:543 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet Expertise attelage BSI
+16:33:33:218 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet Expertise Câblage SDL + Périm?tre MCO jusqu'au remplacement (câble, connectique, dalles)
+16:33:35:621 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z2766 pour le projet EXPERTISE ET REMISE EN ÉTAT DE LA LOCO 9804
+16:33:37:145 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF137 pour le projet Expertise Panneau /cylindres LOCO/PAX/Breda
+16:33:38:890 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet Expertise rack électronique de freinage Breda, Pax et locomotives
+16:33:38:891 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFPA pour le projet Expertise rack électronique de freinage Breda, Pax et locomotives
+16:33:38:891 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet Expertise rack électronique de freinage Breda, Pax et locomotives
+16:33:41:982 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3695 pour le projet F01 - Expertise et reparation bogies ARBEL sur site - CP
+16:33:45:064 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF85B pour le projet F01- Remplacement articulations élas. bg AMC - CP
+16:33:46:626 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF85 pour le projet F01 - Remplacement articulations élas, bg BREDA - CP
+16:33:46:627 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF85A pour le projet F01 - Remplacement articulations élas, bg BREDA - CP
+16:33:47:846 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F01 - Rénovation des bogies AMC BREDA et COSTA - A
+16:33:49:367 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF160 pour le projet F01 - Réparation des 5 bogies ARBEL - CP
+16:33:51:310 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F01 - Révision bogies ARBEL - CP
+16:33:52:915 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF84 pour le projet F01 - Révision des amortisseurs Breda - CP
+16:33:54:108 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF47 pour le projet F01 - Révision des Bogies ARBEL DMOL 2088 - CP
+16:33:55:796 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F01 - Révision des bogies : Fret BREDA 2e cycle - CP
+16:33:57:417 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F01 - Révision des ressorts de suspension primaire BREDA - CP
+16:34:00:299 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F04 FREIN ANTICO TIMONERIE HGV BREDA
+16:34:01:510 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF95 pour le projet F04 Réduction du nombre de FI  DMOL 2121 /300/301 / 2096/ 2097
+16:34:04:916 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3663 pour le projet F04 Remplacement Navette Breda valve de pesée et écrou "Frenvis" 
+16:34:04:916 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3671 pour le projet F04 Remplacement Navette Breda valve de pesée et écrou "Frenvis" 
+16:34:04:916 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3649 pour le projet F04 Remplacement Navette Breda valve de pesée et écrou "Frenvis" 
+16:34:06:132 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF169 pour le projet F04 Révision des portes-semelles et timonerie Breda
+16:34:09:181 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F04 Révision FREIN : Révision des valves de pesée : ARBEL (2e cycle) 
+16:34:10:422 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF119 pour le projet F04 Révision FREIN : Révision Valves de pesée BREDA_Partie basse (2e cycle)
+16:34:11:898 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F04 Révision LSM cylindre de frein Breda Knorr (FI-FS)
+16:34:13:428 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet F11 -  ECR 0065 alimentation 110v par connecteur pr la maintenance amc breda
+16:34:14:991 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF180 pour le projet F11 - ECR 2443 SECTIONNEUR BATTERIE AMC BREDA
+16:34:16:587 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF144 pour le projet F11 - ECR 992 MODIF NRJ FRET BREDA/ FCA 11 rpl batterie 
+16:34:17:784 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F11-REMPLACEMENT PANIERS BOIS BATTERIE COSTA
+16:34:19:251 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet F21 - ECR 2924 fiabilité monocontact MB1 chargeurs Arbel (boucle propp/passerelles)
+16:34:20:441 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F21 HGVL Remplacement des capteurs télémécaniques par des inductifs (propping)
+16:34:21:934 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F23  HGVL Révision vérin BP
+16:34:24:992 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRNA pour le projet F24 - Etude de Refabrication carte E70 et module Insys - C
+16:34:26:713 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRNA pour le projet F24 - Etude d'obsolescence carte diag ET30919 - C
+16:34:29:441 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF138 pour le projet F24 - MCO des centrales FDE FRET - C
+16:34:31:000 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF158 pour le projet F24 - Remplacement syst?me de détection incendie Fret - C
+16:34:32:218 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F26 Arbel révision des stabilisations
+16:34:35:407 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF145 pour le projet F26 HGVL amélioration anti grippage des distributeurs shore
+16:34:37:077 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF117 pour le projet F26 HGVL révision des vérins propping
+16:34:38:743 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF123 pour le projet F31-LSM PUPITRE AMC BREDA
+16:34:39:977 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F32 - ECR 2540 boite de jonction chargeurs arbel
+16:34:41:553 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet F32-ETUDE D'INSTALLATION D'UN MICRODISJONCTEUR LEAKAGE SUR AMC BREDA ET COSTA 1ERE GENERATION
+16:34:43:076 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F32 - RMPL RELAIS DISJ (AMC BREDA)
+16:34:44:276 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F32 RMPL RELAIS DISJ RAME BREDA
+16:34:45:773 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet F41 - MCO racks TVM - Loco Brush et Krupp
+16:34:49:136 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF148 pour le projet F51 - Remplacement des vannes CP et CG des navettes ARBEL
+16:34:50:334 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet F51 - Révision Ré-épreuve décennale réservoirs d'air 2017 FRET
+16:34:51:882 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF139 pour le projet Fiabilisation syst?me auxiliaire Loco
+16:34:55:749 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet FLA - Fire Load Allocation
+16:34:55:749 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRNA pour le projet FLA - Fire Load Allocation
+16:35:15:190 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet FREIN : révision des cylindres : BREDA KNORR 
+16:35:16:608 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet GB5 - Bille du thermostat fusible HVAC PAX
+16:35:17:843 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF171 pour le projet GB5 - Clapets coupe-feu HVAC AMC COSTA
+16:35:19:340 - INFO - Run - [loadCodeProject] Mise en mémoire du code MBEWG209 pour le projet GB5 - Contrat de maintenance BKW
+16:35:20:550 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet GB5 - DÉPOSE DES VENTILATEURS AN/AE SUR DDCS
+16:35:22:091 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet GB5 - FIABILISATION BLOWERS HVAC AIR INTERNATIONAL
+16:35:23:658 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet GB5 - HARMONISATION SOFT RACKS ELECTRONIQUES LOCO
+16:35:25:408 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRPA pour le projet GB5 - LOGICIEL DE MAINTENANCE HVAC PAX - RLG8
+16:35:27:816 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF151 pour le projet GB5 - LSM PURGING HVAC V2
+16:35:27:816 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF181 pour le projet GB5 - LSM PURGING HVAC V2
+16:35:29:425 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet GB5 - MANOMETRE HVAC LOCO AIR INTERNATION
+16:35:31:088 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3538 pour le projet GB5 - Mi-Vie HVAC PAX - Stratégie de remplacement
+16:35:31:089 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3538I pour le projet GB5 - Mi-Vie HVAC PAX - Stratégie de remplacement
+16:35:32:310 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet GB5 - 'MODIFICATION PHASE OPEN LOOP SUR PERTE 400V - PAX
+16:35:33:806 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRPA pour le projet GB5 - Monitoring HVAC PAX
+16:35:33:807 - INFO - Run - [loadCodeProject] Mise en mémoire du code Z3266I pour le projet GB5 - Monitoring HVAC PAX
+16:35:35:020 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZXRLO pour le projet GB5 - OBSOLESCENCE ECM HVAC LOCO 2EME GÉNÉRATION 
+16:35:39:033 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF73 pour le projet GB5 - Remplacement HVAC Loco "Waterloo Ozonair"
+16:35:40:241 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet GB5 - Remplacement sonde HVAC AMC COSTA
+16:35:41:808 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet GB5 - REPLACE KRUPP R22 HVAC EQUIPMENT
+16:35:43:510 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF173 pour le projet GB5 - Révision des HVAC AMC COSTA
+16:35:45:111 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF142 pour le projet GB5 - Rpl HVAC DDL
+16:35:46:679 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet GB5 - Simplification HVAC PAX
+16:35:48:116 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet GB5 - Suppression ventilation local moto DDL
+16:35:50:032 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF168 pour le projet GB5 - VENTILATEUR CCAM HVAC LOCO
+16:35:51:808 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFFR pour le projet GB5 - VENTILATEURS HVAC AMC BREDA   
+16:35:54:209 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet Homologation roulements SNR SKF
+16:36:23:557 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet L01 - Internalisation bogie loco - 5,6MW 7MW
+16:36:24:772 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet L01 - Remplacement : remplacement des amortisseurs Loco
+16:36:25:975 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF85D pour le projet L01 - Révision ensemble traction basse locomotive - 5,6MW 7MW
+16:36:27:743 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF174 pour le projet L04 FREIN : révision des cylindres locomotive Brush
+16:36:27:744 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet L04 FREIN : révision des cylindres locomotive Brush
+16:36:29:343 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF175 pour le projet L04 Remplacement Manom?tre CG/RE-CP/CF et conduite 10 bars locomotives
+16:36:30:540 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet L04 Remplacement PNEUMATIQUE : remplacement des flexibles Liaison caisse bogie : LOCO (frein)
+16:36:32:074 - INFO - Run - [loadCodeProject] Mise en mémoire du code RFLO pour le projet L04 Révision LSM Révision des panneaux de frein locomotive Brush
+16:36:33:509 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet L11 - ECR 2156 LOCO généralisation du syst?me sauvegarde batterie
+16:36:35:025 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet L11 - ECR 3393 SELECTIVITE PAR SEPARATION DES CIRCUITS 110V LOCO
+16:36:36:243 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet L11 - ECR 3545 BANC TEST RACK CHARGEUR BATTERIES LOCOMOTIVES
+16:36:37:855 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF183 pour le projet L11 - EXPERTISE/Révision RACK CHARGEUR BATTERIES LOCO
+16:36:39:286 - INFO - Run - [loadCodeProject] Mise en mémoire du code RF108 pour le projet L11- REMPLACEMENT DES SECTIONNEUR BIS
+16:36:40:488 - INFO - Run - [loadCodeProject] Mise en mémoire du code ZMAXB pour le projet L14 -  Etude Download auto réseau PAX Loco
+16:40:51:866 - INFO - Run - [main][V1.7] Demarrage de l'API: Thu Jan 12 16:40:51 CET 2017
+16:40:51:872 - INFO - Run - [connexion] Chargement parametre connexion:Thu Jan 12 16:40:51 CET 2017
+16:40:51:872 - INFO - Run - [connexion] Initialisation de la Session:Thu Jan 12 16:40:51 CET 2017
+16:41:22:760 - INFO - Run - [connexion] Connecté: Thu Jan 12 16:41:22 CET 2017 Ã  l'instance sciforma
+16:41:22:760 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Thu Jan 12 16:41:22 CET 2017
+16:41:22:766 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Thu Jan 12 16:41:22 CET 2017
+16:41:22:766 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Thu Jan 12 16:41:22 CET 2017
+16:41:43:247 - INFO - Run - [doImportEcm] Lecture du fichier: D:\\Professionnel\\Eurotunnel\\ecmtosciforma-20161108225048.xml
+16:41:43:958 - WARN - Run - [doImportEcm] ERREUR Données XML > le domaine n'est pas égal ? IN ou RS
+16:41:45:776 - INFO - Run - [doImportEcm]Projet enregistré : Thu Jan 12 16:41:45 CET 2017
+16:41:46:045 - INFO - Run - [main] Fermeture de l'API: Thu Jan 12 16:41:46 CET 2017

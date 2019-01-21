@@ -1,0 +1,28 @@
+17:10:44:353 - INFO - Run - [main][V1.8] Demarrage de l'API: Wed Mar 08 17:10:44 CET 2017
+17:10:44:400 - INFO - Run - [connexion] Chargement parametre connexion:Wed Mar 08 17:10:44 CET 2017
+17:10:44:400 - INFO - Run - [connexion] Initialisation de la Session:Wed Mar 08 17:10:44 CET 2017
+17:11:16:243 - INFO - Run - [connexion] Connecté: Wed Mar 08 17:11:16 CET 2017 Ã  l'instance sciforma
+17:11:16:245 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Wed Mar 08 17:11:16 CET 2017
+17:11:16:349 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Wed Mar 08 17:11:16 CET 2017
+17:11:16:350 - WARN - Run - [main] Aucun arguement passé au jar => Aucun traitement
+17:11:16:644 - INFO - Run - [main] Fermeture de l'API: Wed Mar 08 17:11:16 CET 2017
+17:11:57:947 - INFO - Run - [main][V1.8] Demarrage de l'API: Wed Mar 08 17:11:57 CET 2017
+17:11:57:952 - INFO - Run - [connexion] Chargement parametre connexion:Wed Mar 08 17:11:57 CET 2017
+17:11:57:953 - INFO - Run - [connexion] Initialisation de la Session:Wed Mar 08 17:11:57 CET 2017
+17:12:29:398 - INFO - Run - [connexion] Connecté: Wed Mar 08 17:12:29 CET 2017 Ã  l'instance sciforma
+17:12:29:398 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Wed Mar 08 17:12:29 CET 2017
+17:12:29:402 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Wed Mar 08 17:12:29 CET 2017
+17:12:29:403 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Wed Mar 08 17:12:29 CET 2017
+17:12:47:517 - INFO - Run - [doImportEcm] Lecture du fichier: D:\\Professionnel\\Eurotunnel\\ecmtosciforma-20160905225036.xml
+17:12:49:764 - INFO - Run - [doImportEcm]Projet enregistré : Wed Mar 08 17:12:49 CET 2017
+17:12:50:005 - INFO - Run - [main] Fermeture de l'API: Wed Mar 08 17:12:50 CET 2017
+17:31:45:543 - INFO - Run - [main][V1.9] Demarrage de l'API: Wed Mar 08 17:31:45 CET 2017
+17:31:45:547 - INFO - Run - [connexion] Chargement parametre connexion:Wed Mar 08 17:31:45 CET 2017
+17:31:45:547 - INFO - Run - [connexion] Initialisation de la Session:Wed Mar 08 17:31:45 CET 2017
+17:32:15:051 - INFO - Run - [connexion] Connecté: Wed Mar 08 17:32:15 CET 2017 Ã  l'instance sciforma
+17:32:15:051 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Wed Mar 08 17:32:15 CET 2017
+17:32:15:056 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Wed Mar 08 17:32:15 CET 2017
+17:32:15:056 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Wed Mar 08 17:32:15 CET 2017
+17:32:32:963 - INFO - Run - [doImportEcm] Lecture du fichier: D:\\Professionnel\\Eurotunnel\\ecmtosciforma-20160905225036.xml
+17:32:34:661 - INFO - Run - [doImportEcm]Projet enregistré : Wed Mar 08 17:32:34 CET 2017
+17:32:34:896 - INFO - Run - [main] Fermeture de l'API: Wed Mar 08 17:32:34 CET 2017

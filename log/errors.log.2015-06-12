@@ -1,0 +1,805 @@
+16:43:26:715 - INFO - Run - [main] Demarrage de l'API: Fri Jun 12 16:43:26 CEST 2015
+16:43:26:728 - INFO - Run - [connexion] Chargement parametre connexion:Fri Jun 12 16:43:26 CEST 2015
+16:43:26:728 - INFO - Run - [connexion] Initialisation de la Session:Fri Jun 12 16:43:26 CEST 2015
+16:43:51:343 - INFO - Run - [connexion] Connecté: Fri Jun 12 16:43:51 CEST 2015 Ã  l'instance sciforma
+16:43:51:343 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Fri Jun 12 16:43:51 CEST 2015
+16:43:51:388 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Fri Jun 12 16:43:51 CEST 2015
+16:43:51:389 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Fri Jun 12 16:43:51 CEST 2015
+16:43:59:936 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+16:44:00:498 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "20" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:246)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 16:44:00 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:246)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "20" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+16:44:00:502 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "FE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:260)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 16:44:00 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:260)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "FE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+16:44:00:505 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "NDF" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1289)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:274)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 16:44:00 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:980)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:274)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "NDF" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1289)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	... 3 more
+16:44:01:091 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "1" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:288)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 16:44:01 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:288)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "1" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+16:44:01:092 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "V" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:302)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 16:44:01 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:302)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "V" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+16:44:01:332 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaFri Jun 12 16:44:01 CEST 2015
+com.sciforma.psnext.api.InternalFailure: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+
+Context:
+   Error when saving project in Project.serverSave():
+Exception and stack:
+com.sciforma.psnext.projectplanner.ProjectProcessor$SaveException: The project ID is not unique.  Please enter a different ID and try again.
+	at com.sciforma.psnext.projectplanner.ProjectProcessor.a(ProjectProcessor.java:148)
+	at com.sciforma.psnext.projectplanner.Project$1.a(Project.java:2382)
+	at com.sciforma.psnext.util.WorkerThreadManager.k(WorkerThreadManager.java:158)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:202)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:176)
+	at com.sciforma.psnext.util.WorkerThreadManager.b(WorkerThreadManager.java:168)
+	at com.sciforma.psnext.util.WorkerThreadManager.f(WorkerThreadManager.java:164)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2389)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2462)
+	at com.sciforma.psnext.api.Project.save(Project.java:2292)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:776)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:658)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:485)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+
+Server timestamp: 12 Jun 2015 16:44:01 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:123)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.Project.save(Project.java:2309)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:776)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:658)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:485)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+16:44:01:506 - INFO - Run - [main] Fermeture de l'API: Fri Jun 12 16:44:01 CEST 2015
+16:45:48:663 - INFO - Run - [main] Demarrage de l'API: Fri Jun 12 16:45:48 CEST 2015
+16:45:48:742 - INFO - Run - [connexion] Chargement parametre connexion:Fri Jun 12 16:45:48 CEST 2015
+16:45:48:743 - INFO - Run - [connexion] Initialisation de la Session:Fri Jun 12 16:45:48 CEST 2015
+16:46:04:133 - INFO - Run - [connexion] Connecté: Fri Jun 12 16:46:04 CEST 2015 Ã  l'instance sciforma
+16:46:04:134 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Fri Jun 12 16:46:04 CEST 2015
+16:46:04:172 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Fri Jun 12 16:46:04 CEST 2015
+16:46:04:173 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Fri Jun 12 16:46:04 CEST 2015
+16:46:12:494 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+16:46:12:942 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaFri Jun 12 16:46:12 CEST 2015
+com.sciforma.psnext.api.AccessException: Field is not editable.
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1150)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:240)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+16:46:13:098 - INFO - Run - [main] Fermeture de l'API: Fri Jun 12 16:46:13 CEST 2015
+16:46:40:162 - INFO - Run - [main] Demarrage de l'API: Fri Jun 12 16:46:40 CEST 2015
+16:46:40:164 - INFO - Run - [connexion] Chargement parametre connexion:Fri Jun 12 16:46:40 CEST 2015
+16:46:40:164 - INFO - Run - [connexion] Initialisation de la Session:Fri Jun 12 16:46:40 CEST 2015
+16:46:56:751 - INFO - Run - [connexion] Connecté: Fri Jun 12 16:46:56 CEST 2015 Ã  l'instance sciforma
+16:46:56:751 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Fri Jun 12 16:46:56 CEST 2015
+16:46:56:754 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Fri Jun 12 16:46:56 CEST 2015
+16:46:56:754 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Fri Jun 12 16:46:56 CEST 2015
+16:47:05:423 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+16:47:05:623 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaFri Jun 12 16:47:05 CEST 2015
+com.sciforma.psnext.api.AccessException: Field is not editable.
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1150)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:240)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+16:47:05:779 - INFO - Run - [main] Fermeture de l'API: Fri Jun 12 16:47:05 CEST 2015
+16:47:48:047 - INFO - Run - [main] Demarrage de l'API: Fri Jun 12 16:47:48 CEST 2015
+16:47:48:048 - INFO - Run - [connexion] Chargement parametre connexion:Fri Jun 12 16:47:48 CEST 2015
+16:47:48:049 - INFO - Run - [connexion] Initialisation de la Session:Fri Jun 12 16:47:48 CEST 2015
+16:48:03:183 - INFO - Run - [connexion] Connecté: Fri Jun 12 16:48:03 CEST 2015 Ã  l'instance sciforma
+16:48:03:183 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Fri Jun 12 16:48:03 CEST 2015
+16:48:03:185 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Fri Jun 12 16:48:03 CEST 2015
+16:48:03:186 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Fri Jun 12 16:48:03 CEST 2015
+16:48:11:435 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+16:48:11:626 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaFri Jun 12 16:48:11 CEST 2015
+com.sciforma.psnext.api.AccessException: Field is not editable.
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1150)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:240)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+16:48:11:790 - INFO - Run - [main] Fermeture de l'API: Fri Jun 12 16:48:11 CEST 2015
+17:11:18:006 - INFO - Run - [main] Demarrage de l'API: Fri Jun 12 17:11:18 CEST 2015
+17:11:18:015 - INFO - Run - [connexion] Chargement parametre connexion:Fri Jun 12 17:11:18 CEST 2015
+17:11:18:015 - INFO - Run - [connexion] Initialisation de la Session:Fri Jun 12 17:11:18 CEST 2015
+17:11:48:192 - INFO - Run - [connexion] Connecté: Fri Jun 12 17:11:48 CEST 2015 Ã  l'instance sciforma
+17:11:48:193 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Fri Jun 12 17:11:48 CEST 2015
+17:11:48:238 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Fri Jun 12 17:11:48 CEST 2015
+17:11:48:239 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Fri Jun 12 17:11:48 CEST 2015
+17:11:57:600 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+17:11:58:069 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "20" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:246)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:11:58 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:246)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "20" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+17:11:58:072 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "FE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:260)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:11:58 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:260)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "FE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+17:11:58:076 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "NDF" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1289)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:274)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:11:58 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:980)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:274)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "NDF" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1289)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	... 3 more
+17:11:58:146 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "1" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:288)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:11:58 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:288)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "1" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+17:11:58:148 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "V" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:302)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:11:58 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:302)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "V" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+17:11:58:387 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaFri Jun 12 17:11:58 CEST 2015
+com.sciforma.psnext.api.InternalFailure: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+
+Context:
+   Error when saving project in Project.serverSave():
+Exception and stack:
+com.sciforma.psnext.projectplanner.ProjectProcessor$SaveException: The project ID is not unique.  Please enter a different ID and try again.
+	at com.sciforma.psnext.projectplanner.ProjectProcessor.a(ProjectProcessor.java:148)
+	at com.sciforma.psnext.projectplanner.Project$1.a(Project.java:2382)
+	at com.sciforma.psnext.util.WorkerThreadManager.k(WorkerThreadManager.java:158)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:202)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:176)
+	at com.sciforma.psnext.util.WorkerThreadManager.b(WorkerThreadManager.java:168)
+	at com.sciforma.psnext.util.WorkerThreadManager.f(WorkerThreadManager.java:164)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2389)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2462)
+	at com.sciforma.psnext.api.Project.save(Project.java:2292)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:776)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:658)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:485)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+
+Server timestamp: 12 Jun 2015 17:11:58 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:123)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.Project.save(Project.java:2309)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:776)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:658)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:485)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+17:11:58:609 - INFO - Run - [main] Fermeture de l'API: Fri Jun 12 17:11:58 CEST 2015
+17:13:27:988 - INFO - Run - [main] Demarrage de l'API: Fri Jun 12 17:13:27 CEST 2015
+17:13:27:990 - INFO - Run - [connexion] Chargement parametre connexion:Fri Jun 12 17:13:27 CEST 2015
+17:13:27:990 - INFO - Run - [connexion] Initialisation de la Session:Fri Jun 12 17:13:27 CEST 2015
+17:13:45:319 - INFO - Run - [connexion] Connecté: Fri Jun 12 17:13:45 CEST 2015 Ã  l'instance sciforma
+17:13:45:319 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Fri Jun 12 17:13:45 CEST 2015
+17:13:45:337 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Fri Jun 12 17:13:45 CEST 2015
+17:13:45:338 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Fri Jun 12 17:13:45 CEST 2015
+17:13:45:493 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaFri Jun 12 17:13:45 CEST 2015
+com.sciforma.psnext.api.AccessException: The logged in user does not have the right to edit users; therefore, the User list cannot be obtained.
+	at com.sciforma.psnext.api.AbstractSession.getUserList(AbstractSession.java:412)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:230)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+17:13:45:666 - INFO - Run - [main] Fermeture de l'API: Fri Jun 12 17:13:45 CEST 2015
+17:14:45:859 - INFO - Run - [main] Demarrage de l'API: Fri Jun 12 17:14:45 CEST 2015
+17:14:45:861 - INFO - Run - [connexion] Chargement parametre connexion:Fri Jun 12 17:14:45 CEST 2015
+17:14:45:861 - INFO - Run - [connexion] Initialisation de la Session:Fri Jun 12 17:14:45 CEST 2015
+17:15:01:745 - INFO - Run - [connexion] Connecté: Fri Jun 12 17:15:01 CEST 2015 Ã  l'instance sciforma
+17:15:01:746 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Fri Jun 12 17:15:01 CEST 2015
+17:15:01:748 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Fri Jun 12 17:15:01 CEST 2015
+17:15:01:748 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Fri Jun 12 17:15:01 CEST 2015
+17:15:10:392 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+17:15:10:591 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "20" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:246)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:15:10 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:246)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "20" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+17:15:10:593 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "FE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:260)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:15:10 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:260)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "FE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+17:15:10:596 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "NDF" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1289)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:274)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:15:10 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:980)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:274)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "NDF" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1289)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	... 3 more
+17:15:10:734 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "1" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:288)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:15:10 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:288)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "1" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+17:15:10:735 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "V" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:302)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+Server timestamp: 12 Jun 2015 17:15:10 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1154)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:510)
+	at com.sciforma.psnext.api.FieldAccessor.setStringField(FieldAccessor.java:440)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:302)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "V" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.b(UserField.java:2723)
+	at com.sciforma.psnext.fieldengine.UserField$PickListHelper.a(UserField.java:2657)
+	at com.sciforma.psnext.fieldengine.UserField$UserStringField.a(UserField.java:2558)
+	at com.sciforma.psnext.api.FieldAccessor.doFieldPutData(FieldAccessor.java:1147)
+	... 4 more
+17:15:10:932 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaFri Jun 12 17:15:10 CEST 2015
+com.sciforma.psnext.api.InternalFailure: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+
+Context:
+   Error when saving project in Project.serverSave():
+Exception and stack:
+com.sciforma.psnext.projectplanner.ProjectProcessor$SaveException: The project ID is not unique.  Please enter a different ID and try again.
+	at com.sciforma.psnext.projectplanner.ProjectProcessor.a(ProjectProcessor.java:148)
+	at com.sciforma.psnext.projectplanner.Project$1.a(Project.java:2382)
+	at com.sciforma.psnext.util.WorkerThreadManager.k(WorkerThreadManager.java:158)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:202)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:176)
+	at com.sciforma.psnext.util.WorkerThreadManager.b(WorkerThreadManager.java:168)
+	at com.sciforma.psnext.util.WorkerThreadManager.f(WorkerThreadManager.java:164)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2389)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2462)
+	at com.sciforma.psnext.api.Project.save(Project.java:2292)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:776)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:658)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:485)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+
+
+Server timestamp: 12 Jun 2015 17:15:10 CEST
+
+Servlet Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0i (build 4.318) / Wed, 18-Mar-2015 20:47:35 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:123)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.Project.save(Project.java:2309)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:776)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:658)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:485)
+	at com.eurotunnel.sciforma.Run.main(Run.java:128)
+17:15:11:120 - INFO - Run - [main] Fermeture de l'API: Fri Jun 12 17:15:11 CEST 2015

@@ -1,0 +1,1379 @@
+13:56:18:718 - INFO - Run - [main][V1.10] Demarrage de l'API: Sat Jun 16 13:56:18 CEST 2018
+13:56:18:722 - INFO - Run - [connexion] Chargement parametre connexion:Sat Jun 16 13:56:18 CEST 2018
+13:56:18:723 - INFO - Run - [connexion] Initialisation de la Session:Sat Jun 16 13:56:18 CEST 2018
+13:56:50:349 - INFO - Run - [connexion] Connecté: Sat Jun 16 13:56:50 CEST 2018 Ã  l'instance sciforma
+13:56:50:352 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Sat Jun 16 13:56:50 CEST 2018
+13:56:50:538 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Sat Jun 16 13:56:50 CEST 2018
+13:56:50:539 - INFO - Run - [doExportEcm]Exportation des donnéees XML pour ECM: Sat Jun 16 13:56:50 CEST 2018
+13:56:52:179 - INFO - Run - [doExportEcm]Traitement du projet : 00-Divers T. VANDROMME
+13:56:52:689 - INFO - Run - [doExportEcm]Traitement du projet : 00-Formation T. VANDROMME
+13:56:53:140 - INFO - Run - [doExportEcm]Traitement du projet : 00-Instructions de maintenance T. VANDROMME
+13:56:53:556 - INFO - Run - [doExportEcm]Traitement du projet : 00-Obsolescence T. VANDROMME
+13:56:53:967 - INFO - Run - [doExportEcm]Traitement du projet : 00-QRQC T. VANDROMME
+13:56:54:457 - INFO - Run - [doExportEcm]Traitement du projet : 00-Qualification produit T. VANDROMME
+13:56:54:918 - INFO - Run - [doExportEcm]Traitement du projet : 00-Suggestion T. VANDROMME
+13:56:55:333 - INFO - Run - [doExportEcm]Traitement du projet : 00-Support T. VANDROMME
+13:56:56:250 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers C. PINTIAU
+13:56:57:213 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers M. BOLOGNINI
+13:56:58:055 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers M. LAVIE
+13:56:58:690 - INFO - Run - [doExportEcm]Traitement du projet : 0-Divers S. RINGOT
+13:56:59:544 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation C. PINTIAU
+13:57:00:522 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation M. BOLOGNINI
+13:57:01:351 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation M. LAVIE
+13:57:02:193 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance C. PINTIAU
+13:57:03:097 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance M. BOLOGNINI
+13:57:03:517 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance M. LAVIE
+13:57:03:944 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Obsolescence M. LAVIE
+13:57:04:400 - INFO - Run - [doExportEcm]Traitement du projet : 0 - QRQC M. LAVIE
+13:57:04:829 - INFO - Run - [doExportEcm]Traitement du projet : 0-QRQC S. RINGOT
+13:57:05:717 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit C. PINTIAU
+13:57:06:553 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit M. BOLOGNINI
+13:57:06:962 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit M. LAVIE
+13:57:07:435 - INFO - Run - [doExportEcm]Traitement du projet : 0-Qualification produit S. RINGOT
+13:57:07:860 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Suggestion M. LAVIE
+13:57:08:302 - INFO - Run - [doExportEcm]Traitement du projet : 0-Suggestion S. RINGOT
+13:57:09:277 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support C. PINTIAU
+13:57:10:117 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support M. BOLOGNINI
+13:57:10:561 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support M. LAVIE
+13:57:10:983 - INFO - Run - [doExportEcm]Traitement du projet : 0-Support S. RINGOT
+13:57:11:844 - INFO - Run - [doExportEcm]Traitement du projet : 43-MCO fixation extincteurs sur la Flotte
+13:57:12:121 - ERROR - Run - [doExportEcm] Erreur dans classe SciformaSat Jun 16 13:57:12 CEST 2018
+com.sciforma.psnext.api.PSException: Field Fonctional identifies impacts does not exist in the system.  Please enter a valid field name.
+	at com.sciforma.psnext.api.FieldAccessor.findField(FieldAccessor.java:2041)
+	at com.sciforma.psnext.api.FieldAccessor.findField(FieldAccessor.java:2021)
+	at com.sciforma.psnext.api.FieldAccessor.getBooleanField(FieldAccessor.java:1604)
+	at com.eurotunnel.sciforma.Run.doExportEcm(Run.java:633)
+	at com.eurotunnel.sciforma.Run.main(Run.java:164)
+13:57:12:124 - INFO - Run - [doExportEcm] Fin Exportation des données XML pour ECM: Sat Jun 16 13:57:12 CEST 2018
+13:57:12:397 - INFO - Run - [main] Fermeture de l'API: Sat Jun 16 13:57:12 CEST 2018
+14:02:25:709 - INFO - Run - [main][V1.10] Demarrage de l'API: Sat Jun 16 14:02:25 CEST 2018
+14:02:25:712 - INFO - Run - [connexion] Chargement parametre connexion:Sat Jun 16 14:02:25 CEST 2018
+14:02:25:712 - INFO - Run - [connexion] Initialisation de la Session:Sat Jun 16 14:02:25 CEST 2018
+14:02:54:033 - INFO - Run - [connexion] Connecté: Sat Jun 16 14:02:54 CEST 2018 Ã  l'instance sciforma
+14:02:54:034 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Sat Jun 16 14:02:54 CEST 2018
+14:02:54:096 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Sat Jun 16 14:02:54 CEST 2018
+14:02:54:097 - INFO - Run - [doExportEcm]Exportation des donnéees XML pour ECM: Sat Jun 16 14:02:54 CEST 2018
+14:02:55:703 - INFO - Run - [doExportEcm]Traitement du projet : 00-Divers T. VANDROMME
+14:02:56:115 - INFO - Run - [doExportEcm]Traitement du projet : 00-Formation T. VANDROMME
+14:02:56:537 - INFO - Run - [doExportEcm]Traitement du projet : 00-Instructions de maintenance T. VANDROMME
+14:02:57:064 - INFO - Run - [doExportEcm]Traitement du projet : 00-Obsolescence T. VANDROMME
+14:02:57:529 - INFO - Run - [doExportEcm]Traitement du projet : 00-QRQC T. VANDROMME
+14:02:57:953 - INFO - Run - [doExportEcm]Traitement du projet : 00-Qualification produit T. VANDROMME
+14:02:58:374 - INFO - Run - [doExportEcm]Traitement du projet : 00-Suggestion T. VANDROMME
+14:02:58:924 - INFO - Run - [doExportEcm]Traitement du projet : 00-Support T. VANDROMME
+14:02:59:850 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers C. PINTIAU
+14:03:00:781 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers M. BOLOGNINI
+14:03:01:711 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers M. LAVIE
+14:03:02:310 - INFO - Run - [doExportEcm]Traitement du projet : 0-Divers S. RINGOT
+14:03:03:253 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation C. PINTIAU
+14:03:04:076 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation M. BOLOGNINI
+14:03:05:009 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation M. LAVIE
+14:03:05:843 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance C. PINTIAU
+14:03:06:691 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance M. BOLOGNINI
+14:03:07:142 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance M. LAVIE
+14:03:07:549 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Obsolescence M. LAVIE
+14:03:07:953 - INFO - Run - [doExportEcm]Traitement du projet : 0 - QRQC M. LAVIE
+14:03:08:376 - INFO - Run - [doExportEcm]Traitement du projet : 0-QRQC S. RINGOT
+14:03:09:374 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit C. PINTIAU
+14:03:10:598 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit M. BOLOGNINI
+14:03:11:069 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit M. LAVIE
+14:03:11:496 - INFO - Run - [doExportEcm]Traitement du projet : 0-Qualification produit S. RINGOT
+14:03:11:914 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Suggestion M. LAVIE
+14:03:12:331 - INFO - Run - [doExportEcm]Traitement du projet : 0-Suggestion S. RINGOT
+14:03:13:194 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support C. PINTIAU
+14:03:14:043 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support M. BOLOGNINI
+14:03:14:454 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support M. LAVIE
+14:03:14:944 - INFO - Run - [doExportEcm]Traitement du projet : 0-Support S. RINGOT
+14:03:15:833 - INFO - Run - [doExportEcm]Traitement du projet : 43-MCO fixation extincteurs sur la Flotte
+14:03:16:161 - ERROR - Run - [doExportEcm] Erreur dans classe SciformaSat Jun 16 14:03:16 CEST 2018
+com.sciforma.psnext.api.PSException: Field  Green Project does not exist in the system.  Please enter a valid field name.
+	at com.sciforma.psnext.api.FieldAccessor.findField(FieldAccessor.java:2041)
+	at com.sciforma.psnext.api.FieldAccessor.findField(FieldAccessor.java:2021)
+	at com.sciforma.psnext.api.FieldAccessor.getBooleanField(FieldAccessor.java:1604)
+	at com.eurotunnel.sciforma.Run.doExportEcm(Run.java:634)
+	at com.eurotunnel.sciforma.Run.main(Run.java:164)
+14:03:16:163 - INFO - Run - [doExportEcm] Fin Exportation des données XML pour ECM: Sat Jun 16 14:03:16 CEST 2018
+14:03:16:413 - INFO - Run - [main] Fermeture de l'API: Sat Jun 16 14:03:16 CEST 2018
+14:09:29:333 - INFO - Run - [main][V1.10] Demarrage de l'API: Sat Jun 16 14:09:29 CEST 2018
+14:09:29:336 - INFO - Run - [connexion] Chargement parametre connexion:Sat Jun 16 14:09:29 CEST 2018
+14:09:29:336 - INFO - Run - [connexion] Initialisation de la Session:Sat Jun 16 14:09:29 CEST 2018
+14:09:56:743 - INFO - Run - [connexion] Connecté: Sat Jun 16 14:09:56 CEST 2018 Ã  l'instance sciforma
+14:09:56:748 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Sat Jun 16 14:09:56 CEST 2018
+14:09:56:757 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Sat Jun 16 14:09:56 CEST 2018
+14:09:56:757 - INFO - Run - [doExportEcm]Exportation des donnéees XML pour ECM: Sat Jun 16 14:09:56 CEST 2018
+14:09:58:152 - INFO - Run - [doExportEcm]Traitement du projet : 00-Divers T. VANDROMME
+14:09:58:585 - INFO - Run - [doExportEcm]Traitement du projet : 00-Formation T. VANDROMME
+14:09:59:016 - INFO - Run - [doExportEcm]Traitement du projet : 00-Instructions de maintenance T. VANDROMME
+14:09:59:425 - INFO - Run - [doExportEcm]Traitement du projet : 00-Obsolescence T. VANDROMME
+14:09:59:944 - INFO - Run - [doExportEcm]Traitement du projet : 00-QRQC T. VANDROMME
+14:10:00:366 - INFO - Run - [doExportEcm]Traitement du projet : 00-Qualification produit T. VANDROMME
+14:10:00:785 - INFO - Run - [doExportEcm]Traitement du projet : 00-Suggestion T. VANDROMME
+14:10:01:215 - INFO - Run - [doExportEcm]Traitement du projet : 00-Support T. VANDROMME
+14:10:02:778 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers C. PINTIAU
+14:10:03:813 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers M. BOLOGNINI
+14:10:04:723 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Divers M. LAVIE
+14:10:05:152 - INFO - Run - [doExportEcm]Traitement du projet : 0-Divers S. RINGOT
+14:10:06:096 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation C. PINTIAU
+14:10:06:942 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation M. BOLOGNINI
+14:10:07:827 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Formation M. LAVIE
+14:10:08:660 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance C. PINTIAU
+14:10:09:488 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance M. BOLOGNINI
+14:10:09:967 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Instructions de maintenance M. LAVIE
+14:10:10:380 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Obsolescence M. LAVIE
+14:10:10:806 - INFO - Run - [doExportEcm]Traitement du projet : 0 - QRQC M. LAVIE
+14:10:11:237 - INFO - Run - [doExportEcm]Traitement du projet : 0-QRQC S. RINGOT
+14:10:12:116 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit C. PINTIAU
+14:10:12:931 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit M. BOLOGNINI
+14:10:13:341 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Qualification produit M. LAVIE
+14:10:13:828 - INFO - Run - [doExportEcm]Traitement du projet : 0-Qualification produit S. RINGOT
+14:10:14:254 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Suggestion M. LAVIE
+14:10:14:672 - INFO - Run - [doExportEcm]Traitement du projet : 0-Suggestion S. RINGOT
+14:10:15:519 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support C. PINTIAU
+14:10:16:434 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support M. BOLOGNINI
+14:10:16:861 - INFO - Run - [doExportEcm]Traitement du projet : 0 - Support M. LAVIE
+14:10:17:280 - INFO - Run - [doExportEcm]Traitement du projet : 0-Support S. RINGOT
+14:10:18:246 - INFO - Run - [doExportEcm]Traitement du projet : 43-MCO fixation extincteurs sur la Flotte
+14:10:19:619 - INFO - Run - [doExportEcm]Traitement du projet : 8 LANES FOR EXIT CHECKS 
+14:10:20:878 - INFO - Run - [doExportEcm]Traitement du projet : A00 - Intégration CAMP 0491 dans IM
+14:10:21:774 - INFO - Run - [doExportEcm]Traitement du projet : A00 - Mise ? Jour des IM PC/MEC sur le Fret et Pax
+14:10:22:613 - INFO - Run - [doExportEcm]Traitement du projet : A08 - REMPLACEMENT GROUPE HVAC KRUPP AU R22
+14:10:23:912 - INFO - Run - [doExportEcm]Traitement du projet : A14 - SIMULATEUR MORS-ETHERNET
+14:10:24:739 - INFO - Run - [doExportEcm]Traitement du projet : A43 - Camp Pictogrammes champs magnétiques
+14:10:25:623 - INFO - Run - [doExportEcm]Traitement du projet : ACC?S DIRECT B.27 / CONTRÔLES FRONTALIERS FRANÇAIS POUR LA CLIENT?LE PETS
+14:10:26:488 - INFO - Run - [doExportEcm]Traitement du projet : Activités assistant PMO
+14:10:27:317 - INFO - Run - [doExportEcm]Traitement du projet : Activités hors gestion de projets de BOLLENGIERP
+14:10:28:203 - INFO - Run - [doExportEcm]Traitement du projet : Activités hors gestion de projets de HERENTM
+14:10:29:034 - INFO - Run - [doExportEcm]Traitement du projet : Activités programme FRET
+14:10:29:918 - INFO - Run - [doExportEcm]Traitement du projet : Activités programme LOCO
+14:10:30:752 - INFO - Run - [doExportEcm]Traitement du projet : Activités programme PAX
+14:10:31:662 - INFO - Run - [doExportEcm]Traitement du projet : ADDITIONAL CIS SCREEN FOR UK COACH PARK/ OVER FLOW PARKING AREA. 
+14:10:32:952 - INFO - Run - [doExportEcm]Traitement du projet : AFAPEI
+14:10:33:864 - INFO - Run - [doExportEcm]Traitement du projet : AFFICHAGE TEMPS DE TRANSIT CTRL - FLEXIPLUS SUMMER PLAN 2016
+14:10:35:123 - INFO - Run - [doExportEcm]Traitement du projet : AFFICHEURS LUMINEUX EN VOIES DE PEAGE 3 FR ET 2 UK - FLEXIPLUS
+14:10:36:434 - INFO - Run - [doExportEcm]Traitement du projet : AGENCEMENT ACCUEIL DU B.22  + INTÉGRATION PVA - PROJET VISION 2020 PAX
+14:10:37:709 - INFO - Run - [doExportEcm]Traitement du projet : Agrandissement Réservoirs Fret
+14:10:39:033 - INFO - Run - [doExportEcm]Traitement du projet : Ajout 6 caméras mobiles
+14:10:40:383 - INFO - Run - [doExportEcm]Traitement du projet : AJOUT CAMERA ACCES 114 INTERIEUR SITE
+14:10:41:696 - INFO - Run - [doExportEcm]Traitement du projet : AJOUT D'UNE CAMÉRA VOIE 36
+14:10:42:986 - INFO - Run - [doExportEcm]Traitement du projet : ALIMENTATION/CONTROLE/COMMANDE : PORTAILS AUTO PONTS D2, D4, D5 ET D3
+14:10:44:336 - INFO - Run - [doExportEcm]Traitement du projet : ALIMENTATION ELECTRIQUE ET ECLAIRAGE : VOIE D'ECART PHASE 1
+14:10:45:663 - INFO - Run - [doExportEcm]Traitement du projet : ALIMENTATION ELECTRIQUE : OPMV PAX2020 - BÂTIMENT DE CÂBLAGE
+14:10:46:937 - INFO - Run - [doExportEcm]Traitement du projet : AMC BREDA/COSTA: AMC TV et AMC WIFI
+14:10:48:280 - INFO - Run - [doExportEcm]Traitement du projet : AMC COSTA/BREDA Aménagements poste Chef de train
+14:10:49:547 - INFO - Run - [doExportEcm]Traitement du projet : AMC COSTA/BREDA Augmentation capacité
+14:10:50:817 - INFO - Run - [doExportEcm]Traitement du projet : AMC COSTA Remplacement fen?tre de baies et remise en état des joints
+14:10:52:161 - INFO - Run - [doExportEcm]Traitement du projet : AMÉLIORATION DE LA FIABILITÉ DES FANAUX LOCO
+14:10:53:495 - INFO - Run - [doExportEcm]Traitement du projet : Amélioration du syst?me de traction éléctrique autonome
+14:10:54:750 - INFO - Run - [doExportEcm]Traitement du projet : Amélioration passerelles intercirculation ARBEL
+14:10:55:654 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENT D32
+14:10:56:943 - INFO - Run - [doExportEcm]Traitement du projet : AMENAGEMENT DU BATIMENT D25
+14:10:58:226 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENT GARAGE 3 DU B.27 (BÂTIMENT PETS)
+14:10:59:651 - INFO - Run - [doExportEcm]Traitement du projet : Aménagement local miniposte SDL
+14:11:00:961 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENT LOCAL  V15 F46
+14:11:02:514 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENTS EXTÉRIEUR D25
+14:11:03:901 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENT STATIONNEMENT C20
+14:11:05:198 - INFO - Run - [doExportEcm]Traitement du projet : APPAREILS CHAUFFAGE IRC ATELIER F40 VETUSTES
+14:11:14:520 - INFO - Run - [doExportEcm]Traitement du projet : ASPIRATION DANS LE LOCAL DE PRÉPARATION DE PEINTURE AU F43
+14:11:15:973 - INFO - Run - [doExportEcm]Traitement du projet : Assistance MO pour EPA PAX
+14:11:16:811 - INFO - Run - [doExportEcm]Traitement du projet : Attelage Rail-route
+14:11:18:146 - INFO - Run - [doExportEcm]Traitement du projet : AUGMENTATION DU DÉBIT RÉSEAU POUR LES CAMÉRAS DES XOVER FR/UK
+14:11:19:446 - INFO - Run - [doExportEcm]Traitement du projet : AUTOMATION OF THE UK FREIGHT WHEEL WASH 
+14:11:20:691 - INFO - Run - [doExportEcm]Traitement du projet : Balisage toiture loco
+14:11:21:591 - INFO - Run - [doExportEcm]Traitement du projet : BARRIERE  MANUELLE  SORTIE HBD
+14:11:22:846 - INFO - Run - [doExportEcm]Traitement du projet : BATTERIE 110V LOCO 9040 9100 9700 
+14:11:25:503 - INFO - Run - [doExportEcm]Traitement du projet : BATTERIE 110V PAX ET HGV FIAT BREDA
+14:11:26:780 - INFO - Run - [doExportEcm]Traitement du projet : Blochets
+14:11:27:735 - INFO - Run - [doExportEcm]Traitement du projet : BOITE DE JONCTION LIGNES DE TRAIN 1500VCC  SDL
+14:11:29:004 - INFO - Run - [doExportEcm]Traitement du projet : CABLAGE HGVL FIAT
+14:11:30:285 - INFO - Run - [doExportEcm]Traitement du projet : CAMERA DE CONTEXTE ENTRÉES/SOTIES PARKING P16
+14:11:31:591 - INFO - Run - [doExportEcm]Traitement du projet : CAMÉRAS EN ENTRÉE DES VOIES DE PÉAGES FRET FRANCE
+14:11:32:862 - INFO - Run - [doExportEcm]Traitement du projet : CAMÉRAS EN ENTRÉE DES VOIES DE PÉAGES PASSAGERS FRANCE
+14:11:34:196 - INFO - Run - [doExportEcm]Traitement du projet : CAMERAS MC4 (D52)
+14:11:35:535 - INFO - Run - [doExportEcm]Traitement du projet : Caméras thermique + radars Exavision - plan migrant
+14:11:36:799 - INFO - Run - [doExportEcm]Traitement du projet : CAMPAGNE 2018 DE REMPLACEMENT DES CABLES 7.42 EN TUNNEL
+14:11:38:147 - INFO - Run - [doExportEcm]Traitement du projet : CHANGEMENT LECTEUR MONÉTIQUE DES VOIES AUTOMATIQUES DES CHECK-IN FR ET UK
+14:11:39:430 - INFO - Run - [doExportEcm]Traitement du projet : CHANTIER TIMONERIE - CRÉATION D'UNE ZONE SOUDURE
+14:11:40:669 - INFO - Run - [doExportEcm]Traitement du projet : CHERITON HOLDING FACILITY
+14:11:41:970 - INFO - Run - [doExportEcm]Traitement du projet : CLIMATISATION AU BIF - D3
+14:11:43:279 - INFO - Run - [doExportEcm]Traitement du projet : COFFRE HPD AMC BRÉDA (HAUTE TENSION)
+14:11:44:547 - INFO - Run - [doExportEcm]Traitement du projet : COMMANDE EN LOCAL DES BARRI?RES EN SORTIE DES RÉSERVOIRS FRET
+14:11:45:862 - INFO - Run - [doExportEcm]Traitement du projet : Conception syst?me d'aspiration embarqué
+14:11:47:113 - INFO - Run - [doExportEcm]Traitement du projet : Condition de circulation sur le YARD France
+14:11:47:990 - INFO - Run - [doExportEcm]Traitement du projet : CONSTRUCTION DE 2 GRAND GARAGES AUX CONTRÔLES BRITANNIQUES AU TOURISME
+14:11:49:571 - INFO - Run - [doExportEcm]Traitement du projet : CONSTRUCTION D'UNE SOUS STATION ÉLECTRIQUE EN VOIE D'URGENCE
+14:11:50:821 - INFO - Run - [doExportEcm]Traitement du projet : CONSTRUCTION D'UN NOUVEAU TRAIN DE MAINTENANCE EN TUNNEL DE SERVICE
+14:11:52:143 - INFO - Run - [doExportEcm]Traitement du projet : Contrat anticorrosion
+14:11:53:010 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE - CAMÉRA AU D3 VISUALISANT LA SORTIE P11
+14:11:54:299 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE - INSTALLATION CAMERA FIXE SAS C09
+14:11:55:609 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE : LECTEURS DE BADGE BÂTIMENT B03 
+14:11:56:849 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE - MISE EN PLACE 2EME LECTEUR DE BADGE AU PORTAIL 137
+14:11:58:361 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE : REMPLACEMENT DE LA CAMERA 052 SUR PONT OAD4
+14:11:59:686 - INFO - Run - [doExportEcm]Traitement du projet : Contrat essieux FRET
+14:12:00:961 - INFO - Run - [doExportEcm]Traitement du projet : Contrat essieux locomotives
+14:12:02:312 - INFO - Run - [doExportEcm]Traitement du projet : Contrat essieux PAX
+14:12:03:642 - INFO - Run - [doExportEcm]Traitement du projet : CONTRATS DIVERS
+14:12:04:462 - INFO - Run - [doExportEcm]Traitement du projet : CONTROLE D'ACCES AUX BATIMENTS E14 ET D32
+14:12:05:801 - INFO - Run - [doExportEcm]Traitement du projet : Conversion of TTX generators to battery hybrid
+14:12:07:082 - INFO - Run - [doExportEcm]Traitement du projet : CORROSION CAISSE LOCO
+14:12:08:337 - INFO - Run - [doExportEcm]Traitement du projet : COUPURE SERVICES GSMP EN TUNNELS 
+14:12:09:671 - INFO - Run - [doExportEcm]Traitement du projet : CRÉATION ABRIS ? ZÉPHIRS + LOCAL ÉQUIPE ATELAGES
+14:12:10:953 - INFO - Run - [doExportEcm]Traitement du projet : CRÉATION DE NOUVEAUX RACCORD DE VOIES ? L'EST DU YARD
+14:12:12:209 - INFO - Run - [doExportEcm]Traitement du projet : Création d’un banc test des compresseurs au F45
+14:12:13:082 - INFO - Run - [doExportEcm]Traitement du projet : CRÉATION D'UN BÂTIMENT DÉPOSE BOGIE V9 ET V10 - VISION 2020
+14:12:14:352 - INFO - Run - [doExportEcm]Traitement du projet : CRÉATION D'UNE 2?ME AUBETTE MC4 EN FRANCE
+14:12:15:629 - INFO - Run - [doExportEcm]Traitement du projet : CRÉATION D'UNE 5?me ET 6?meVOIE UKBF EN FRANCE
+14:12:17:121 - INFO - Run - [doExportEcm]Traitement du projet : CREATION OF AN ENCLOSED COVER FOR SAMPHIRE EMERGENCY GENERATORS SETS
+14:12:18:406 - INFO - Run - [doExportEcm]Traitement du projet : Définition d'un plan d'action câblage 
+14:12:18:847 - INFO - Run - [doExportEcm]Traitement du projet : Demandes Rolling Stock 2015
+14:12:19:731 - INFO - Run - [doExportEcm]Traitement du projet : Demandes Rolling Stock 2016
+14:12:20:579 - INFO - Run - [doExportEcm]Traitement du projet : Demandes Rolling Stock 2017
+14:12:21:441 - INFO - Run - [doExportEcm]Traitement du projet : Demandes Rolling Stock 2018
+14:12:22:769 - INFO - Run - [doExportEcm]Traitement du projet : Démant?lement de matériels ferroviaires
+14:12:24:034 - INFO - Run - [doExportEcm]Traitement du projet : DÉPLACEMENT DE LA ZONE DES CONTRÔLES DE BÂCHE
+14:12:25:323 - INFO - Run - [doExportEcm]Traitement du projet : DÉPLACEMENT DU PANNEAU CIS P16 - BUFFER ZONE
+14:12:26:675 - INFO - Run - [doExportEcm]Traitement du projet : DÉPLOIEMENT DES PORTIQUES DE DÉTECTION D'ANTENNES SUR LES RAMPES FRET FR/UK
+14:12:27:931 - INFO - Run - [doExportEcm]Traitement du projet : DÉPLOIEMENT RÉSEAU ETHERNET EN TUNNEL
+14:12:29:206 - INFO - Run - [doExportEcm]Traitement du projet : détartrage des canalisations eaux usées des toilettes PASSAGERS
+14:12:30:035 - INFO - Run - [doExportEcm]Traitement du projet : DETECTEUR ANTENNE SUR RAMPES 509 ET 511
+14:12:31:275 - INFO - Run - [doExportEcm]Traitement du projet : DETECTEURS DE GAZ ET DE FUMEES SUR TRANSFOS 21 KV EN TUNNEL
+14:12:32:685 - INFO - Run - [doExportEcm]Traitement du projet : DEVELOPPEMENT D'UN TRAIN DE MESURES (VECTOOR)
+14:12:33:947 - INFO - Run - [doExportEcm]Traitement du projet : D. I. : AGENCEMENT ACCUEIL B.22  + INTÉGRATION PVA - PROJET VISION 2020 PAX
+14:12:35:221 - INFO - Run - [doExportEcm]Traitement du projet : Disponibilité Locomotive  / Assistance Bombardier
+14:12:36:061 - INFO - Run - [doExportEcm]Traitement du projet : Divers B. OBERT
+14:12:36:931 - INFO - Run - [doExportEcm]Traitement du projet : Divers C. BRUNEL
+14:12:37:791 - INFO - Run - [doExportEcm]Traitement du projet : Divers D. LARIVIERE
+14:12:38:627 - INFO - Run - [doExportEcm]Traitement du projet : Divers F. PAWLAK
+14:12:39:476 - INFO - Run - [doExportEcm]Traitement du projet : Divers G. BREBION
+14:12:40:778 - INFO - Run - [doExportEcm]Traitement du projet : Divers G. FEVER
+14:12:41:625 - INFO - Run - [doExportEcm]Traitement du projet : Divers J. FARDOUX
+14:12:42:458 - INFO - Run - [doExportEcm]Traitement du projet : Divers JF. DUFOUR
+14:12:43:328 - INFO - Run - [doExportEcm]Traitement du projet : Divers M. HERENT
+14:12:44:174 - INFO - Run - [doExportEcm]Traitement du projet : Divers N.CHOCHOY
+14:12:45:044 - INFO - Run - [doExportEcm]Traitement du projet : Divers P. BACLET
+14:12:45:883 - INFO - Run - [doExportEcm]Traitement du projet : Divers P. BOLLENGIER
+14:12:46:711 - INFO - Run - [doExportEcm]Traitement du projet : Divers P. HUCHETTE
+14:12:47:570 - INFO - Run - [doExportEcm]Traitement du projet : Divers PL. KLOUDA
+14:12:48:456 - INFO - Run - [doExportEcm]Traitement du projet : Divers R. TELLIER
+14:12:49:333 - INFO - Run - [doExportEcm]Traitement du projet : Divers V. BOURDOT
+14:12:50:179 - INFO - Run - [doExportEcm]Traitement du projet : DMOD1255 - DMOD 1457  Renforcement carter calorifugeage HGCA
+14:12:51:491 - INFO - Run - [doExportEcm]Traitement du projet : DOUBLE SAUVEGARDE ENREGISTREMENT VIDEO
+14:12:52:810 - INFO - Run - [doExportEcm]Traitement du projet : ECLAIRAGE ET ALIM ELEC : REMPLACEMENT SALON FLEXIPLUS FRANCE 
+14:12:54:046 - INFO - Run - [doExportEcm]Traitement du projet : ECR001273-DÉTROMPAGE CONNECTEURS LIAISON CAISSE/BOGIE LOCOMOTIVE 
+14:12:55:362 - INFO - Run - [doExportEcm]Traitement du projet : ECR 0949 Trottoirs
+14:12:56:671 - INFO - Run - [doExportEcm]Traitement du projet : ECR 0970 Modification bornes chasse-roue
+14:12:57:499 - INFO - Run - [doExportEcm]Traitement du projet : ECR1974B - REMPLACEMENT GEG C09
+14:12:58:837 - INFO - Run - [doExportEcm]Traitement du projet : ECR1974C - RETROFIT GROUPES FROIDS BATIMENTS C3/C4/B22/D44/D32
+14:13:00:111 - INFO - Run - [doExportEcm]Traitement du projet : ECR 2117 B Remplacement automate C100 M&E panel
+14:13:01:404 - INFO - Run - [doExportEcm]Traitement du projet : ECR 2117 C  Remplct PLC  station de drainage tunnel 
+14:13:02:750 - INFO - Run - [doExportEcm]Traitement du projet : ECR 2170 Remplacement trappe boite jonction centrale PAX
+14:13:04:048 - INFO - Run - [doExportEcm]Traitement du projet : ECR2668 - WEIGH IN MOTION SYSTEM - FREIGHT CHECKIN
+14:13:05:395 - INFO - Run - [doExportEcm]Traitement du projet : ECR3188: Circulation des locomotives Krupp en dessertes sur Frethun RFN
+14:13:06:731 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3203 B refroidissement tunnel par eau de mer 
+14:13:08:008 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3203 REMPLACEMENT  R22
+14:13:09:282 - INFO - Run - [doExportEcm]Traitement du projet : ECR3205A REMPLACEMENT DES SALONS FLEXIPLUS FRANCE 
+14:13:10:595 - INFO - Run - [doExportEcm]Traitement du projet : ECR3205B - REMPLACEMENT SALON FLEXIPLUS UK
+14:13:12:081 - INFO - Run - [doExportEcm]Traitement du projet : ECR3205 - FLEXIPLUS NEW BUILD
+14:13:13:354 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3246 ACCESS TO UK COOLING PLANT ROOF
+14:13:14:294 - INFO - Run - [doExportEcm]Traitement du projet : ECR3426 : Tour en Fosse Double F37 - Rénovation ? 10 ans
+14:13:15:578 - INFO - Run - [doExportEcm]Traitement du projet : ECR3427 : Révision WMS - Wheel Measurement System
+14:13:16:900 - INFO - Run - [doExportEcm]Traitement du projet : ECR3572 ECRANS PROTECTION MATS CCAQ FRANCE UK
+14:13:18:204 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3601 SUPPORT EQUIPE PROJETS INFRA - ELECLINK FR / UK
+14:13:19:501 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3669 Déflecteurs
+14:13:20:860 - INFO - Run - [doExportEcm]Traitement du projet : ECR3690 : Achat de 2 locomotives Krupp / Projet Eleclink
+14:13:22:150 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3701 Remplacement porte coffre CSU-FDE
+14:13:23:408 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3702 Etanchéité vestibule loco
+14:13:24:323 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3712 Expertise durée de vie résiduelle BREDA 
+14:13:25:147 - INFO - Run - [doExportEcm]Traitement du projet : ECR3780: Extension de périm?tre / Retour Secours Krupp / Revisite SO11
+14:13:26:489 - INFO - Run - [doExportEcm]Traitement du projet : ECR  3837 monitoring poussiere tunnel
+14:13:27:791 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3925 : Achat de 1 locomotive Krupp pour le yard FR
+14:13:29:151 - INFO - Run - [doExportEcm]Traitement du projet : ECR3925RR : Pérennisation de la flotte Rail-Route
+14:13:30:526 - INFO - Run - [doExportEcm]Traitement du projet : ecr 3951-3952-3643 detection antenne 
+14:13:31:780 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3964 Pagodes 2015
+14:13:33:165 - INFO - Run - [doExportEcm]Traitement du projet : ECR 3977 Plafond air de chargement SDL
+14:13:34:092 - INFO - Run - [doExportEcm]Traitement du projet : ECR 4039: Etude préliminaire locomotives d'avenir
+14:13:35:400 - INFO - Run - [doExportEcm]Traitement du projet : ECR 4100 C  Portail voie F/G 
+14:13:36:801 - INFO - Run - [doExportEcm]Traitement du projet :  ecr 4103 motorisation portails tunnels
+14:13:38:094 - INFO - Run - [doExportEcm]Traitement du projet : ECR4105 ADDITIONAL STAFF CAR PARKING 
+14:13:39:332 - INFO - Run - [doExportEcm]Traitement du projet : ECR4106 ADDITIONAL TOILET BLOCK UK BOARDING AREA 
+14:13:40:638 - INFO - Run - [doExportEcm]Traitement du projet : ECR 4283  VACUUM TRAIN
+14:13:41:883 - INFO - Run - [doExportEcm]Traitement du projet : ECR 4284 NEW TUNNEL CLEANING TRAIN 
+14:13:43:187 - INFO - Run - [doExportEcm]Traitement du projet : ECRAN TV INFORMATION + TABLEAU ELECTRONIQUE DE JOURS SANS ACCIDENTS
+14:13:44:479 - INFO - Run - [doExportEcm]Traitement du projet : ELARGISSEMENT DES ENTRÉES DE RAMPES DES PONTS OAD3 ET OAD5
+14:13:45:732 - INFO - Run - [doExportEcm]Traitement du projet : ELARGISSEMENT DES PONTS DE CHARGEMENT
+14:13:47:108 - INFO - Run - [doExportEcm]Traitement du projet : Enregistrement Essieux et plaque
+14:13:47:945 - INFO - Run - [doExportEcm]Traitement du projet : EPA FRET en rame
+14:13:48:758 - INFO - Run - [doExportEcm]Traitement du projet : ÉPREUVE DECENNALE DES BOUTEILLES HALON DU MATÉRIEL ROULANT
+14:13:50:052 - INFO - Run - [doExportEcm]Traitement du projet : EQUIPEMENT & INTERFACE LOGICIEL : ACC?S DIRECT B.27 / CONTRÔLES  FR  PETS
+14:13:51:345 - INFO - Run - [doExportEcm]Traitement du projet : EQUIPTS VOIE & de CTRL + SIG  DYNAMIQUE : CRÉATION 2?ME AUBETTE MC4 EN FR
+14:13:52:581 - INFO - Run - [doExportEcm]Traitement du projet : ERGONOMIE POSTES RCC FR (1) - AJOUT ECRAN POSTE CREW CONTROL RCC UK/FR (2)
+14:13:53:885 - INFO - Run - [doExportEcm]Traitement du projet : Essai nouveau détecteur DFS / DBC
+14:13:54:722 - INFO - Run - [doExportEcm]Traitement du projet : ETANCHEITÉ BOITES DE JONCTION TB1 & TB2 HGVC
+14:13:56:032 - INFO - Run - [doExportEcm]Traitement du projet : étanchéité PAX
+14:13:56:847 - INFO - Run - [doExportEcm]Traitement du projet : Etude de confinement de la zone de sablage au F43
+14:13:58:324 - INFO - Run - [doExportEcm]Traitement du projet : Etude de modification demi-coquilles rames Arbel 1ere génération
+14:13:59:624 - INFO - Run - [doExportEcm]Traitement du projet : Etude du remplacement flexible CP / CG par des mains
+14:14:00:495 - INFO - Run - [doExportEcm]Traitement du projet : Etude nombre de bogie isolé sur les navettes en exploitation
+14:14:01:368 - INFO - Run - [doExportEcm]Traitement du projet : Etude parcours fibre céramique réfractaire
+14:14:02:682 - INFO - Run - [doExportEcm]Traitement du projet : Evolution du traitement Anticorrosion
+14:14:03:527 - INFO - Run - [doExportEcm]Traitement du projet : EVOLUTION TTM
+14:14:04:828 - INFO - Run - [doExportEcm]Traitement du projet : Expertise attelage BSI
+14:14:05:710 - INFO - Run - [doExportEcm]Traitement du projet : Expertise Câblage SDL + Périm?tre MCO jusqu'au remplacement (câble, connectique, dalles)
+14:14:06:542 - INFO - Run - [doExportEcm]Traitement du projet : Expertise des tampons UIC des locomotives
+14:14:08:030 - INFO - Run - [doExportEcm]Traitement du projet : EXPERTISE ET REMISE EN ÉTAT DE LA LOCO 9804
+14:14:09:453 - INFO - Run - [doExportEcm]Traitement du projet : Expertise Panneau /cylindres LOCO/PAX/Breda
+14:14:10:281 - INFO - Run - [doExportEcm]Traitement du projet : Expertise rack électronique de freinage Breda, Pax et locomotives
+14:14:11:167 - INFO - Run - [doExportEcm]Traitement du projet : Expertise vérin AMC Breda
+14:14:11:641 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : 2?me dépose bogie
+14:14:12:518 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : atelier chaudronnerie et anti corrosion
+14:14:13:435 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : extension voie 18-19 
+14:14:14:346 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : extension voie 4
+14:14:15:184 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : Infrastructure PAX 2020 - atelier de câblage
+14:14:16:108 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : Infrastructure PAX 2020 - Bureaux Projets
+14:14:16:957 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : Infrastructure PAX 2020 - Magasin de stockage et habillage v 29
+14:14:17:399 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : Transformation F43 
+14:14:18:248 - INFO - Run - [doExportEcm]Traitement du projet : EXTENSION COUPURE CATENAIRE A QUAI (CCAQ) - DEUX VOIES FR&UK
+14:14:19:534 - INFO - Run - [doExportEcm]Traitement du projet : EXTENSION DES VESTIAIRES PAF et DOUANES AU B11
+14:14:20:820 - INFO - Run - [doExportEcm]Traitement du projet : EXTENSION ET RÉAMÉNAGEMENT DU MAGASIN SATELLITE C90
+14:14:22:138 - INFO - Run - [doExportEcm]Traitement du projet : EXTENSION V18 ET 19 - VISION 2020 (CB)
+14:14:23:475 - INFO - Run - [doExportEcm]Traitement du projet : EXTINC TUNNEL + TERM FR /  EXTINC. TERM UK
+14:14:24:756 - INFO - Run - [doExportEcm]Traitement du projet : F01-Etude de la durée de vie des bogies WBN
+14:14:25:650 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Expertise et reparation bogies ARBEL sur site - CP
+14:14:26:488 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Expertise Ressorts BREDA AMC - A
+14:14:27:346 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Remplacement articulations élas. bg AMC - CP
+14:14:28:225 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Remplacement articulations élas, bg BREDA - CP
+14:14:29:146 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Remplacement des amortisseurs Breda - CP
+14:14:30:098 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Remplacement des bogies chargeurs Arbel
+14:14:31:415 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Rénovation des bogies AMC BREDA et COSTA - A
+14:14:32:340 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Réparation des 5 bogies ARBEL - CP
+14:14:33:172 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Révision bogies ARBEL - CP
+14:14:34:081 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Révision des Bogies ARBEL DMOL 2088 - CP
+14:14:34:893 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Révision des bogies : Fret BREDA 2e cycle - CP
+14:14:35:812 - INFO - Run - [doExportEcm]Traitement du projet : F01 - Révision des ressorts de suspension primaire BREDA - CP
+14:14:36:646 - INFO - Run - [doExportEcm]Traitement du projet : F03- Protection attelage Breda
+14:14:37:956 - INFO - Run - [doExportEcm]Traitement du projet : F04 Etude Essai semelles de frein IB116*
+14:14:38:780 - INFO - Run - [doExportEcm]Traitement du projet : F04 FREIN ANTICO TIMONERIE HGV BREDA
+14:14:39:637 - INFO - Run - [doExportEcm]Traitement du projet : F04 Réduction du nombre de FI  DMOL 2121 /300/301 / 2096/ 2097
+14:14:40:487 - INFO - Run - [doExportEcm]Traitement du projet : F04 Remplacement Navette Breda valve de pesée et écrou "Frenvis" 
+14:14:41:347 - INFO - Run - [doExportEcm]Traitement du projet : F04 Révision des portes-semelles et timonerie Breda
+14:14:42:255 - INFO - Run - [doExportEcm]Traitement du projet : F04 Révision FREIN : Révision des valves de pesée : ARBEL (2e cycle) 
+14:14:43:084 - INFO - Run - [doExportEcm]Traitement du projet : F04 Révision FREIN : Révision Valves de pesée BREDA_Partie basse (2e cycle)
+14:14:43:999 - INFO - Run - [doExportEcm]Traitement du projet : F04 Révision LSM cylindre de frein Breda Knorr (FI-FS)
+14:14:44:826 - INFO - Run - [doExportEcm]Traitement du projet : F07 - Etude - ECR 1636 amc costa remontée info porte isolée-A
+14:14:46:177 - INFO - Run - [doExportEcm]Traitement du projet : F08 - ETUDE D'ACCESSIBILITE AUX VENTILATEURS HVAC AMC BREDA  - A
+14:14:47:422 - INFO - Run - [doExportEcm]Traitement du projet : F08 - REMPLACEMENT COMMANDE CLAPET COUPE-FEU HVAC COSTA - A
+14:14:48:736 - INFO - Run - [doExportEcm]Traitement du projet : F08 - REVISION HVAC AMC COSTA - A
+14:14:49:632 - INFO - Run - [doExportEcm]Traitement du projet : F08 - Révision LSM HVAC AMC Breda
+14:14:50:477 - INFO - Run - [doExportEcm]Traitement du projet : F09- Détartrage des canalisations d'évacuations des toilettes FRET
+14:14:51:773 - INFO - Run - [doExportEcm]Traitement du projet : F10-Démant?lement CVS Parizzi HGVL
+14:14:52:993 - INFO - Run - [doExportEcm]Traitement du projet : F10-Etude-Fabrication Inductances pour CVS principal Polycontrol
+14:14:54:303 - INFO - Run - [doExportEcm]Traitement du projet : F10- Fiabilisation CVS Polycontrol AMC BREDA
+14:14:55:570 - INFO - Run - [doExportEcm]Traitement du projet : F10-Remplacement CVS Breda polycontrol et CVS Costa Parrizi 
+14:14:56:807 - INFO - Run - [doExportEcm]Traitement du projet : F11 -  Etude - ECR 0065 alimentation 110v par connecteur pr la maintenance amc breda - A
+14:14:58:082 - INFO - Run - [doExportEcm]Traitement du projet : F11 - Etude - ECR 2046 bornier sonde température batterie AMC BREDA -A
+14:14:59:343 - INFO - Run - [doExportEcm]Traitement du projet : F11 - Etude - ECR 992 MODIF NRJ FRET BREDA/ FCA 11 rpl batterie - A - C
+14:15:00:658 - INFO - Run - [doExportEcm]Traitement du projet : F11 - remplacement - ECR 2443 SECTIONNEUR BATTERIE AMC BREDA - A
+14:15:01:940 - INFO - Run - [doExportEcm]Traitement du projet : F11-REMPLACEMENT -  PANIERS BOIS BATTERIE COSTA - A
+14:15:03:192 - INFO - Run - [doExportEcm]Traitement du projet : F11 - Rénovation - BATTERIES COSTA - A
+14:15:04:463 - INFO - Run - [doExportEcm]Traitement du projet : F11- Upgrade - Suppression relais basse tension OKMT/CB 110VCC HGVL ET31226 - C
+14:15:05:722 - INFO - Run - [doExportEcm]Traitement du projet : F21 - Etude - ECR 2924 fiabilité monocontact MB1 chargeurs Arbel (boucle propp/passerelles) - C
+14:15:06:941 - INFO - Run - [doExportEcm]Traitement du projet : F21- Etude - Etude d'inhibition des commandes Propping en mode DR sur loaders Arbel - C
+14:15:08:249 - INFO - Run - [doExportEcm]Traitement du projet : F21 - Etude HGVL Remplacement des capteurs télémécaniques par des inductifs (propping) - C
+14:15:09:073 - INFO - Run - [doExportEcm]Traitement du projet : F21 - Rénovation Arbel révision des stabilisations - C
+14:15:10:402 - INFO - Run - [doExportEcm]Traitement du projet : F23 -  Rénovation HGVL Révision vérin BP - C
+14:15:11:716 - INFO - Run - [doExportEcm]Traitement du projet : F23 - Upgrade Modification du programme de gestion du mode maintenance sur les véhicules HGVL - C
+14:15:12:549 - INFO - Run - [doExportEcm]Traitement du projet : F24 - Etude d'obsolescence carte diag ET30919 - C
+14:15:13:853 - INFO - Run - [doExportEcm]Traitement du projet : F24 - FDE FRET : Shunt du relais DAR - C
+14:15:14:674 - INFO - Run - [doExportEcm]Traitement du projet : F24 - MCO des centrales FDE FRET - C
+14:15:16:111 - INFO - Run - [doExportEcm]Traitement du projet : F24- Remplacement des résistances chauffantes FDE
+14:15:17:344 - INFO - Run - [doExportEcm]Traitement du projet : F24 - Remplacement syst?me de détection incendie Fret - C
+14:15:18:616 - INFO - Run - [doExportEcm]Traitement du projet : F26 HGL modification trappe propping HGL Arbel
+14:15:19:906 - INFO - Run - [doExportEcm]Traitement du projet : F26 HGVL amélioration anti grippage des distributeurs shore
+14:15:21:183 - INFO - Run - [doExportEcm]Traitement du projet : F26 HGVL révision des vérins propping
+14:15:22:470 - INFO - Run - [doExportEcm]Traitement du projet : F31 - Remplacement PUPITRE AMC BREDA - A
+14:15:23:718 - INFO - Run - [doExportEcm]Traitement du projet : F31- UPGRADE - Inhibition de l'alarme CVS AMC Costa lors des sections neutres - A
+14:15:25:040 - INFO - Run - [doExportEcm]Traitement du projet : F32 - ECR 2540 boite de jonction chargeurs arbel
+14:15:26:278 - INFO - Run - [doExportEcm]Traitement du projet : F32 - ETUDE - INSTALLATION D'UN MICRODISJONCTEUR LEAKAGE SUR AMC BREDA ET COSTA 1ERE GENERATION - A
+14:15:27:543 - INFO - Run - [doExportEcm]Traitement du projet : F32-Fiabilisation Fermeture et verrouillage armoires Techniques AMC
+14:15:28:846 - INFO - Run - [doExportEcm]Traitement du projet : F32- Obsolescence Alimentation 24V CC AMC COSTA
+14:15:30:141 - INFO - Run - [doExportEcm]Traitement du projet : F32 - REMPLACEMENT - RELAIS DISJ RAME ET AMC BREDA
+14:15:30:983 - INFO - Run - [doExportEcm]Traitement du projet : F32 - REMPLACEMENT - REMPLACEMENT  RELAIS DISJ (AMC BREDA) - A
+14:15:32:315 - INFO - Run - [doExportEcm]Traitement du projet : F32 - REPARATION - SECURISATION DES PRISES 220 V DANS LES AMC COSTA ET BREDA - A
+14:15:33:576 - INFO - Run - [doExportEcm]Traitement du projet : F43- Corrosion sous caisse HGCA
+14:15:34:846 - INFO - Run - [doExportEcm]Traitement du projet : F43 - Etude causes fissurations supports de passerelles intercirculation Arbel - P
+14:15:36:152 - INFO - Run - [doExportEcm]Traitement du projet : F43 - Etude de faisabilité d'installation 4 pagodes sur Arbel et WBN
+14:15:37:391 - INFO - Run - [doExportEcm]Traitement du projet : F43-Etude du remplacement des HGVL
+14:15:38:766 - INFO - Run - [doExportEcm]Traitement du projet : F43- ETUDE - Installation syst?me limitation vitesse poids lourds durant le chargement / Déchargement - P
+14:15:40:127 - INFO - Run - [doExportEcm]Traitement du projet : F43-Généralisation des deux pagodes ? l'ensemble de la flotte existante
+14:15:41:014 - INFO - Run - [doExportEcm]Traitement du projet : F43-Installation de 2 pagodes sur NNF2, NNF3 et spare WBN
+14:15:42:298 - INFO - Run - [doExportEcm]Traitement du projet : F43 - Modification câblage du sectionneur 110VCC BREDA
+14:15:43:136 - INFO - Run - [doExportEcm]Traitement du projet : F43 - Réalisation ECR 2223 Modification suspension cablôts ARBEL
+14:15:43:980 - INFO - Run - [doExportEcm]Traitement du projet : F43-Rénovation si?ges AMC Breda-A
+14:15:45:221 - INFO - Run - [doExportEcm]Traitement du projet : F43-Réparation-Remise en service des Véhicules 7043 et 7852 suite ? déraillement
+14:15:46:497 - INFO - Run - [doExportEcm]Traitement du projet : F43-Réparation- Remise en service du Véhicule 7176
+14:15:47:810 - INFO - Run - [doExportEcm]Traitement du projet : F43 - Sécurisation et étude suppression calorifugeage HGCA
+14:15:49:110 - INFO - Run - [doExportEcm]Traitement du projet : F43-Upgrade Bornes chasse-roues et trottoirs véhicules Fret-CP
+14:15:50:404 - INFO - Run - [doExportEcm]Traitement du projet : F49- ETUDE - Etude de l'isolation du 24V portes Costa - A
+14:15:51:655 - INFO - Run - [doExportEcm]Traitement du projet : F49- Remplacement BP ouverture porte salon AMC Costa
+14:15:52:990 - INFO - Run - [doExportEcm]Traitement du projet : F4-Etude fabrication carte électronique indicateurs frein FI COSTA
+14:15:54:257 - INFO - Run - [doExportEcm]Traitement du projet : F51 - Remplacement des vannes CP et CG des navettes ARBEL
+14:15:55:321 - INFO - Run - [doExportEcm]Traitement du projet : F51 - Révision Ré-épreuve décennale réservoirs d'air 2017 FRET
+14:15:56:190 - INFO - Run - [doExportEcm]Traitement du projet : F- Acquisition deux voitures voyageurs AMC3 
+14:15:57:466 - INFO - Run - [doExportEcm]Traitement du projet : FIABILISATION DE LA CELLULE 1500V DU STAND CVS DU F45
+14:15:59:357 - INFO - Run - [doExportEcm]Traitement du projet : Fiabilisation syst?me auxiliaire Loco
+14:16:00:708 - INFO - Run - [doExportEcm]Traitement du projet : Firefighting system valves progressive replacement
+14:16:01:994 - INFO - Run - [doExportEcm]Traitement du projet : FLA - Fire Load Allocation
+14:16:02:871 - INFO - Run - [doExportEcm]Traitement du projet : Formation B. OBERT
+14:16:03:688 - INFO - Run - [doExportEcm]Traitement du projet : Formation D. LARIVIERE
+14:16:04:580 - INFO - Run - [doExportEcm]Traitement du projet : Formation G. BREBION
+14:16:05:401 - INFO - Run - [doExportEcm]Traitement du projet : Formation G. FEVER
+14:16:06:266 - INFO - Run - [doExportEcm]Traitement du projet : Formation J.DOYE
+14:16:07:123 - INFO - Run - [doExportEcm]Traitement du projet : Formation J. FARDOUX
+14:16:07:931 - INFO - Run - [doExportEcm]Traitement du projet : Formation JF. DUFOUR
+14:16:08:833 - INFO - Run - [doExportEcm]Traitement du projet : Formation M. HERENT
+14:16:09:675 - INFO - Run - [doExportEcm]Traitement du projet : Formation P. BACLET
+14:16:10:556 - INFO - Run - [doExportEcm]Traitement du projet : Formation P. BOLLENGIER
+14:16:11:398 - INFO - Run - [doExportEcm]Traitement du projet : Formation R. TELLIER
+14:16:11:816 - INFO - Run - [doExportEcm]Traitement du projet : Formation S. RINGOT
+14:16:12:697 - INFO - Run - [doExportEcm]Traitement du projet : Formation V. BOURDOT
+14:16:13:527 - INFO - Run - [doExportEcm]Traitement du projet : FOURNITURE D'UN CHARIOT AUTOMATISÉ POUR L'INSPECTION DES BLOCHETS
+14:16:14:836 - INFO - Run - [doExportEcm]Traitement du projet : FPL43-Etude-Obsolescence masque respiratoire ET1020081
+14:16:16:106 - INFO - Run - [doExportEcm]Traitement du projet : FREIN : révision des cylindres : BREDA KNORR 
+14:16:16:975 - INFO - Run - [doExportEcm]Traitement du projet : F-Renouvellement de la flotte des véhicules Fret Breda
+14:16:18:278 - INFO - Run - [doExportEcm]Traitement du projet : FTMS - GESTION DU TRAFIC FRET FR/UK
+14:16:19:128 - INFO - Run - [doExportEcm]Traitement du projet : Gestion des garanties WBN
+14:16:19:956 - INFO - Run - [doExportEcm]Traitement du projet : GRAISSEUR DE VOIE
+14:16:21:276 - INFO - Run - [doExportEcm]Traitement du projet : HALON ROOM INTEGRITY REMEDIAL WORK
+14:16:22:563 - INFO - Run - [doExportEcm]Traitement du projet : HANGAR DE FOUILLE SCANNER TOURISME
+14:16:23:833 - INFO - Run - [doExportEcm]Traitement du projet : HANGAR DE STOCKAGE POUR LES SERVICES DE L'INFRASTRUCTURE 
+14:16:25:162 - INFO - Run - [doExportEcm]Traitement du projet : HIAB & FASSI CRANE REPLACEMENT/ REFUBISHMENT
+14:16:26:469 - INFO - Run - [doExportEcm]Traitement du projet : Homologation roulements SNR SKF
+14:16:27:302 - INFO - Run - [doExportEcm]Traitement du projet : IDENTIFICATION DES VÉHICULES DANS DES ZONES ET EN MOBILITÉ
+14:16:28:622 - INFO - Run - [doExportEcm]Traitement du projet : IMPRIMANTE RFID TRIPLE FEEDERS DANS LES VOIES AUTOMATIQUES DE CHECK IN PAX
+14:16:29:866 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION BIR EN SORTIE FRET
+14:16:31:185 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION BIR ET SYSTEME DETECTION SUR LES QUAIS
+14:16:32:488 - INFO - Run - [doExportEcm]Traitement du projet : Installation caméras Sureté en tunnels ferroviaires
+14:16:33:750 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION DE CAMERAS ET BIR EN TRANCHEE DE BEUSSINGUE
+14:16:34:658 - INFO - Run - [doExportEcm]Traitement du projet : Installation de caméras pour visualisation des voies 18-19
+14:16:35:482 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION DE POUBELLES DANS LES NAVETTES  PASSAGER
+14:16:36:818 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION ECRANS D'INFORMATION AU F30 ET F42
+14:16:38:056 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION OF A DUAL INFORMATION/TV SCREEN INTO THE B22.  
+14:16:39:348 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION OF CCTV CAMERAS IN THE CROSSOVERS
+14:16:40:676 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION OF MAN-RIDER LIFT WITHIN NVS SHAFT.
+14:16:41:929 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION OF NEW POINTS BEWTEEN V36D AND V36E / RELOCATION OF CV236
+14:16:43:294 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION PRISES SHORE 400V V14 ET V15  F46
+14:16:44:593 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION WIFI DANS LES BÂTIMENTS 
+14:16:45:426 - INFO - Run - [doExportEcm]Traitement du projet : Instruction de maintenance S. RINGOT
+14:16:46:303 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance B. OBERT
+14:16:47:115 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance D. LARIVIERE
+14:16:47:925 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance G. BREBION
+14:16:48:791 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance G. FEVER
+14:16:49:601 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance J. FARDOUX
+14:16:50:502 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance JF. DUFOUR
+14:16:51:347 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance M. HERENT
+14:16:52:160 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance P. BACLET
+14:16:53:020 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance P. BOLLENGIER
+14:16:53:863 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance R. TELLIER
+14:16:54:696 - INFO - Run - [doExportEcm]Traitement du projet : Instructions de maintenance V. BOURDOT
+14:16:55:557 - INFO - Run - [doExportEcm]Traitement du projet : ISOLATION DES STANDS CVS & COMPRESSEUR F45
+14:16:56:812 - INFO - Run - [doExportEcm]Traitement du projet : KRUPP HUG system 
+14:16:57:664 - INFO - Run - [doExportEcm]Traitement du projet : L01 Etude ECR003824 INHIBITION SABLAGE SUR UNE LOCOMOTIVE DONT LE VCB EST OUVERT
+14:16:58:932 - INFO - Run - [doExportEcm]Traitement du projet : L01 - Remplacement des amortisseurs Loco - 5,6MW 7MW
+14:16:59:788 - INFO - Run - [doExportEcm]Traitement du projet : L01 - Révision des bogies loco - 5,6MW 7MW
+14:17:00:644 - INFO - Run - [doExportEcm]Traitement du projet : L01 - Révision ensemble traction basse locomotive - 5,6MW 7MW
+14:17:01:493 - INFO - Run - [doExportEcm]Traitement du projet : L04 FREIN : révision des cylindres locomotive Brush
+14:17:02:336 - INFO - Run - [doExportEcm]Traitement du projet : L04 Remplacement Manom?tre CG/RE-CP/CF et conduite 10 bars locomotives
+14:17:03:632 - INFO - Run - [doExportEcm]Traitement du projet : L04 Remplacement PNEUMATIQUE : remplacement des flexibles Liaison caisse bogie : LOCO (frein)
+14:17:04:503 - INFO - Run - [doExportEcm]Traitement du projet : L04 Révision FREIN : révision des panneaux centraux : PAX 
+14:17:05:352 - INFO - Run - [doExportEcm]Traitement du projet : L04 Révision LSM Révision des panneaux de frein locomotive Brush
+14:17:06:173 - INFO - Run - [doExportEcm]Traitement du projet : L08 - ETUDE/FIABILISATION BLOWERS HVAC AIR INTERNATIONAL - 5,6 MW / 7 MW
+14:17:07:466 - INFO - Run - [doExportEcm]Traitement du projet : L08 - ETUDE OBSOLESCENCE ECM HVAC LOCO 2EME GÉN.-5,6MW 7MW
+14:17:08:743 - INFO - Run - [doExportEcm]Traitement du projet : L08 - ETUDE POUR AJOUT DE MANOMETRES HVAC 2EME GEN.-5,6MW 7MW
+14:17:10:015 - INFO - Run - [doExportEcm]Traitement du projet : L08 - REMPLACEMENT HVAC 1ERE GEN. WATERLOO OZONAIR
+14:17:10:870 - INFO - Run - [doExportEcm]Traitement du projet : L10 Etude PROBLEME OVERCURRENT SUR CCAQ (DMOD 1179)
+14:17:11:730 - INFO - Run - [doExportEcm]Traitement du projet : L11 - ETUDE - ECR 3393 SELECTIVITE PAR SEPARATION DES CIRCUITS 110V LOCO - L
+14:17:13:002 - INFO - Run - [doExportEcm]Traitement du projet : L11 - ETUDE - ECR 3545 BANC TEST RACK CHARGEUR BATTERIES LOCOMOTIVES-L
+14:17:14:308 - INFO - Run - [doExportEcm]Traitement du projet : L11 - EXPERTISE - Révision RACK CHARGEUR BATTERIES LOCO-L
+14:17:15:125 - INFO - Run - [doExportEcm]Traitement du projet : L11- REMPLACEMENT - Disjoncteurs - Relais -  Contacteur LOCO - Priorité 2-L
+14:17:15:982 - INFO - Run - [doExportEcm]Traitement du projet : L11- RENOVATION - REMPLACEMENT DES SECTIONNEUR BIS-L
+14:17:16:814 - INFO - Run - [doExportEcm]Traitement du projet : L11 - UPGRADE - ECR 2156 LOCO généralisation du syst?me sauvegarde batterie - L
+14:17:18:051 - INFO - Run - [doExportEcm]Traitement du projet : L12 - MCO Cartes EL loco - LA
+14:17:19:305 - INFO - Run - [doExportEcm]Traitement du projet : L14 - Camp Get Version
+14:17:20:214 - INFO - Run - [doExportEcm]Traitement du projet : L14 - Remplacement TS Pax - L
+14:17:21:054 - INFO - Run - [doExportEcm]Traitement du projet : L16-Etude de fiabilisation phare frontal loco
+14:17:22:380 - INFO - Run - [doExportEcm]Traitement du projet : L24 - Etude de la mise en place d'un sectionneur compresseur loco 5,6MW 7MW
+14:17:23:679 - INFO - Run - [doExportEcm]Traitement du projet : L24 - LOCO: FDE CONTROLE TUYAUTERIE AZOTE
+14:17:24:961 - INFO - Run - [doExportEcm]Traitement du projet : L24 - MODIFICATION TRAPPE DE VISITE BOUTEILLE AZOTE BOUT 1 LOCO
+14:17:26:305 - INFO - Run - [doExportEcm]Traitement du projet : L24 - Obsolescence : ET43414 - BOUTEILLE AZOTE LOCO - OBSOLESCENCE VANNE 612 ET RÉ ÉPREUVE
+14:17:27:110 - INFO - Run - [doExportEcm]Traitement du projet : L24 - Remplacement de la FDE des locomotives électriques - 5,6-7MW
+14:17:28:032 - INFO - Run - [doExportEcm]Traitement du projet : L33 Etude ECR002501 ANALYSE DES GAZS DISSOUS/DES GAZS BUCCHOLZ
+14:17:29:271 - INFO - Run - [doExportEcm]Traitement du projet : L33-Expertise : REVISION DES TRANSFORMATEURS
+14:17:30:181 - INFO - Run - [doExportEcm]Traitement du projet : L33 MCO Mi vie des transformateurs
+14:17:30:999 - INFO - Run - [doExportEcm]Traitement du projet : L33 - Révision Commutateur toiture (COS)
+14:17:31:889 - INFO - Run - [doExportEcm]Traitement du projet : L33 - Révision DES VCB LOCOS BRUSH 
+14:17:32:777 - INFO - Run - [doExportEcm]Traitement du projet : L34 - MCO Fiabilisation panto
+14:17:34:113 - INFO - Run - [doExportEcm]Traitement du projet : L35-Upgrade-Adaptation du banc test des Gates Units (GTO) pour tester les Gates Drives 7MW
+14:17:35:378 - INFO - Run - [doExportEcm]Traitement du projet : L36-Etude  Démantellement des chaines traction 5,6MW stockées ? Loughborough 5,6MW
+14:17:36:296 - INFO - Run - [doExportEcm]Traitement du projet : L36:Etude modification type connection sondes moteurs loco
+14:17:37:574 - INFO - Run - [doExportEcm]Traitement du projet : L36-Etude Upgrade d'un moteur traction 5,6MW en 7MW
+14:17:38:887 - INFO - Run - [doExportEcm]Traitement du projet : L36- Expertise convertisseur de traction 5,6 et 7MW
+14:17:39:727 - INFO - Run - [doExportEcm]Traitement du projet : L36 MCO Mi vie des CVS Traction
+14:17:40:552 - INFO - Run - [doExportEcm]Traitement du projet : L36-REMPLACEMENT DES PILES VCU ET DCU 7MW
+14:17:41:372 - INFO - Run - [doExportEcm]Traitement du projet : L36-Révision ECR3575 REVISION DES MOTEURS DE TRACTION
+14:17:42:662 - INFO - Run - [doExportEcm]Traitement du projet : L38 ECR002561 DDS AJOUT D'UN DOCUMENT DE MISE EN CONFORMITE DES DONNEES
+14:17:43:965 - INFO - Run - [doExportEcm]Traitement du projet : L38:Etude de fonctionnement des loco Brush sous 27,5 KV
+14:17:44:776 - INFO - Run - [doExportEcm]Traitement du projet : L38: Etude ECR002346 MICFAST INFORMATIONS ERRONNEES
+14:17:46:122 - INFO - Run - [doExportEcm]Traitement du projet : L38 Etude ECR002695 PROBLEME DE PROGRAMMATION CARTES
+14:17:47:361 - INFO - Run - [doExportEcm]Traitement du projet : L38 Etude ECR002910 DEFAUTS VEHICULE BUS COM DISTURB
+14:17:48:682 - INFO - Run - [doExportEcm]Traitement du projet : L38: Etude ECR2701 AMP DEFAUTS RECURRENTS DE DISCORDANCES 7MW
+14:17:50:042 - INFO - Run - [doExportEcm]Traitement du projet : L38 ETUDE Suggestion : Cartes processeur loco
+14:17:50:862 - INFO - Run - [doExportEcm]Traitement du projet : L38- Expertise DES CARTES ELECTRONIQUES BOMBARDIER
+14:17:51:764 - INFO - Run - [doExportEcm]Traitement du projet : L38 MCO Révision des cartes électroniques loco
+14:17:52:613 - INFO - Run - [doExportEcm]Traitement du projet : L38- Obsolescence CIRCUIT INTEGRE 28F010  ET1009675 Locomotives
+14:17:53:909 - INFO - Run - [doExportEcm]Traitement du projet : L38: Suggestion : Mettre un contacteur hard pour le baisser panto en cas d'isolation de Fr11 et fr12
+14:17:54:714 - INFO - Run - [doExportEcm]Traitement du projet : L38 Upgrade PROPOSITION MODIFICATION SOFT INTERLOCK TRACTION
+14:17:55:995 - INFO - Run - [doExportEcm]Traitement du projet : L41-Etude de circulation avec la Vacma isolée en service commercial
+14:17:57:246 - INFO - Run - [doExportEcm]Traitement du projet : L41 - Etude logique d'activation de la VACMA - 5,6 et 7MW
+14:17:58:726 - INFO - Run - [doExportEcm]Traitement du projet : L41 - MCO racks ATESS - 5,6MW7MW
+14:18:00:026 - INFO - Run - [doExportEcm]Traitement du projet : L41 - MCO racks TVM - Loco Brush et Krupp
+14:18:01:263 - INFO - Run - [doExportEcm]Traitement du projet : L41 - MODIFICATION AFFICHEURS TVM KRUPP
+14:18:02:560 - INFO - Run - [doExportEcm]Traitement du projet : L41 - Probleme recouvrement des contacts Z (IS) VCM loco
+14:18:03:963 - INFO - Run - [doExportEcm]Traitement du projet : L41 - réalisation du simulateur TVM
+14:18:04:780 - INFO - Run - [doExportEcm]Traitement du projet : L41 - Remplacement des indicateurs de vitesse Faiveley - 5,6/7MW
+14:18:06:100 - INFO - Run - [doExportEcm]Traitement du projet : L41 - Remplacement du type de commutateur d'isolement VACMA Z(IS)VCM - 5,6MW7MW
+14:18:07:371 - INFO - Run - [doExportEcm]Traitement du projet : L41- Remplacement vis capteurs TVM sur locomotives
+14:18:08:620 - INFO - Run - [doExportEcm]Traitement du projet : L41 - Réparation ETANCHÉITÉ BOITIER DE RACCORDEMENT TVM
+14:18:09:873 - INFO - Run - [doExportEcm]Traitement du projet : L41 - Revision/Remplacement de la Vacma - 5,6/7MW
+14:18:10:690 - INFO - Run - [doExportEcm]Traitement du projet : L41 - VACMA - rpl relais (chaine d'alimentation de l'armoire auxiliaire)
+14:18:11:537 - INFO - Run - [doExportEcm]Traitement du projet : L43-MCO syst?me lave glace locomotive
+14:18:12:816 - INFO - Run - [doExportEcm]Traitement du projet : L43-UPGRADE-Mise en place d'un rev?tement anti-dérapant sur les seuils locomotives Brush
+14:18:14:140 - INFO - Run - [doExportEcm]Traitement du projet : L47 - REMPLACEMENT VENTILATEURS CCAM COOLING LOCO
+14:18:15:405 - INFO - Run - [doExportEcm]Traitement du projet : L47 - UPGRADE DES SOFT RACKS ELECTRONIQUES - 5,6 MW / 7 MW
+14:18:16:698 - INFO - Run - [doExportEcm]Traitement du projet : L48: Etude ECR003815 SYNCHRONISATION DU DEMARRAGE DES COMPRESSEURS
+14:18:18:089 - INFO - Run - [doExportEcm]Traitement du projet : L48 - MCO Fiabilisation des compresseurs Loco
+14:18:18:923 - INFO - Run - [doExportEcm]Traitement du projet : L48 - MCO Fiabilisation syst?me traitement d'air loco
+14:18:19:746 - INFO - Run - [doExportEcm]Traitement du projet : L48 - Modification Flexibles sortie compresseurs locomotive
+14:18:20:612 - INFO - Run - [doExportEcm]Traitement du projet : L48 - Modification tuyau de purge sous loco
+14:18:21:914 - INFO - Run - [doExportEcm]Traitement du projet : L48 - Révision LSM Compresseur GAR 30
+14:18:22:784 - INFO - Run - [doExportEcm]Traitement du projet : L48 - Upgrade Refroidissement des compresseurs GAR 30
+14:18:23:671 - INFO - Run - [doExportEcm]Traitement du projet : L50-ETUDE: ECR001586 RELAIS BUCCHOLZ- REPARATION ET POTENTIEL
+14:18:24:961 - INFO - Run - [doExportEcm]Traitement du projet : L50 : etude PCB TRANSFORMATEURS DE TRACTION
+14:18:25:826 - INFO - Run - [doExportEcm]Traitement du projet : L51 - Révision Ré-épreuve décennale réservoirs d'air 2017 LOCO
+14:18:26:677 - INFO - Run - [doExportEcm]Traitement du projet : LECTEUR QR CODE DANS LES KIOSQUES AUTOMATIQUES PEAGE
+14:18:28:031 - INFO - Run - [doExportEcm]Traitement du projet : LIBERATION DES CONTRAINTES RAIL EN TUNNELS
+14:18:29:297 - INFO - Run - [doExportEcm]Traitement du projet : LIGHTING OB4
+14:18:30:609 - INFO - Run - [doExportEcm]Traitement du projet : LIGHTING OB4
+14:18:31:929 - INFO - Run - [doExportEcm]Traitement du projet : Litige contentieux SOLENTEK
+14:18:33:205 - INFO - Run - [doExportEcm]Traitement du projet : LOG DES OUVERTURES/FERMETURES DES POINTS DE CONTROLES UKBF PAX ET FRET
+14:18:34:481 - INFO - Run - [doExportEcm]Traitement du projet : LOT 3 : AUVENT - SECURISATION PHASE 2 - BATIMENT DETECTION DE COEUR FR
+14:18:35:769 - INFO - Run - [doExportEcm]Traitement du projet : LOT 4 : PORTAIL - SECURISATION PHASE 2 - BATIMENT DETECTION DE COEUR - TERMINAL FR
+14:18:37:077 - INFO - Run - [doExportEcm]Traitement du projet : LOT ALIMENTATIONS ELEC : PROJET FRET TERMINAL 2015 SITE FRANCE
+14:18:38:424 - INFO - Run - [doExportEcm]Traitement du projet : LOT DETECTION ANTENNE : CRÉATION D'UNE 2?ME AUBETTE MC4 EN FRANCE
+14:18:39:692 - INFO - Run - [doExportEcm]Traitement du projet : LSM BORNIERS 110V BOITES DE JONCTION PAX.
+14:18:41:021 - INFO - Run - [doExportEcm]Traitement du projet : LSM cylindre Sab wabco et Dehousse Navettes PAX et Breda
+14:18:41:828 - INFO - Run - [doExportEcm]Traitement du projet : LSM Krupp axles 901-907
+14:18:42:748 - INFO - Run - [doExportEcm]Traitement du projet : LSM KRUPP TVM Racks 
+14:18:43:555 - INFO - Run - [doExportEcm]Traitement du projet : LSM porte Costa 2017-2018
+14:18:44:405 - INFO - Run - [doExportEcm]Traitement du projet : LSM Portes AMC Breda
+14:18:45:666 - INFO - Run - [doExportEcm]Traitement du projet : LSM pupitre Commandes locales SDL
+14:18:47:038 - INFO - Run - [doExportEcm]Traitement du projet : LSM sur les câblots électriques Navettes Arbel
+14:18:48:315 - INFO - Run - [doExportEcm]Traitement du projet : LSM Tampon loco
+14:18:49:166 - INFO - Run - [doExportEcm]Traitement du projet : LSM UK STTS FEMC PODS
+14:18:49:995 - INFO - Run - [doExportEcm]Traitement du projet : maintenance des extincteurs
+14:18:50:904 - INFO - Run - [doExportEcm]Traitement du projet : Maintenance locomotive C92 pour GBRF
+14:18:51:754 - INFO - Run - [doExportEcm]Traitement du projet : MAINTENANCE MI-VIE DES RACKS ÉLECTRONIQUES BUR
+14:18:53:116 - INFO - Run - [doExportEcm]Traitement du projet : Martelage HF durée de vie résiduel PAX
+14:18:53:944 - INFO - Run - [doExportEcm]Traitement du projet : MCO câblage et connectique PAX
+14:18:54:844 - INFO - Run - [doExportEcm]Traitement du projet : MCO des SDL
+14:18:55:682 - INFO - Run - [doExportEcm]Traitement du projet : MCO Tour en fosse F40
+14:18:57:011 - INFO - Run - [doExportEcm]Traitement du projet : MCT FRET sur 2 jours
+14:18:57:821 - INFO - Run - [doExportEcm]Traitement du projet : MESURES DES VEHICULES PAX
+14:18:59:171 - INFO - Run - [doExportEcm]Traitement du projet : METTRE ? DISPOSITION 2 ÉCRANS EMS AUX BUREAUX PS  FR ET UK, MISS FR ET UK.
+14:19:00:542 - INFO - Run - [doExportEcm]Traitement du projet : Mise ? jour documentaire et gestion articles LAF
+14:19:01:360 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE BARRI?RES INFRA ROUGE ZONE E17
+14:19:02:761 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE CAMERA EXAVISION SUR ROND POINT LAUBANIE
+14:19:04:110 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE DE BARRIERES INFRAROUGES FR UK
+14:19:05:351 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE DE CAMERAS
+14:19:06:283 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE DE LAPI (LECTEURS AUTOMATIQUE DES PLAQUES D'IMMATRICULATION)
+14:19:07:522 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE DE LIGNES DE VIE EN V14 ET V15 AU F46
+14:19:08:821 - INFO - Run - [doExportEcm]Traitement du projet : Mise en place de porte-manteaux en zone de chargement DDL
+14:19:10:155 - INFO - Run - [doExportEcm]Traitement du projet : Mise en place double rétractabilité sur attelage New SP
+14:19:10:975 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE FILTRAGE REJETS CENTRALE ASPIRATION F42
+14:19:12:277 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE ONDULEUR SUR LE DATA CENTER C6
+14:19:13:520 - INFO - Run - [doExportEcm]Traitement du projet : MIS EN SERVICE DU PARKING SÉCURISÉ P16 - SANEF
+14:19:14:817 - INFO - Run - [doExportEcm]Traitement du projet : Mi vie PAX caisse et strucure projet global
+14:19:15:684 - INFO - Run - [doExportEcm]Traitement du projet : Modification accorche piquet slalom
+14:19:16:517 - INFO - Run - [doExportEcm]Traitement du projet : Modification du plan de maintenance des EPA des locomotives
+14:19:17:790 - INFO - Run - [doExportEcm]Traitement du projet : Modification echelle de secours PAX
+14:19:18:629 - INFO - Run - [doExportEcm]Traitement du projet : Modification trappe acc?s attelage
+14:19:19:472 - INFO - Run - [doExportEcm]Traitement du projet : Modification TVM430 Class92 pour circuler sur HS1
+14:19:20:736 - INFO - Run - [doExportEcm]Traitement du projet : MODULATION DES ZONES PANORAMA
+14:19:22:007 - INFO - Run - [doExportEcm]Traitement du projet : Motorisation ADV 1924-1940-1941
+14:19:22:843 - INFO - Run - [doExportEcm]Traitement du projet : MOTORISATION DE 3 AIGUILLES SUR YARD FR
+14:19:24:121 - INFO - Run - [doExportEcm]Traitement du projet : Nettoyage des gaines de climatisation HVAC PAX
+14:19:24:970 - INFO - Run - [doExportEcm]Traitement du projet : Nettoyage Technique et ateliers
+14:19:25:832 - INFO - Run - [doExportEcm]Traitement du projet : NOUVEAU PCS : LOT COURANT FAIBLE ET MUR D'IMAGES
+14:19:27:112 - INFO - Run - [doExportEcm]Traitement du projet : NOUVELLE LIAISON G/F - FAISCEAU DEPART FRANCE
+14:19:28:589 - INFO - Run - [doExportEcm]Traitement du projet : Nouvelles navettes FRET
+14:19:29:819 - INFO - Run - [doExportEcm]Traitement du projet : OBSOLESCENCE CARTE ÉCLAIRAGE COSTA ET33567
+14:19:30:643 - INFO - Run - [doExportEcm]Traitement du projet : OBSOLESCENCE DALLES TACTILES ET IMPRIMANTES PÉAGES
+14:19:31:883 - INFO - Run - [doExportEcm]Traitement du projet : Obsolescence : ECR001243 ENSEIGNE LUMINEUSE "FLECHES DIRECTION."
+14:19:32:712 - INFO - Run - [doExportEcm]Traitement du projet : Obsolescence onduleur 110/220
+14:19:33:123 - INFO - Run - [doExportEcm]Traitement du projet : Obsolescence S. RINGOT
+14:19:34:004 - INFO - Run - [doExportEcm]Traitement du projet : OBSOLESCENCE SYSTEME FM200 ZEPHIRS ET STTS
+14:19:35:241 - INFO - Run - [doExportEcm]Traitement du projet : OBSOLESCENCE THYRISTOR HVPS CONVERTISSEUR PAX
+14:19:36:046 - INFO - Run - [doExportEcm]Traitement du projet : OMPV PAX 2020 : Remplacement de la tuyauterie des wagons PAX
+14:19:37:307 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 : autres syst?mes
+14:19:38:598 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX2020 - BÂTIMENT DE CÂBLAGE
+14:19:39:848 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 : Caisse et Structure - renforcement soudures
+14:19:40:678 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 CARTE ABBNET
+14:19:41:905 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 : Corrosion planchers extrémités
+14:19:43:167 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 : Etudes d'avant projet
+14:19:44:438 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 Exploitation des navettes avec 1 FB ouverte sur défaillance
+14:19:45:275 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020 : Faux Bogie
+14:19:46:551 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 - Généralisation réseau MORS
+14:19:47:794 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 PASSERELLE BITBUS<->ETHERNET
+14:19:49:072 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020 : Relooking Intérieur PAX
+14:19:50:322 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 Remplacement des planchers PAX
+14:19:51:593 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020 : Remplacement des toilettes des wagons PAX
+14:19:52:846 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020 : Remplacement du câblage des wagons PAX
+14:19:54:122 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 : Remplacement du SDL
+14:19:55:375 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 : Remplacement du syst?me FDE
+14:19:56:707 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 - REMPLACEMENT MI-VIE SYSTEME HVAC PAX - P
+14:19:57:974 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 - Remplacement VCS/VME/NETWORK
+14:19:59:470 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 : RPL des portes coupe feu
+14:20:00:737 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 : Schéma industriel
+14:20:02:019 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX-2020 SECURISATION  RESEAU
+14:20:03:245 - INFO - Run - [doExportEcm]Traitement du projet : Outil GPC - Sciforma
+14:20:04:584 - INFO - Run - [doExportEcm]Traitement du projet : Outillage moteur
+14:20:05:409 - INFO - Run - [doExportEcm]Traitement du projet : P00 - remise ? jour schéma de principe SDL: ESCW 3133
+14:20:06:660 - INFO - Run - [doExportEcm]Traitement du projet : P01 - Expertise Bogie PAX - CP
+14:20:07:521 - INFO - Run - [doExportEcm]Traitement du projet : P01 - Remplacement articulations élas, bg PAX - CP 
+14:20:08:345 - INFO - Run - [doExportEcm]Traitement du projet : P01 - Remplacement des amortisseurs antilacets PAX - CP
+14:20:09:195 - INFO - Run - [doExportEcm]Traitement du projet : P01 - Remplacement des amortisseurs primaires et secondaires PAX - CP
+14:20:10:071 - INFO - Run - [doExportEcm]Traitement du projet : P01 - Révision bogie PAX 2 eme cycle - CP
+14:20:10:888 - INFO - Run - [doExportEcm]Traitement du projet : P01 - Révision des bielles antiroulis PAX - CP
+14:20:11:757 - INFO - Run - [doExportEcm]Traitement du projet : P04- Indicateurs Rév1 
+14:20:12:580 - INFO - Run - [doExportEcm]Traitement du projet : P04 - Révision EV 21C Suspension & drainage
+14:20:13:407 - INFO - Run - [doExportEcm]Traitement du projet : P04 Révision FREIN : révision des C3W : PAX 2e cycle 
+14:20:14:264 - INFO - Run - [doExportEcm]Traitement du projet : P04 Révision FREIN : révision des panneaux centraux : PAX
+14:20:15:103 - INFO - Run - [doExportEcm]Traitement du projet : P04 Révision FREINS : Révision robinets filtre double des panneaux de frein centraux 
+14:20:15:951 - INFO - Run - [doExportEcm]Traitement du projet : P04 Révision Timonerie PAX
+14:20:16:753 - INFO - Run - [doExportEcm]Traitement du projet : P05 - REMPLACEMENT - ECR 1574/3310  BORNIER T2 & switch déverrouillage porte DDL-P
+14:20:18:054 - INFO - Run - [doExportEcm]Traitement du projet : P06-ECR000774-SDC/DDC - REMPLACEMENT PLAQUES DE SEUIL CORRODÉES DES BARRI?RES COUPE-FEU 
+14:20:19:313 - INFO - Run - [doExportEcm]Traitement du projet : P06-ECR000787-VOLET PORTES COUPE FEU SDC  ET DDC 
+14:20:20:632 - INFO - Run - [doExportEcm]Traitement du projet : P06-ECR000832-BARRES DE SEUILS PORTES COUPE FEU DESSOUDEES 
+14:20:21:927 - INFO - Run - [doExportEcm]Traitement du projet : P06-ECR002196-PLATINE PNEUMATIQUE FIRE BARRIERE ET23939 
+14:20:23:178 - INFO - Run - [doExportEcm]Traitement du projet : P06-ECR003705-RIDEAU DES PORTES COUPE FEU PAX Vs nouveau volet 
+14:20:24:461 - INFO - Run - [doExportEcm]Traitement du projet : P06-Etudes des Portes de passages des P.C.F (duretés)
+14:20:25:309 - INFO - Run - [doExportEcm]Traitement du projet : P06 : Exploitation des navettes PAX avec 1 FB ouverte sur chaque pont de wagon
+14:20:26:577 - INFO - Run - [doExportEcm]Traitement du projet : P06 : Exploitation des wagons PAX avec 1 FB défaillante restée ouverte
+14:20:27:952 - INFO - Run - [doExportEcm]Traitement du projet : P06-Modification commande Joints gonflables PCF-P
+14:20:29:213 - INFO - Run - [doExportEcm]Traitement du projet : P06-PCF - Remplacement des Joints verticaux
+14:20:30:053 - INFO - Run - [doExportEcm]Traitement du projet : P06-Prototypes joints verticaux
+14:20:31:305 - INFO - Run - [doExportEcm]Traitement du projet : P06-Révision/Modernisation des Portes coupe Feu
+14:20:32:162 - INFO - Run - [doExportEcm]Traitement du projet : P06-Rpl vérin verrouillage vantaux FB + Switch ouv/fer
+14:20:33:010 - INFO - Run - [doExportEcm]Traitement du projet : P06-STICKERS PAD(s) DES PCF
+14:20:34:299 - INFO - Run - [doExportEcm]Traitement du projet : P07-EXP platine et châssis (portes de secours)
+14:20:35:144 - INFO - Run - [doExportEcm]Traitement du projet : P07 - Rénovation platine porte de secours - P
+14:20:36:543 - INFO - Run - [doExportEcm]Traitement du projet : P07-REV portes de secours (2017)
+14:20:37:379 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE DE MODIFICATION PHASE OPEN LOOP SUR PERTE 400V - P
+14:20:38:643 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE DE MODIFICATION POUR LA DÉPOSE DES VENTILATEURS AN/AE - P
+14:20:39:912 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE DE SIMPLIFICATION REGULATION HVAC PAX - P
+14:20:40:736 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE DE SUPPRESSION DE LA VENTILATION DU LOCAL MOTO DDL - C
+14:20:42:027 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE LOGICIEL DE MAINTENANCE HVAC PAX RLG8 - PC
+14:20:43:286 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE MONITORING HVAC PAX - P
+14:20:44:127 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE POUSSIERES PAX - P
+14:20:45:012 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE / REFABRICATION 150 HVAC SIEMENS - P
+14:20:46:301 - INFO - Run - [doExportEcm]Traitement du projet : P08 - ETUDE SUR BILLE DU THERMOSTAT DE SECURITE HVAC - P
+14:20:47:585 - INFO - Run - [doExportEcm]Traitement du projet : P08-Remplacement 6 HVAC PAX par des Lests-P
+14:20:48:903 - INFO - Run - [doExportEcm]Traitement du projet : P08 - REMPLACEMENT HVAC DDL - C
+14:20:50:177 - INFO - Run - [doExportEcm]Traitement du projet : P08 - RENOVATION SYSTEME PURGING HVAC - PC
+14:20:51:435 - INFO - Run - [doExportEcm]Traitement du projet : P09 - Camp boitier ampli sonde cuve eau claire
+14:20:52:291 - INFO - Run - [doExportEcm]Traitement du projet : P09-ECR001335-Débouchage canalisation cuve eau noire 
+14:20:53:575 - INFO - Run - [doExportEcm]Traitement du projet : P09-ECR002649-FILTRE EAU CLAIRE LAVABO SDL 
+14:20:54:889 - INFO - Run - [doExportEcm]Traitement du projet : P09-ECR 3557/2774/1407/FCA9/FBA9 - REV Elemets du syst. Toilettes FRET (Bréda et Costa)
+14:20:55:708 - INFO - Run - [doExportEcm]Traitement du projet : P09-INDICATION NIVEAU TOILETTE 80% SUR COSTA
+14:20:57:022 - INFO - Run - [doExportEcm]Traitement du projet : P09-Obsolescence : ECR002055-SECHE MAIN AMC BREDA ET31111 - OBSOLESCENCE FOURNISSEUR 
+14:20:58:283 - INFO - Run - [doExportEcm]Traitement du projet : P09- Prototype brosse toilettes
+14:20:59:532 - INFO - Run - [doExportEcm]Traitement du projet : P09 - QRQC Suppression connecteur Harting cuves eau claire et eau noire PAX
+14:21:00:838 - INFO - Run - [doExportEcm]Traitement du projet : P09-Suggestion : ECR003970-Débouchage rapide WC PAX 
+14:21:02:141 - INFO - Run - [doExportEcm]Traitement du projet : P09 - Suppression du boitier de racordement résistance hors gel cuve eau claire/noire PAX 
+14:21:03:479 - INFO - Run - [doExportEcm]Traitement du projet : P09-TOILETTE PAX : Remplacement des portes d'acc?s 
+14:21:04:837 - INFO - Run - [doExportEcm]Traitement du projet : P10-Boucle démarrage des CVS PAX SEPSA
+14:21:06:202 - INFO - Run - [doExportEcm]Traitement du projet : P10-ETUDE-MODE DÉGRADÉ CVS SDL_DDL-C
+14:21:07:466 - INFO - Run - [doExportEcm]Traitement du projet : P10 - Proto des CVS 110/24 V: Pax
+14:21:08:763 - INFO - Run - [doExportEcm]Traitement du projet : P10 - Réalisation CONDENSATEUR RADIO FRÉQUENCE 400V CVS 90KVA - P
+14:21:10:024 - INFO - Run - [doExportEcm]Traitement du projet : P11 - Bornier Boite de Jonction 110V PAX X702 (SDL)
+14:21:10:888 - INFO - Run - [doExportEcm]Traitement du projet : P11 - ETUDE - ECR 3814 PROTECTION RACK BATTERIES  SDL HGVL-L
+14:21:12:185 - INFO - Run - [doExportEcm]Traitement du projet : P12 - MCO Obsolescence VCS (PCMI+CPU) - CPL
+14:21:13:036 - INFO - Run - [doExportEcm]Traitement du projet : P12 - Remplacement combinés RCP PAX - CPL
+14:21:14:368 - INFO - Run - [doExportEcm]Traitement du projet : P14 - Etude modification programme ACS - CP
+14:21:15:252 - INFO - Run - [doExportEcm]Traitement du projet : P14 - Fiabilisation du réseau Mors - CP
+14:21:16:541 - INFO - Run - [doExportEcm]Traitement du projet : P14 - MCO Obsolescence  Alimentation VCS/ACS - CPL
+14:21:17:359 - INFO - Run - [doExportEcm]Traitement du projet : P14 - Remplacement connecteurs coffres informatiques
+14:21:18:219 - INFO - Run - [doExportEcm]Traitement du projet : P15 - OBSOLESCENCE VDP PAX - CP
+14:21:19:473 - INFO - Run - [doExportEcm]Traitement du projet : P16 - SUPPRESSION DES PHARES BLANCS ET ROUGES SUR DDL, SDL, AMC BREDA 
+14:21:20:784 - INFO - Run - [doExportEcm]Traitement du projet : P1 - Modification Sécurisation des ancres PAX
+14:21:22:071 - INFO - Run - [doExportEcm]Traitement du projet : P21 - Remplacement SDC LSM Syst?me propping - C
+14:21:23:356 - INFO - Run - [doExportEcm]Traitement du projet : P24 - Etude de la strategie de maintenance des détecteurs ioniques PAX - CP
+14:21:24:657 - INFO - Run - [doExportEcm]Traitement du projet : P24 - Etude pour la réalisation d'un banc test FDE PAX
+14:21:25:896 - INFO - Run - [doExportEcm]Traitement du projet : P24 - ISOLEMENT BIT BUS CSU VÉHICULES DDC A ET SDC A
+14:21:27:187 - INFO - Run - [doExportEcm]Traitement du projet : P24 - MODIFICATION DU COUVERCLE COFFRET DRAINAGE GAZ (FDE) SUR LES VÉHICULES PAX
+14:21:28:584 - INFO - Run - [doExportEcm]Traitement du projet : P24 - Obsolescence diode electroluminescente opacimétre PAX ET 85049
+14:21:29:859 - INFO - Run - [doExportEcm]Traitement du projet : P24 - PRESSE ETOUPES ARRIERE COFFRES CSU SDC/DDC
+14:21:31:130 - INFO - Run - [doExportEcm]Traitement du projet : P24-Remplacement carters arri?res CSU PAX sur DDC
+14:21:32:425 - INFO - Run - [doExportEcm]Traitement du projet : P24 - Remplacement de la FDE navette PAX - CP
+14:21:33:671 - INFO - Run - [doExportEcm]Traitement du projet : P24 - Remplacement des bouteilles CO2 sur syst?me AFFF - P
+14:21:34:598 - INFO - Run - [doExportEcm]Traitement du projet : P24 - REMPLACEMENT DES CONNECTEURS UV DRAINAGE SDC DDC
+14:21:35:859 - INFO - Run - [doExportEcm]Traitement du projet : P24-Révision des racks halon PAX
+14:21:37:209 - INFO - Run - [doExportEcm]Traitement du projet : P24 - Signalétique extincteurs véhicules PAX
+14:21:38:484 - INFO - Run - [doExportEcm]Traitement du projet : P24 - SUPPRESSION EXTINCTION HALON 1301 DANS LES DDL.
+14:21:39:748 - INFO - Run - [doExportEcm]Traitement du projet : P26 DDL LSM flexibles et raccords hydraulique sortie centrale 
+14:21:41:059 - INFO - Run - [doExportEcm]Traitement du projet : P26 LD DDL LSM
+14:21:42:468 - INFO - Run - [doExportEcm]Traitement du projet : P26 SDL éclairage et étanchéité aire de chargement
+14:21:43:696 - INFO - Run - [doExportEcm]Traitement du projet : P26 SDL  GENERIQUE syst?me de chargement déchargement
+14:21:44:588 - INFO - Run - [doExportEcm]Traitement du projet : P26 SDL LSM (verrouillage, BP et proppings)
+14:21:45:825 - INFO - Run - [doExportEcm]Traitement du projet : P27 - MCO OBSOLESCENCE  VME - CPL
+14:21:47:133 - INFO - Run - [doExportEcm]Traitement du projet : P31 - ECR 3546 Navettes passagers suppression du LOP triplettes - P
+14:21:48:452 - INFO - Run - [doExportEcm]Traitement du projet : P31 - MCO Remplacement TS OMRON Loader - C
+14:21:49:697 - INFO - Run - [doExportEcm]Traitement du projet : P32 - Corrosion des couvercles chemins de câble extrémités SDC
+14:21:50:979 - INFO - Run - [doExportEcm]Traitement du projet : P32 - ECR 3312 Source d'alimentation du Q715 BIS flotte PAX
+14:21:52:287 - INFO - Run - [doExportEcm]Traitement du projet : P32-Modification des prises 220V DDL
+14:21:53:521 - INFO - Run - [doExportEcm]Traitement du projet : P32 - Protection chemin de câbles  Proche coffres info DDC
+14:21:54:773 - INFO - Run - [doExportEcm]Traitement du projet : P32 - REMPLACEMENT - Relais Disjoncteur contacteur PAX priorité 2
+14:21:55:579 - INFO - Run - [doExportEcm]Traitement du projet : P32 - Suggestion : sécurisation panneau DJ sur SDC et DDL
+14:21:56:417 - INFO - Run - [doExportEcm]Traitement du projet : P43 - Ajout défibrillateur
+14:21:57:220 - INFO - Run - [doExportEcm]Traitement du projet : P43 - ECR 2212 Etanchéité des coffres informatiques 10A et 10B DDCA et S
+14:21:58:534 - INFO - Run - [doExportEcm]Traitement du projet : P43-ETUDE-Obsolescence Joint garnissage DDC ET27672
+14:22:00:008 - INFO - Run - [doExportEcm]Traitement du projet : P43-Installation armoire consommable toilettes PAX-P
+14:22:01:282 - INFO - Run - [doExportEcm]Traitement du projet : P43-MCO-Remise en conformité des échelles de sécurité véhicules PAX
+14:22:02:536 - INFO - Run - [doExportEcm]Traitement du projet : P43 - PICTOGRAMME LUMINEUX DE SORTIE PAX
+14:22:03:813 - INFO - Run - [doExportEcm]Traitement du projet : P43- Réalisation ECR 2508 Ajout protection structure toilettes
+14:22:04:690 - INFO - Run - [doExportEcm]Traitement du projet : P43 - Remplacement Bavettes PAX
+14:22:05:958 - INFO - Run - [doExportEcm]Traitement du projet : P43-Remplacement des nez de marche escalier DDC
+14:22:07:271 - INFO - Run - [doExportEcm]Traitement du projet : P43-Remplacement-Obsolescence fauteuil roulant embarqué ET1014799
+14:22:08:586 - INFO - Run - [doExportEcm]Traitement du projet : P43-UPGRADE-Modification trappe acc?s vérin BP sous HVAC SDL
+14:22:09:848 - INFO - Run - [doExportEcm]Traitement du projet : P47 - REVISION UNITE DE REFROIDISSEMENT BKW - PC
+14:22:11:120 - INFO - Run - [doExportEcm]Traitement du projet : P48 – Installation soupape sécurité véhicule DDL
+14:22:12:443 - INFO - Run - [doExportEcm]Traitement du projet : P48 - MCO Aménagement du compresseur DDL
+14:22:13:674 - INFO - Run - [doExportEcm]Traitement du projet : P48 - MCO Remise en conformité armoire électrique compresseur DDL
+14:22:14:530 - INFO - Run - [doExportEcm]Traitement du projet : P51 - Révision Ré-épreuve décennale réservoirs d'air 2017 PAX
+14:22:15:350 - INFO - Run - [doExportEcm]Traitement du projet : P6 - Modification verrouillage trappes armoires portes coupe-feu SD
+14:22:16:639 - INFO - Run - [doExportEcm]Traitement du projet : P8- Etude passage 100% Purging lors d'une perte d'1 CVS ou d'1 HVAC-P
+14:22:17:884 - INFO - Run - [doExportEcm]Traitement du projet : P8-Réparation des traverses HVAC PAX-P
+14:22:19:187 - INFO - Run - [doExportEcm]Traitement du projet : P8-UPGRADE Support HVAC porteurs PAX
+14:22:20:471 - INFO - Run - [doExportEcm]Traitement du projet : P9-Expertise détartrage des canalisations eau usées PAX
+14:22:21:737 - INFO - Run - [doExportEcm]Traitement du projet : PARCOURS DIGITAL FLEXIPLUS FR/UK
+14:22:23:073 - INFO - Run - [doExportEcm]Traitement du projet : PASSENGER AND FREIGHT SECURITY CCTV
+14:22:24:308 - INFO - Run - [doExportEcm]Traitement du projet : PILOTE IFREIGHT 
+14:22:25:645 - INFO - Run - [doExportEcm]Traitement du projet : PILOTE RFID FLEXIPLUS TERMINAL FR
+14:22:27:003 - INFO - Run - [doExportEcm]Traitement du projet : Plancher d'extrémités BREDA
+14:22:28:243 - INFO - Run - [doExportEcm]Traitement du projet : PLAN DIGITAL INITIATIVE WIFI
+14:22:29:575 - INFO - Run - [doExportEcm]Traitement du projet : Plan été équipment hydraulique SDL
+14:22:30:402 - INFO - Run - [doExportEcm]Traitement du projet : Planning mise en place rapports Sciforma
+14:22:31:358 - INFO - Run - [doExportEcm]Traitement du projet : PMV SUR PORTIQUE D'APPROCHE FRET
+14:22:32:654 - INFO - Run - [doExportEcm]Traitement du projet : PNEUMATIQUE (ACC & FAIVELEY)
+14:22:33:501 - INFO - Run - [doExportEcm]Traitement du projet : POINTS DE CAPTURE ADDITIONNEL RFID
+14:22:34:887 - INFO - Run - [doExportEcm]Traitement du projet : PORTIQUES DE DÉTECTIONS D?ANTENNE MC4 (FR) / CFRONT. FRET UK (UK)
+14:22:36:148 - INFO - Run - [doExportEcm]Traitement du projet : POSITIONS DES CAMERAS ZONE DES RESERVOIRS PASSAGERS FR
+14:22:37:433 - INFO - Run - [doExportEcm]Traitement du projet : POWER SUPPLY - LIGHTING : REMPLACEMENT SALON FLEXIPLUS UK
+14:22:38:718 - INFO - Run - [doExportEcm]Traitement du projet : PRD REFURBISHMENT AND MODIFCATIONS
+14:22:39:949 - INFO - Run - [doExportEcm]Traitement du projet : Probl?me Qr
+14:22:41:574 - INFO - Run - [doExportEcm]Traitement du projet : Programme augmentation capacité Infrastructure V2020 & V2020+
+14:22:42:396 - INFO - Run - [doExportEcm]Traitement du projet : PROJET DIGITAL P1
+14:22:43:988 - INFO - Run - [doExportEcm]Traitement du projet : Projet PMO Infra
+14:22:45:276 - INFO - Run - [doExportEcm]Traitement du projet : Projets LSM antérieurs ? 2015
+14:22:45:685 - INFO - Run - [doExportEcm]Traitement du projet : Projets OPEX antérieurs ? 2017
+14:22:46:529 - INFO - Run - [doExportEcm]Traitement du projet : Projet test infra
+14:22:47:376 - INFO - Run - [doExportEcm]Traitement du projet : Prototype RFID
+14:22:48:665 - INFO - Run - [doExportEcm]Traitement du projet : QRQC G. FEVER
+14:22:49:479 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit B. OBERT
+14:22:50:309 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit D. LARIVIERE
+14:22:51:131 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit G. BREBION
+14:22:51:992 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit G. FEVER
+14:22:52:858 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit J. FARDOUX
+14:22:53:714 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit M. HERENT
+14:22:54:553 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit P. BACLET
+14:22:55:363 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit P. BOLLENGIER
+14:22:56:270 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit R. TELLIER
+14:22:57:075 - INFO - Run - [doExportEcm]Traitement du projet : Qualification produit V. BOURDOT
+14:22:57:949 - INFO - Run - [doExportEcm]Traitement du projet : RAMP LIGHTING
+14:22:59:236 - INFO - Run - [doExportEcm]Traitement du projet : RAMP LIGHTING 
+14:23:00:509 - INFO - Run - [doExportEcm]Traitement du projet : RECOUVREMENT DES VOIES 28 & 29 CÔTE F45 OUEST
+14:23:01:785 - INFO - Run - [doExportEcm]Traitement du projet : Refabrication carte PCB polycontrol CVS AMC Bréda
+14:23:02:627 - INFO - Run - [doExportEcm]Traitement du projet : Réfection anti-dérapant loader PAX
+14:23:03:449 - INFO - Run - [doExportEcm]Traitement du projet : Refection antidérapant trottoirs porteurs ARBEL
+14:23:04:352 - INFO - Run - [doExportEcm]Traitement du projet : Refection caissse (tôlerie) et attache toitures locos
+14:23:05:625 - INFO - Run - [doExportEcm]Traitement du projet : Réfection joint de baies PAX
+14:23:06:548 - INFO - Run - [doExportEcm]Traitement du projet : Refurbishment of 4 STTS for ELECLINK
+14:23:07:361 - INFO - Run - [doExportEcm]Traitement du projet : Remise ? niveau porte inter 5905
+14:23:08:235 - INFO - Run - [doExportEcm]Traitement du projet : REMISE A NIVEAU VIDEO PROTECTION DANS BAT CHARLES DICKENS
+14:23:09:458 - INFO - Run - [doExportEcm]Traitement du projet : REMISE EN CONFORMITÉ DES PLAQUES DE RECOUVREMENT CANIVEAU DU F46 
+14:23:10:826 - INFO - Run - [doExportEcm]Traitement du projet : Remise en état CVS Traction 7 MW en stock
+14:23:11:629 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT CAMERA 92 
+14:23:12:947 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT CAMÉRAS DE SURVEILLANCE V10
+14:23:14:293 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES ACCESS POINT WIFI AUX SALONS FLEXIPLUS FR.
+14:23:15:527 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES ADV 205 - 272 - 867 EN TUNNEL
+14:23:16:844 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES ANPRS DES VOIES DE PÉAGES PASSAGERS FR/UK
+14:23:18:131 - INFO - Run - [doExportEcm]Traitement du projet : Remplacement des attelages Scharf par des BSI sur AMC Costa
+14:23:18:951 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES BORNES DE DISTRIBUTION DE GAZ-OIL F30
+14:23:20:246 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT  DES DECLENCHEURS PYROTHECNIQUE DU SYSTEME AFFF
+14:23:21:511 - INFO - Run - [doExportEcm]Traitement du projet : Remplacement des détecteurs de boites chaudes et freins serrés
+14:23:22:787 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES MOTEURS ET DES PORTAILS D'ACC?S DU SITE FR 
+14:23:24:116 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES ONDULEURS AU C09
+14:23:25:356 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT PONT ÉLÉVATEUR VÉHICULE 33T RAVAGLIONI F30
+14:23:26:653 - INFO - Run - [doExportEcm]Traitement du projet : Remplacement soufflet intercirculation PAX
+14:23:27:473 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT SYST?ME DÉTECTION INCENDIE DU SI?GE
+14:23:28:754 - INFO - Run - [doExportEcm]Traitement du projet : REPARATION TOITURE BATIMENT F40
+14:23:30:062 - INFO - Run - [doExportEcm]Traitement du projet : REPLACE KRUPP R22 HVAC EQUIPMENT
+14:23:31:302 - INFO - Run - [doExportEcm]Traitement du projet : REPLACEMENT OF ACCESS CONTROL SYSTEM UK AND FR
+14:23:32:587 - INFO - Run - [doExportEcm]Traitement du projet : REPLACEMENT OF HALON IN KRUPPS 901-905
+14:23:33:806 - INFO - Run - [doExportEcm]Traitement du projet : REPLACEMENT OF OBSOLETE STELARD BOILER SYSTEMS IN U41, U51, U63, U72 & U111
+14:23:35:117 - INFO - Run - [doExportEcm]Traitement du projet : REPOSITIONNEMENT  DE CAMERAS DE VIDEOPROTECTION
+14:23:36:391 - INFO - Run - [doExportEcm]Traitement du projet : RETRAIT DES QUAIS CÔTÉ OUEST DU F45
+14:23:37:662 - INFO - Run - [doExportEcm]Traitement du projet : RÉVISION DE L'ERGONOMIE DES AUBETTES DE PÉAGES
+14:23:39:053 - INFO - Run - [doExportEcm]Traitement du projet : Révision des Attelages LAF-ARBEL
+14:23:40:346 - INFO - Run - [doExportEcm]Traitement du projet : Révision des attelages Scharf et BSI
+14:23:41:620 - INFO - Run - [doExportEcm]Traitement du projet : Rpl tube néon par tube ? LED - PAX
+14:23:42:919 - INFO - Run - [doExportEcm]Traitement du projet : SALLE DE COMMUNICATION C03
+14:23:44:297 - INFO - Run - [doExportEcm]Traitement du projet : SAMPHIRE HOE ADIT 2 CCTV FOR SVS DAMPERS
+14:23:45:528 - INFO - Run - [doExportEcm]Traitement du projet : SCANNER FERROVIAIRE - DOUBLEMENT DE L'ALIMENTATION 21 KV  E31
+14:23:46:893 - INFO - Run - [doExportEcm]Traitement du projet : Scanners X-ray passagers Fr et UK
+14:23:48:275 - INFO - Run - [doExportEcm]Traitement du projet : Scanner trains Frethun
+14:23:49:587 - INFO - Run - [doExportEcm]Traitement du projet : SCHOMA 31 & 40 : refurbishment 2 axles - exchange 1 engine 
+14:23:50:523 - INFO - Run - [doExportEcm]Traitement du projet : SCHOMA REPLACEMENT
+14:23:51:813 - INFO - Run - [doExportEcm]Traitement du projet : SCI0727-Développement Plancher ARBEL
+14:23:52:726 - INFO - Run - [doExportEcm]Traitement du projet : SEATING LOUNGE CHARLES DICKENS TERMINAL
+14:23:53:978 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION DES ALIMENTATIONS ELECTRIQUES DES BAT F51, F93 ET F94 
+14:23:55:330 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION PARKING P1 + RENFORCEMENT VIDEO OAD3-OAC2
+14:23:56:616 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION PHASE 1 - DETECTION SUR CLOTURES et PAR CABLES ENTERRES
+14:23:57:851 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION PHASE 1 - DRONES
+14:23:59:112 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION PHASE 1 - INSTALLATION CAMERAS THERMIQUES FRETHUN
+14:24:00:599 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION PHASE 2 - 4IEME VOIE FRET UKBF
+14:24:01:863 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION PHASE 2 - BATIMENT DETECTION DE COEUR - TERMINAL FRANCE
+14:24:03:134 - INFO - Run - [doExportEcm]Traitement du projet : SIGNALETIQUE PORTIQUES PRE-AFFECTATION PEAGE PASSAGERS FR  - FLEXIPLUS
+14:24:04:395 - INFO - Run - [doExportEcm]Traitement du projet : SIMPLIFICATION DU CÂBLAGE VÉHICULE HGVC
+14:24:05:674 - INFO - Run - [doExportEcm]Traitement du projet : STAFF INFO SCREEN ADDITION
+14:24:06:952 - INFO - Run - [doExportEcm]Traitement du projet : Stratégie Locomotive Brush
+14:24:07:771 - INFO - Run - [doExportEcm]Traitement du projet : SUBCONTRACTORS BUILDING REPLACEMENT
+14:24:09:113 - INFO - Run - [doExportEcm]Traitement du projet : Suggestion : Connecteur fixe/mobile CVS 110/24
+14:24:09:947 - INFO - Run - [doExportEcm]Traitement du projet : Suggestion : Convertisseur PARRIZZI HGVL (Arbelise)
+14:24:10:798 - INFO - Run - [doExportEcm]Traitement du projet : Suggestion : Suivi des lignes de train Réserve
+14:24:11:630 - INFO - Run - [doExportEcm]Traitement du projet : Suggestion : Suppression de l'alarme sonore dans l'AMC lors d'un défaut FDE
+14:24:12:504 - INFO - Run - [doExportEcm]Traitement du projet : Suivi contrat essieux porteur + Moteur
+14:24:13:321 - INFO - Run - [doExportEcm]Traitement du projet : Suivi plaque d'usure LAF
+14:24:14:163 - INFO - Run - [doExportEcm]Traitement du projet : supervision parking P1 - Exploitation
+14:24:15:421 - INFO - Run - [doExportEcm]Traitement du projet : Support B. OBERT
+14:24:16:451 - INFO - Run - [doExportEcm]Traitement du projet : Support D. LARIVIERE
+14:24:17:289 - INFO - Run - [doExportEcm]Traitement du projet : Support G. BREBION
+14:24:18:115 - INFO - Run - [doExportEcm]Traitement du projet : Support G. FEVER
+14:24:18:977 - INFO - Run - [doExportEcm]Traitement du projet : Support J. FARDOUX
+14:24:19:798 - INFO - Run - [doExportEcm]Traitement du projet : Support M. HERENT
+14:24:20:665 - INFO - Run - [doExportEcm]Traitement du projet : Support nouvelle navette
+14:24:21:526 - INFO - Run - [doExportEcm]Traitement du projet : Support P. BACLET
+14:24:22:353 - INFO - Run - [doExportEcm]Traitement du projet : Support P. BOLLENGIER
+14:24:23:221 - INFO - Run - [doExportEcm]Traitement du projet : Support R. TELLIER
+14:24:24:033 - INFO - Run - [doExportEcm]Traitement du projet : Support T. Brocart
+14:24:24:863 - INFO - Run - [doExportEcm]Traitement du projet : Support V. BOURDOT
+14:24:25:700 - INFO - Run - [doExportEcm]Traitement du projet : Suppresion cablette attelage SP BSI
+14:24:26:540 - INFO - Run - [doExportEcm]Traitement du projet : Suppression du voyant défaut général frein locomotive
+14:24:27:794 - INFO - Run - [doExportEcm]Traitement du projet : SUPPRESSION LEM 1500V SUR SDCA ET SDCS
+14:24:29:052 - INFO - Run - [doExportEcm]Traitement du projet : Suppression présence personne AMC Breda
+14:24:30:299 - INFO - Run - [doExportEcm]Traitement du projet : SURCHARGE ELECTRIQUE 400V SUR CVS PAX
+14:24:31:548 - INFO - Run - [doExportEcm]Traitement du projet : SYST?ME VIDÉO ET ANALYSE AUTOMATIQUE DE LA VOIE
+14:24:32:793 - INFO - Run - [doExportEcm]Traitement du projet : TAQUETS DÉRAILLEURS VOIES 22 BIS, 22, 23 et 24
+14:24:34:042 - INFO - Run - [doExportEcm]Traitement du projet : TECHNICAL ROOM AIR CONDITIONING RENOVATION
+14:24:35:441 - INFO - Run - [doExportEcm]Traitement du projet : TELESURVEILLANCE DES APPAREILS DE VOIE
+14:24:36:696 - INFO - Run - [doExportEcm]Traitement du projet : Terminal 2015 - UK Site
+14:24:37:949 - INFO - Run - [doExportEcm]Traitement du projet : TERMINAL D'AVENIR PASSAGERS - SÉPARATION DES FLUX
+14:24:39:278 - INFO - Run - [doExportEcm]Traitement du projet : TERMINAL D'AVENIR PAX
+14:24:40:541 - INFO - Run - [doExportEcm]Traitement du projet : Test and inspect Schoma Air receivers
+14:24:41:378 - INFO - Run - [doExportEcm]Traitement du projet : test de programme
+14:24:42:202 - INFO - Run - [doExportEcm]Traitement du projet : Test Mod?le Projet Infra
+14:24:43:501 - INFO - Run - [doExportEcm]Traitement du projet : TEST PROJET RESPECT DES OBJECTIFS
+14:24:44:306 - INFO - Run - [doExportEcm]Traitement du projet : TRAÇABILITÉ DES VÉHICULES AU PMMW ET ZONE P22
+14:24:45:573 - INFO - Run - [doExportEcm]Traitement du projet : TRAVAUX DE RENOVATION DU D20
+14:24:46:884 - INFO - Run - [doExportEcm]Traitement du projet : TUNNEL FIRE DETECTION SYSTEM DEVELOPMENT / REPLACEMENT
+14:24:48:150 - INFO - Run - [doExportEcm]Traitement du projet : UPGRADE BÂTIMENT F43
+14:24:49:433 - INFO - Run - [doExportEcm]Traitement du projet : UPGRADE UK SERVICE VEHILCE CAR CHARGERS TO RAPID CHARGERS 
+14:24:50:667 - INFO - Run - [doExportEcm]Traitement du projet : Valves de pesée
+14:24:51:513 - INFO - Run - [doExportEcm]Traitement du projet : VAN XRAY BARRIER CCTV
+14:24:52:751 - INFO - Run - [doExportEcm]Traitement du projet : VOIE D'ECART PHASE 1
+14:24:54:009 - INFO - Run - [doExportEcm]Traitement du projet : Wagon access steps and safety handrails 
+14:24:54:831 - INFO - Run - [doExportEcm]Traitement du projet : WELCOME SIGN ON APPROACH ROAD UK et FR TERMINAL
+14:24:56:066 - INFO - Run - [doExportEcm]Traitement du projet : WIFI FOR FREIGHT T2015
+14:24:57:379 - INFO - Run - [doExportEcm]Traitement du projet : WIFI SUR P22
+14:24:58:679 - INFO - Run - [doExportEcm]Traitement du projet : WORKS & REMODELLING REQUIRED FOR PCO/ODM OFFICE IN FRANCE
+14:24:59:956 - INFO - Run - [doExportEcm]Traitement du projet : X-Amelioration drainage FRET
+14:25:00:805 - INFO - Run - [doExportEcm]Traitement du projet : X-ETUDE DE CONCEPTION DES NOUVEAUX PLANCHERS ARBEL
+14:25:02:074 - INFO - Run - [doExportEcm]Traitement du projet : X-Pagodes 
+14:25:03:313 - INFO - Run - [doExportEcm]Traitement du projet : X-Remise en service rame incendié
+14:25:04:183 - INFO - Run - [doExportEcm]Traitement du projet : X-Remplacement passerelle fixe ARBEL
+14:25:04:996 - INFO - Run - [doExportEcm]Traitement du projet : X-Suppression équerre rambardes ARBEL
+14:25:06:313 - INFO - Run - [doExportEcm]Traitement du projet : YARD FRANCE: MISE EN PLACE D'UNE SIGNALISATION LUMINEUSE
+14:25:08:364 - INFO - Run - [doExportEcm]Traitement du projet : 1500Vcc - Rpl Pi?ces 
+14:25:09:476 - INFO - Run - [doExportEcm]Traitement du projet : ABRI CYCLES PP10
+14:25:10:966 - INFO - Run - [doExportEcm]Traitement du projet : ACCES EN TOITURE PRINCIPALE F46 INDEPENDANT 
+14:25:12:468 - INFO - Run - [doExportEcm]Traitement du projet : Achat de Vending Machine ? bord des AMC
+14:25:13:884 - INFO - Run - [doExportEcm]Traitement du projet : ADAPTATION SYSTEME SPYNEL EN EXAVISION
+14:25:15:384 - INFO - Run - [doExportEcm]Traitement du projet : ADDITIONAL CCTV AT CURTAIN CHECK AREA
+14:25:16:889 - INFO - Run - [doExportEcm]Traitement du projet : ADDITIONAL DRAINAGE MODULE 
+14:25:18:366 - INFO - Run - [doExportEcm]Traitement du projet : ADDITIONAL FIRE SUPPRESSION FIRE DETECTION IN PTB UNDERCROFT
+14:25:19:849 - INFO - Run - [doExportEcm]Traitement du projet : ADDITIONAL TOILET BLOCK UK BOARDING AREA 
+14:25:21:346 - INFO - Run - [doExportEcm]Traitement du projet : ADDITIONAL VEHICLE PARKING AT U81 STAFF CAR PARK
+14:25:22:888 - INFO - Run - [doExportEcm]Traitement du projet : AJOUT DE BALLAST AUX ECHELLES D'ACCES SIGNALISATION
+14:25:24:335 - INFO - Run - [doExportEcm]Traitement du projet : AJOUT D'ECRANS DE PROTECTION SUR LES MATS CCAQ
+14:25:25:838 - INFO - Run - [doExportEcm]Traitement du projet : ALIMENTATION 110V PAR CONNECTEUR PR MAINT. ISOLÉE  EPI-EPA  AMC COSTA
+14:25:27:344 - INFO - Run - [doExportEcm]Traitement du projet : AMÉLIORER L'ERGONOMIE DES APPOINTS D'HUILE SUR CENTRALE SDC
+14:25:28:848 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENT DU B.24 EN SALLE DE FORMATION / RÉUNOIN
+14:25:30:254 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENT PAYSAGER BOULEVARD DE L'EUROPE
+14:25:31:724 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENT PAYSAGER DE LA ZONE TOURISME
+14:25:33:192 - INFO - Run - [doExportEcm]Traitement du projet : AMENAGEMENT SECURITAIRE AUGES QUAIS UK
+14:25:34:700 - INFO - Run - [doExportEcm]Traitement du projet : AMÉNAGEMENT YARD FRANCE POUR AMÉLIORATION ACCES AUX LOCOMOTIVES
+14:25:36:138 - INFO - Run - [doExportEcm]Traitement du projet : Analyse du nombre de porteur FRET
+14:25:37:211 - INFO - Run - [doExportEcm]Traitement du projet : Augmentation du chargement des navettes FRET
+14:25:38:212 - INFO - Run - [doExportEcm]Traitement du projet : AUGMENTATION DU NOMBRE D'ÉCHELLES D'ACC?S AUX AUGES DE QUAIS
+14:25:39:692 - INFO - Run - [doExportEcm]Traitement du projet : Barre d'accouplement Rail/route pour wagons Arbel/WBN
+14:25:41:146 - INFO - Run - [doExportEcm]Traitement du projet : BARRIER CONTROL BOXES AND ARMS FREIGHT ROUTE
+14:25:42:606 - INFO - Run - [doExportEcm]Traitement du projet : BARRIERE DE PROTECTIONS ZONE SAFE EN TS + ZONES HACHUREES
+14:25:44:003 - INFO - Run - [doExportEcm]Traitement du projet : BASE VIE SOUS-TRAITANT
+14:25:45:480 - INFO - Run - [doExportEcm]Traitement du projet : BLACK TOP  OVERFLOW CAR PARKING IN UK COACH PARK
+14:25:46:999 - INFO - Run - [doExportEcm]Traitement du projet : BLOC SANITAIRE SUR P11
+14:25:48:491 - INFO - Run - [doExportEcm]Traitement du projet : BORDER THROUGHPUTS FR
+14:25:49:923 - INFO - Run - [doExportEcm]Traitement du projet : BUILD A SECOND MC4 (UK) AND ADDITIONAL LANES
+14:25:51:439 - INFO - Run - [doExportEcm]Traitement du projet : BUILD A SECOND MC4 (UK) AND ADDITIONAL LANES
+14:25:52:954 - INFO - Run - [doExportEcm]Traitement du projet : CÂBLAGE LOADERS ARBEL
+14:25:54:487 - INFO - Run - [doExportEcm]Traitement du projet : CAPTEURS DE PRESENCE HBD
+14:25:55:940 - INFO - Run - [doExportEcm]Traitement du projet : CASTLE HILLL UPGRADE
+14:25:57:467 - INFO - Run - [doExportEcm]Traitement du projet : CCTV AT NEW EXIT CHECK POINT
+14:25:58:959 - INFO - Run - [doExportEcm]Traitement du projet : CCTV WORKSTATION U91G 
+14:26:00:671 - INFO - Run - [doExportEcm]Traitement du projet : CG AIRFLOW GAUGE FOR KRUPP LOCOS
+14:26:02:122 - INFO - Run - [doExportEcm]Traitement du projet : CHANTIER TIMONERIE - CRÉATION D'UNE ZONE SOUDURE
+14:26:03:610 - INFO - Run - [doExportEcm]Traitement du projet : CHANTIER TIMONERIE - REMISE EN ÉTAT ATELIER F45
+14:26:05:099 - INFO - Run - [doExportEcm]Traitement du projet : CHARGING OF ELECTRICALLY POWERED VEHICLES OWNED BY STAFF
+14:26:06:628 - INFO - Run - [doExportEcm]Traitement du projet : CHERITON HOLDING FACILITY
+14:26:08:095 - INFO - Run - [doExportEcm]Traitement du projet : CONNECT AIR CONDITIONING UNIT 
+14:26:09:568 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE INSTALLATION BIR EN SORTIE FRET
+14:26:11:096 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE - MISE EN PLACE 2EME LECTEUR DE BADGE AU PORTAIL 137
+14:26:12:603 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE : REMPLACEMENT DE LA CAMERA 052 SUR PONT OAD4
+14:26:14:088 - INFO - Run - [doExportEcm]Traitement du projet : CONTRAT CADRE - REPOSITIONNEMENT  DE CAMERAS DE VIDEOPROTECTION
+14:26:15:522 - INFO - Run - [doExportEcm]Traitement du projet : CONVERSION OF BUILDING U98 INTO OFFICE ACCOMODATION
+14:26:17:003 - INFO - Run - [doExportEcm]Traitement du projet : CONVERSION OF LOWER GROUND FLOOR FDIC
+14:26:18:488 - INFO - Run - [doExportEcm]Traitement du projet : Conversion of TTX generators to battery hybrid x10 new units
+14:26:19:928 - INFO - Run - [doExportEcm]Traitement du projet : CONVERSION OF WORKS TRAIN GENERATORS TO BATTERY HYBRID
+14:26:21:412 - INFO - Run - [doExportEcm]Traitement du projet : COUNTDOWN CLOCKS FOR OB 1 AND 2
+14:26:22:917 - INFO - Run - [doExportEcm]Traitement du projet : CREATION CHAMBRE DE TIRAGE ENTRE ZONE FRET UK ET D25
+14:26:24:423 - INFO - Run - [doExportEcm]Traitement du projet : Création d'un banc test compresseur locomotive
+14:26:25:878 - INFO - Run - [doExportEcm]Traitement du projet : CREATION D'UN CLOS COUVERT GE 2000 KVA DE SANGATTE
+14:26:27:380 - INFO - Run - [doExportEcm]Traitement du projet : CRÉATION D'UNE INSTRUCTION DE RÉPARATION CARTE THYRISTOR
+14:26:28:868 - INFO - Run - [doExportEcm]Traitement du projet : CRÉATION D'UNE SECONDE POSITION EMS AU SIMULATEUR RCC
+14:26:30:379 - INFO - Run - [doExportEcm]Traitement du projet : CRÉATION D'UN PARKING POUR VÉHICULES ÉLECTRIQUES
+14:26:31:614 - INFO - Run - [doExportEcm]Traitement du projet : DDV bogie WBN
+14:26:32:701 - INFO - Run - [doExportEcm]Traitement du projet : DÉCÂBLAGE FEUX BLANCS SUR LES CHARGEURS PAX
+14:26:34:184 - INFO - Run - [doExportEcm]Traitement du projet : Déplacement masque respiratoire CAb 1 loco
+14:26:35:646 - INFO - Run - [doExportEcm]Traitement du projet : détartrage des canalisations eaux usées
+14:26:36:758 - INFO - Run - [doExportEcm]Traitement du projet : detection antenne 
+14:26:38:262 - INFO - Run - [doExportEcm]Traitement du projet : Détente de cycle MCT FRET
+14:26:39:267 - INFO - Run - [doExportEcm]Traitement du projet : DIVIDE WHS SPACE UK PTB TO ALLOW FOR TWO UNITS TO OCCUPLY CURRENT SPACE
+14:26:40:740 - INFO - Run - [doExportEcm]Traitement du projet : DRIVERS LOUNGE
+14:26:42:249 - INFO - Run - [doExportEcm]Traitement du projet : ÉCLAIRAGE A NEONS LED SUR LES AMCS BREDA
+14:26:43:760 - INFO - Run - [doExportEcm]Traitement du projet : ecr 3302 protection feu du XOV FR 
+14:26:45:225 - INFO - Run - [doExportEcm]Traitement du projet : ECR3643 GABARIT DE HAUTEUR
+14:26:46:743 - INFO - Run - [doExportEcm]Traitement du projet : ECR  3837 monitoring poussiere tunnel
+14:26:48:225 - INFO - Run - [doExportEcm]Traitement du projet : ELECTRIC BUSES FOR UK  FREIGHT OPERATION 
+14:26:49:774 - INFO - Run - [doExportEcm]Traitement du projet : ENHANCEMENT OF VICTOR HUGO BUILDING FIRE PROTECTION
+14:26:51:210 - INFO - Run - [doExportEcm]Traitement du projet : EQUIPEMENTS DE GESTION DE TRAFIC : AGRANDISSEMENT RESERVOIRS FRET
+14:26:52:713 - INFO - Run - [doExportEcm]Traitement du projet : ESSAI ERDO
+14:26:54:187 - INFO - Run - [doExportEcm]Traitement du projet : ESTIMATION DE LA DURÉE DE VIE RÉSIDUELLE DES CHASSIS HVAC PAX
+14:26:55:693 - INFO - Run - [doExportEcm]Traitement du projet : ETANCHÉITÉ COUPLEURS ÉLECTRIQUES ATTELAGES SP HGVC 
+14:26:57:126 - INFO - Run - [doExportEcm]Traitement du projet : Etude d'amélioration cales véhicules dans rames SD
+14:26:58:653 - INFO - Run - [doExportEcm]Traitement du projet : Etude de confinement de la zone de sablage au F43
+14:27:00:150 - INFO - Run - [doExportEcm]Traitement du projet : ETUDE DE L'INSTALLATION DE GRAISSEURS FIXES DE RAIL SUR VOIES C ET H
+14:27:01:645 - INFO - Run - [doExportEcm]Traitement du projet : Etude de mise en place d'un syst?me de surcharge sur les Zéphirs
+14:27:03:096 - INFO - Run - [doExportEcm]Traitement du projet : Etude du déplacement des vannes d'arr?t CP/CG sur DDL-MI-VIE
+14:27:04:592 - INFO - Run - [doExportEcm]Traitement du projet : Etude impacts d?s ? la rupture vis fixation rails sur flotte MR
+14:27:06:108 - INFO - Run - [doExportEcm]Traitement du projet : Etude préliminaire locomotives d'avenir
+14:27:07:595 - INFO - Run - [doExportEcm]Traitement du projet : Etude sécurisation de la safety loop en configuration rame sur PAX
+14:27:09:049 - INFO - Run - [doExportEcm]Traitement du projet : Etude suppression contacteurs dans le coffre TB2 HGVC
+14:27:10:543 - INFO - Run - [doExportEcm]Traitement du projet : EUROTUNNEL - SECURITY REINFORCEMENT PROGRAM
+14:27:11:611 - INFO - Run - [doExportEcm]Traitement du projet : EXHAUST DEPOLLUTIONS SYSTEM FOR DRAINAGE, CELINE AND FULL CLEAN TRAIN
+14:27:13:046 - INFO - Run - [doExportEcm]Traitement du projet : EXIT GATE VAN XRAY
+14:27:14:125 - INFO - Run - [doExportEcm]Traitement du projet : Expression du besoin : PAX Infrastructure et maintenance
+14:27:15:144 - INFO - Run - [doExportEcm]Traitement du projet : EXTENSION DES PARKINGS P5 ET PP11 DU SI?GE D'EXPLOITATION
+14:27:16:641 - INFO - Run - [doExportEcm]Traitement du projet : EXTENSION PARKING PP16
+14:27:18:174 - INFO - Run - [doExportEcm]Traitement du projet : EXTENSION PARKING PP5 DU PCS
+14:27:19:717 - INFO - Run - [doExportEcm]Traitement du projet : EXTENSION V4 -Vision 2020
+14:27:20:955 - INFO - Run - [doExportEcm]Traitement du projet : Extension voie 4
+14:27:22:046 - INFO - Run - [doExportEcm]Traitement du projet : EXTINC TUNNEL + TERM FR /  EXTINC. TERM UK
+14:27:23:564 - INFO - Run - [doExportEcm]Traitement du projet : F03- Remplacement t?te électrique coupleur SP par câblot
+14:27:25:003 - INFO - Run - [doExportEcm]Traitement du projet : F08- Remplacement groupes HVAC AMC COSTA et BREDA
+14:27:26:518 - INFO - Run - [doExportEcm]Traitement du projet : F09-MCO-LSM vannes ? membrane Toilettes AMC Bréda-A
+14:27:28:052 - INFO - Run - [doExportEcm]Traitement du projet : F09- Remplacement distributeur papier toilettes AMC
+14:27:29:101 - INFO - Run - [doExportEcm]Traitement du projet : F11- CAMP pour nettoyage des chargeurs batterie AMC Costa
+14:27:30:229 - INFO - Run - [doExportEcm]Traitement du projet : F11 - ECR 1417 coffre batterie DDC/SDC grilles de ventilation HS
+14:27:31:734 - INFO - Run - [doExportEcm]Traitement du projet : F11- LSM Chargeur batterie Costa
+14:27:33:225 - INFO - Run - [doExportEcm]Traitement du projet : F14- Remplacement MUX AMC BREDA - A
+14:27:34:685 - INFO - Run - [doExportEcm]Traitement du projet : F16-Modification temporisation éclairage des AMC Costa en zone CCAQ
+14:27:36:206 - INFO - Run - [doExportEcm]Traitement du projet : F24-Installation d'un avertisseur lumineux sur loader Arbel pour signaler un défaut FDE
+14:27:37:727 - INFO - Run - [doExportEcm]Traitement du projet : F32- Obsolescence carte config AMC Costa 
+14:27:39:215 - INFO - Run - [doExportEcm]Traitement du projet : F3 - Passage câblot provisoire entre boites jonction HGVC
+14:27:40:666 - INFO - Run - [doExportEcm]Traitement du projet : F43-Installation syst?me limitation vitesse poids lourds durant les opérations de chargement / Déchargement navettes Fret
+14:27:42:182 - INFO - Run - [doExportEcm]Traitement du projet : F43 - MCO support numérotation rames FRET
+14:27:43:646 - INFO - Run - [doExportEcm]Traitement du projet : F43-RENOVATION FIXATION TRAPPES VERINS  BRIDGE PLATE HGVL
+14:27:45:176 - INFO - Run - [doExportEcm]Traitement du projet : F43-Upgrade trappe fixe de commande stabilisation ARBEL-C
+14:27:46:627 - INFO - Run - [doExportEcm]Traitement du projet : F51 – Remplacement vannes CP/CG AMC
+14:27:48:133 - INFO - Run - [doExportEcm]Traitement du projet : F9 - Installation dérouleur papier toilette dans les AMC
+14:27:49:647 - INFO - Run - [doExportEcm]Traitement du projet : F9- Obsolescence Serrure porte Costa
+14:27:51:174 - INFO - Run - [doExportEcm]Traitement du projet : FABRICATION ET POSE DE GARDE-CORPS SUR QUAIS DE CHARGEMENTS TERMINAL FR
+14:27:52:599 - INFO - Run - [doExportEcm]Traitement du projet : FAPC11 EXP Câblage
+14:27:53:677 - INFO - Run - [doExportEcm]Traitement du projet : F-Fiabilisation des AMC Breda, Costa et rames Breda
+14:27:55:177 - INFO - Run - [doExportEcm]Traitement du projet : Fiabilisation de la boucle 2eme valve d'urgence loco
+14:27:56:686 - INFO - Run - [doExportEcm]Traitement du projet : Fiabilisation Propping HGVL
+14:27:58:103 - INFO - Run - [doExportEcm]Traitement du projet : FIXATION DES CÂLES DANS LES LOCOMOTIVES
+14:27:59:609 - INFO - Run - [doExportEcm]Traitement du projet : Fixation du support UV drainage PAX MI-VIE
+14:28:01:306 - INFO - Run - [doExportEcm]Traitement du projet : FLEXIPLUS SUMMER PLAN 2016
+14:28:02:803 - INFO - Run - [doExportEcm]Traitement du projet : FP43-Modification des cales HGV et PAX
+14:28:04:248 - INFO - Run - [doExportEcm]Traitement du projet : F-Rénovation trappes d'acc?s attelage BREDA
+14:28:05:776 - INFO - Run - [doExportEcm]Traitement du projet : FUEL STATION FOR PLATFROM BUSES (RED DIESEL) AT U91G 
+14:28:07:316 - INFO - Run - [doExportEcm]Traitement du projet : Full clean train minor
+14:28:08:401 - INFO - Run - [doExportEcm]Traitement du projet : Généralisation du syst?me  verrouillage passerelle intercirculation amc Costa
+14:28:09:844 - INFO - Run - [doExportEcm]Traitement du projet : GENIE CIVIL : VOIE D'ECART PHASE 1
+14:28:11:368 - INFO - Run - [doExportEcm]Traitement du projet : Grilles de drainage SDC/DDC
+14:28:12:889 - INFO - Run - [doExportEcm]Traitement du projet : HARMONISATION ET SIMPLIFICATION DES VALVES PROPORTIONNELLES CZ SUR LES SDL
+14:28:14:351 - INFO - Run - [doExportEcm]Traitement du projet : HBD D63 SUR P16 - PRÉ ENREGISTREMENT DES DONNÉES SÉCURITAIRES
+14:28:15:616 - INFO - Run - [doExportEcm]Traitement du projet : Hiab & Fassi crane
+14:28:16:716 - INFO - Run - [doExportEcm]Traitement du projet : HIAB & FASSI CRANE REPLACEMENT
+14:28:18:138 - INFO - Run - [doExportEcm]Traitement du projet : HYBRID BATTERY POWERPACKS FOR TTX
+14:28:19:621 - INFO - Run - [doExportEcm]Traitement du projet : IMPLANTATION BÂTIMENT F94B
+14:28:21:130 - INFO - Run - [doExportEcm]Traitement du projet : IMPLANTATION PLAQUES SIGNALISATION LATÉRALE. "FIN DE PARCOURS"
+14:28:22:618 - INFO - Run - [doExportEcm]Traitement du projet : IMPLANTATION TENTE DE CHANTIER V35
+14:28:24:047 - INFO - Run - [doExportEcm]Traitement du projet : IMPROVE LIGHTING AT UK FRONTIER CONTROLS 
+14:28:25:545 - INFO - Run - [doExportEcm]Traitement du projet : INCREASE PARKING P5 + CREATION OF BICYCLE SHED/COVERAGE
+14:28:27:048 - INFO - Run - [doExportEcm]Traitement du projet : INCREASE UK CONTROL FREIGHT TO FOUR LANES. 
+14:28:28:552 - INFO - Run - [doExportEcm]Traitement du projet : INCREASE UK FREIGHT  PAF CONTROLS TO FOUR LANES. 
+14:28:29:987 - INFO - Run - [doExportEcm]Traitement du projet : INSTALL ACCESS BUTTON TO OPEN DOORS TO TCC BUILDING
+14:28:31:476 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION CAPTEURS HEARBEAT DANS LE SOL
+14:28:32:986 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION DE 4 CAMERAS SUR BIR R02 ET PORTAIL 38
+14:28:34:498 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION DE BARRES INOX SUR LES PAROIS LATERALES DES PRD
+14:28:35:945 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION DE BATIMENTS MODULAIRES PREFABRIQUES VESTIAIRES/DOUCHES - F40
+14:28:37:484 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION DE CAMÉRAS POUR VISUALISATION DES VOIES 18-19
+14:28:38:991 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION DE RAMPES DE SÉCURITÉ SUR VOIE D'URGENCE FR
+14:28:40:490 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION DETECTION AU PORTAIL 114
+14:28:41:994 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION D'UNE CLOTURE PEAGE FRET
+14:28:43:419 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION GUERITE PISTE SUD
+14:28:44:906 - INFO - Run - [doExportEcm]Traitement du projet : Installation miroir vision panoramique dans les amc Costa
+14:28:46:396 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION OF 110V SUPPLY AT ADV POINT MOTORS
+14:28:47:920 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLATION OF TVM ON 2 KRUPPS CURRENTLY
+14:28:49:367 - INFO - Run - [doExportEcm]Traitement du projet : INSTALLING AN AUTOMATIC DOOR OPENER TO THE GROUND FLOOR OF THE TCC/ICC
+14:28:50:861 - INFO - Run - [doExportEcm]Traitement du projet : INSTALL INVERTOR DRIVES TO TUNNEL DRAINAGE SUMP VENTILATION FANS W1/W2/W3
+14:28:52:194 - INFO - Run - [doExportEcm]Traitement du projet : Intégration CAMP 0491 dans IM (? supprimer?)
+14:28:53:213 - INFO - Run - [doExportEcm]Traitement du projet : INTERPHONIE CHECK-IN PASSAGERS FR
+14:28:54:730 - INFO - Run - [doExportEcm]Traitement du projet : INTRUSION CLANDESTIN TUNNEL NORD DECEMBRE 2013
+14:28:56:243 - INFO - Run - [doExportEcm]Traitement du projet : L01- Remplacement des roulements des essieux locomotives
+14:28:57:718 - INFO - Run - [doExportEcm]Traitement du projet : L04- Révision des manipulateurs de frein automatique
+14:28:59:169 - INFO - Run - [doExportEcm]Traitement du projet : L08-Remplacement climatisation loco air internationnal
+14:29:00:661 - INFO - Run - [doExportEcm]Traitement du projet : L08- Remplacement des groupes de climatisation "Air international" des locomotives
+14:29:02:163 - INFO - Run - [doExportEcm]Traitement du projet : L08- Sécurisation 110V HVAC Loco
+14:29:03:675 - INFO - Run - [doExportEcm]Traitement du projet : L12 - Etude perte réparateur carte PMM - L
+14:29:05:117 - INFO - Run - [doExportEcm]Traitement du projet : L24-trappe acces armoire rack FDE Fogtec
+14:29:06:937 - INFO - Run - [doExportEcm]Traitement du projet : L29-Accordance gestion documentaire par rapport au projet  GSMR
+14:29:08:421 - INFO - Run - [doExportEcm]Traitement du projet : L31 - Révision des panneaux phénoliques, joints, boutons poussoirs & voyants - L
+14:29:09:499 - INFO - Run - [doExportEcm]Traitement du projet : L32- Mise en place d'un relai Q-co alw2 sur loco 97xx
+14:29:10:947 - INFO - Run - [doExportEcm]Traitement du projet : L34 - Etude et remplacement boîte pantographe
+14:29:12:435 - INFO - Run - [doExportEcm]Traitement du projet : L34 - Etude LOCO: FIABILISATION PANTO DOWN
+14:29:13:943 - INFO - Run - [doExportEcm]Traitement du projet : L34-Remplacement vérin de pantographe + ajout de filtre ? air
+14:29:15:421 - INFO - Run - [doExportEcm]Traitement du projet : L34 - Upgrade ajout d'une prise de pression en loco pour circuits ADD PANTO
+14:29:16:851 - INFO - Run - [doExportEcm]Traitement du projet : L35-Etude-Création d'un banc test d'appairage des IPM
+14:29:18:538 - INFO - Run - [doExportEcm]Traitement du projet : L36-REPARATION CORDONS CAPTEURS CVS TRACTION BRUSH ET43070, ET43072
+14:29:20:031 - INFO - Run - [doExportEcm]Traitement du projet : L38 - Rénovation MASTER CONTROLER - L
+14:29:21:827 - INFO - Run - [doExportEcm]Traitement du projet : L41- ATESS Enregistrement des données
+14:29:23:329 - INFO - Run - [doExportEcm]Traitement du projet : L41- Remplacement vis capteurs TVM sur locomotives (? supprimer?)
+14:29:24:767 - INFO - Run - [doExportEcm]Traitement du projet : L43-Rénovation pare-brises loco-5,6MW, 7MW
+14:29:26:265 - INFO - Run - [doExportEcm]Traitement du projet : L-43-Sécurisation trappe Acces toiture loco
+14:29:27:777 - INFO - Run - [doExportEcm]Traitement du projet : L43-UPGRADE-Mise en place d'un rev?tement anti-dérapant sur les seuils locomotives Brush
+14:29:29:326 - INFO - Run - [doExportEcm]Traitement du projet : L48 - Expertise compresseur auxiliaire (puis remplacement)
+14:29:30:770 - INFO - Run - [doExportEcm]Traitement du projet : L48 - Remplacement syst?me de traitement d'air
+14:29:31:846 - INFO - Run - [doExportEcm]Traitement du projet : L51 - Etude remplacement ou modification de la duplex check valve
+14:29:32:865 - INFO - Run - [doExportEcm]Traitement du projet : L51 - Etude Sécurisation de la conduite 10 bars
+14:29:33:930 - INFO - Run - [doExportEcm]Traitement du projet : L51 - Remplacement des vannes CP/CG Loco
+14:29:35:007 - INFO - Run - [doExportEcm]Traitement du projet : L51 - Révision équipements pneumatique
+14:29:36:449 - INFO - Run - [doExportEcm]Traitement du projet : LOT CIVILS WORKS UK SITE : FTMS - GESTION DU TRAFIC FRET
+14:29:37:998 - INFO - Run - [doExportEcm]Traitement du projet : LOT VOIE - NOUVELLE LIAISON G/F - FAISCEAU DEPART FRANCE
+14:29:39:454 - INFO - Run - [doExportEcm]Traitement du projet : L-Projet Révision des locomotives
+14:29:40:954 - INFO - Run - [doExportEcm]Traitement du projet : LSM Ensemble coupelle/silent block tiges guidage Bridge plate HGVL
+14:29:42:392 - INFO - Run - [doExportEcm]Traitement du projet : LSM Joints Intumescents PCF
+14:29:43:899 - INFO - Run - [doExportEcm]Traitement du projet : LSM LAMES DE SUSPENSION  ZEPHIRS POUR 2016
+14:29:45:406 - INFO - Run - [doExportEcm]Traitement du projet : LSM OF RAILHANDLER WAGONS 207/208
+14:29:46:922 - INFO - Run - [doExportEcm]Traitement du projet : LSM PORTES COULISSANTES D'INTERCIRCULATION DDL
+14:29:48:352 - INFO - Run - [doExportEcm]Traitement du projet : LSM sur portes de secours PAX
+14:29:49:856 - INFO - Run - [doExportEcm]Traitement du projet : MAG- DETECTEUR DE FUMEE CAB + CLIM
+14:29:51:357 - INFO - Run - [doExportEcm]Traitement du projet : MAG - DETECTEUR DE FUMEE CAB N.LOC
+14:29:52:867 - INFO - Run - [doExportEcm]Traitement du projet : Maintenance extincteur
+14:29:53:879 - INFO - Run - [doExportEcm]Traitement du projet : MAINTIEN DE L'ALIMENTATION RACK ATESS SUR LOCOMOTIVE KRUPP
+14:29:55:368 - INFO - Run - [doExportEcm]Traitement du projet : MEP D'UN LOCAL BTS SUR SITE DE SHAKESPEARE CLIFF POUR INFRASTRUCTURE GSM-P 
+14:29:56:866 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN CONFORMITÉ DES CHILLERS DES USINES DE REFROIDISSEMENT 
+14:29:58:300 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE DE PARAVENTS AU NIVEAU DE MC4
+14:29:59:803 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE D'UN SECTIONNEUR COMPRESSEUR PRINCIPAL LOCO BRUSH
+14:30:01:510 - INFO - Run - [doExportEcm]Traitement du projet : MISE EN PLACE INTER VERROUILLAGE POSTES ALIMENTATIONS 1500V V22 BIS ET F41 
+14:30:02:800 - INFO - Run - [doExportEcm]Traitement du projet : Mise en Place Module 5 HEGENSHEIDT
+14:30:03:820 - INFO - Run - [doExportEcm]Traitement du projet : MISS UK - REMPLACEMENT DU BALANCER
+14:30:05:340 - INFO - Run - [doExportEcm]Traitement du projet : Mi vie PAX 1FB/2 Bruit en intercirculation
+14:30:06:167 - INFO - Run - [doExportEcm]Traitement du projet : MODELE GRAND PROJET INFRA
+14:30:07:073 - INFO - Run - [doExportEcm]Traitement du projet : Mod?le Impacts
+14:30:07:890 - INFO - Run - [doExportEcm]Traitement du projet : Mod?le projet Stéphane PACQUIN
+14:30:08:974 - INFO - Run - [doExportEcm]Traitement du projet : Modification assise si?ge loco Brush
+14:30:10:490 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION BUREAUX F40
+14:30:11:941 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION CABLAGE SIGNALISATION ALARME FEU 4 SUR CHARGEUR ARBEL
+14:30:13:449 - INFO - Run - [doExportEcm]Traitement du projet : Modification carter d'acc?s aux pompes lave glace locomotives
+14:30:14:944 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION COMMANDES D?OUVERTURE / FERMETURE EXUTOIRES DE FUMÉE DU F46
+14:30:16:434 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION DU COUVERCLE COFFRET DRAINAGE GAZ (FDE) SUR LES VÉHICULES SDC
+14:30:17:880 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION EMPLACEMENT DE L'EXTINCTEUR CAB 2 LOCE
+14:30:19:394 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION NÉON VDP PAX PAR NÉON ? LED
+14:30:20:885 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION PARAM?TRAGE MINTEX FOB
+14:30:22:405 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION TRAPPE DE VISITE BOUTEILLE AZOTE BOUT 1 LOCO (? supprimer?)
+14:30:23:847 - INFO - Run - [doExportEcm]Traitement du projet : Modification trappes d'accés vidange toilettes SDL
+14:30:25:354 - INFO - Run - [doExportEcm]Traitement du projet : MODIFICATION VERROUILLAGE PASSERELLE ATTELAGE LOCO
+14:30:26:872 - INFO - Run - [doExportEcm]Traitement du projet : MODULE TRAVAUX CATÉNAIRE
+14:30:28:375 - INFO - Run - [doExportEcm]Traitement du projet : Navettes FRET 3?me génération
+14:30:29:407 - INFO - Run - [doExportEcm]Traitement du projet : NEW LEFT-HAND FRT. EXIT CHECK BOOTH AT AT UK CHECK-IN LANE 1 
+14:30:30:911 - INFO - Run - [doExportEcm]Traitement du projet : NIVELLEMENT DES VOIES YARD FR
+14:30:32:422 - INFO - Run - [doExportEcm]Traitement du projet : NOUVELLE EXTENSION DES QUAIS FR & UK
+14:30:33:938 - INFO - Run - [doExportEcm]Traitement du projet : NOUVELLE LIAISON G/F - FAISCEAU DEPART FRANCE
+14:30:35:567 - INFO - Run - [doExportEcm]Traitement du projet : Nouvelles navettes FRET
+14:30:37:103 - INFO - Run - [doExportEcm]Traitement du projet : Obsolescence carte alimentation stabilisée carte pilotage CZ et DZ ET26365
+14:30:38:579 - INFO - Run - [doExportEcm]Traitement du projet : OBSOLESCENCE DES VANNES COMMANDE DE STABILISATION ARBEL ET1002195 ET1002196
+14:30:40:045 - INFO - Run - [doExportEcm]Traitement du projet : Obsolescence : ECR000873 ABSORBEUR DE CHOC GAUCHE PCF PAX
+14:30:41:454 - INFO - Run - [doExportEcm]Traitement du projet : OBSOLESCENCE SIMULATEUR RESEAU PAX
+14:30:42:914 - INFO - Run - [doExportEcm]Traitement du projet : Obsolescence VCS
+14:30:43:989 - INFO - Run - [doExportEcm]Traitement du projet : OCS CABLE RE-REELING TRAINS
+14:30:45:581 - INFO - Run - [doExportEcm]Traitement du projet : OPMN PAX 2020_SAUVEGARDE 20171221_21H
+14:30:46:669 - INFO - Run - [doExportEcm]Traitement du projet : OPMV - Déplacement poste CDT loco vers poste de conduite DDL-LC
+14:30:48:197 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX2020 - BUREAUX POUR ÉQUIPE PROJET AU F40 (CB)
+14:30:49:601 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020 : Modification de la commande des clapets coupe-feu HVAC PAX
+14:30:51:064 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_PLANNING REF0
+14:30:52:521 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_PLANNING REF0_Sauvegarde 20171213
+14:30:53:773 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_PLANNING REF0_Sauvegarde 20171215
+14:30:55:141 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_PLANNING REF0_SAUVEGARDE 20171219
+14:30:56:367 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_PLANNING REF0_SAUVEGARDE 20171221
+14:30:57:620 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_PLANNING SAUVEGARDE 20171220
+14:30:58:419 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_PM_dec17
+14:30:59:777 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_REF0_SAUVEGARDE 20180129
+14:31:01:109 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_REF1
+14:31:02:427 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_REF1_MAJ 20180228
+14:31:03:761 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_REF1_REBOURS
+14:31:05:455 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_REF1_SAUVEGARDE 20180130
+14:31:06:452 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020 : Remplacement des plaques d'usure en intercirculation DDC
+14:31:08:107 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20171222
+14:31:09:365 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20171227_POUR RAPPORT
+14:31:10:601 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20171228
+14:31:11:911 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180102 avant calculs
+14:31:13:230 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180103
+14:31:14:483 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180105
+14:31:15:716 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180108
+14:31:17:042 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180109
+14:31:18:362 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180110_Version LBR
+14:31:19:743 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180110_VERSION NBR
+14:31:20:979 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180111_VERSION NBR
+14:31:22:284 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180112_VERSION NBR
+14:31:23:569 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180113_VERSION NBR
+14:31:24:810 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180115_VERSION NBR
+14:31:26:231 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180116 VERSION NBR
+14:31:27:541 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180117 VERSION NBR
+14:31:28:778 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180122_VERSION NBR
+14:31:30:067 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180124_VERSION NBR
+14:31:31:403 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180125_VERSION NBR
+14:31:32:657 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180125_VERSION NBR
+14:31:34:025 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180125_VERSION NBR_PRINT
+14:31:35:318 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180126_VERSION NBR_PRINT
+14:31:36:561 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_SAUVEGARDE 20180129
+14:31:37:656 - INFO - Run - [doExportEcm]Traitement du projet : OPMV PAX 2020_VERSION PRIORITAIRE_20171222
+14:31:38:482 - INFO - Run - [doExportEcm]Traitement du projet : OPMV-reseau
+14:31:39:353 - INFO - Run - [doExportEcm]Traitement du projet : OPMV TEST PLANNING
+14:31:40:591 - INFO - Run - [doExportEcm]Traitement du projet : Optimisation des déposes moteurs de traction des locomotives 7 MW
+14:31:42:084 - INFO - Run - [doExportEcm]Traitement du projet : OUTIL D'ANALYSE DES CIRCUITS DE VOIE
+14:31:43:582 - INFO - Run - [doExportEcm]Traitement du projet : OUTIL INFORMATIQUE D'AIDE AU DÉPANNAGE POUR DES DÉFAUTS CÂBLAGE
+14:31:45:076 - INFO - Run - [doExportEcm]Traitement du projet : OUVERTURE DES SAS FR ET UK AVANT DPT TUNNEL
+14:31:46:494 - INFO - Run - [doExportEcm]Traitement du projet : OVERBRIDGE LANE LIGHTS
+14:31:47:906 - INFO - Run - [doExportEcm]Traitement du projet : P02- Obsolescence pare-brise DDL ET1002142
+14:31:49:452 - INFO - Run - [doExportEcm]Traitement du projet : P03-Etude-Obsolescence LEM 1500v PAX ET26099
+14:31:50:855 - INFO - Run - [doExportEcm]Traitement du projet : P07-ETUDE- Obsolescence vantail porte secours SDC DDC ET20996 & ET20879
+14:31:52:330 - INFO - Run - [doExportEcm]Traitement du projet : P09-Etude Obsolescence Lavabo LP2072 ET23146 PAX
+14:31:53:768 - INFO - Run - [doExportEcm]Traitement du projet : P09- Installation d'un datalogger pour le suivi du fonctionnement des toilettes PAX
+14:31:54:772 - INFO - Run - [doExportEcm]Traitement du projet : P10- Contrôle consommation CVS Sepsa SDL
+14:31:55:826 - INFO - Run - [doExportEcm]Traitement du projet : P12-MCO-Sécurisation Blindage VCS des locomotives
+14:31:57:333 - INFO - Run - [doExportEcm]Traitement du projet : P12-OPMV-modification carte alimentation VOICE 
+14:31:58:735 - INFO - Run - [doExportEcm]Traitement du projet : P16- Obsolescence tube LED ET1020286 et ET1020287
+14:32:00:203 - INFO - Run - [doExportEcm]Traitement du projet : P1-Modification Sécurisation des ancres PAX (? supprimer?)
+14:32:01:848 - INFO - Run - [doExportEcm]Traitement du projet : P21- Suppression des valves écréteuses sur les véhicules sans propping 
+14:32:03:333 - INFO - Run - [doExportEcm]Traitement du projet : P26-Etude modification soft automate canopy SDL
+14:32:04:728 - INFO - Run - [doExportEcm]Traitement du projet : P27 - Etude-Obsolescence convertisseur CC-CC alim VIDEO ET 21737 - CP
+14:32:06:188 - INFO - Run - [doExportEcm]Traitement du projet : P32- Disjoncteurs différentiels 220v DDL
+14:32:07:688 - INFO - Run - [doExportEcm]Traitement du projet : P32-Modification pour intégration des nouveaux disjonteur différentiels Toilettes DDL. 
+14:32:09:179 - INFO - Run - [doExportEcm]Traitement du projet : P32 - Protection chemin de câbles  Proche coffres info DDC (? supprimer?)
+14:32:10:572 - INFO - Run - [doExportEcm]Traitement du projet : P32-REMPLACEMENT RELAIS CONTACTEUR 
+14:32:11:616 - INFO - Run - [doExportEcm]Traitement du projet : P32 - Remplacement Relais Disjoncteur contacteur PAX priorité 1
+14:32:12:618 - INFO - Run - [doExportEcm]Traitement du projet : P43-MCO-Remise en conformité des échelles de sécurité véhicules PAX
+14:32:14:106 - INFO - Run - [doExportEcm]Traitement du projet : P43-OPMV-Etude faisabilité mise en place de films anti UV sur les vitres véhicules PAX
+14:32:15:577 - INFO - Run - [doExportEcm]Traitement du projet : P43-Protections rétrécissement trottoir montée DDL
+14:32:17:078 - INFO - Run - [doExportEcm]Traitement du projet : P43-Remplacement-Obsolescence fauteuil roulant embarqué ET1014799
+14:32:18:579 - INFO - Run - [doExportEcm]Traitement du projet : P43 - Rétablissement rambarde escamotable passerelle accés groupe HVAC DDL
+14:32:20:027 - INFO - Run - [doExportEcm]Traitement du projet : P43- Suppression des trappes acc?s commande Shunting /Hosling DDL
+14:32:21:490 - INFO - Run - [doExportEcm]Traitement du projet : P51 - Remplacement des vannes CP/CG PAX
+14:32:22:499 - INFO - Run - [doExportEcm]Traitement du projet : P51 - Remplacement tuyauterie aluminium zone bogie SDL DDL
+14:32:23:554 - INFO - Run - [doExportEcm]Traitement du projet : P51 - Upgrade MISE EN PLACE D UN PIQUAGE CG SUR DDL ET SDL
+14:32:25:026 - INFO - Run - [doExportEcm]Traitement du projet : P6 - Modification verrouillage trappes armoires portes coupe-feu SD (? supprimer?)
+14:32:26:445 - INFO - Run - [doExportEcm]Traitement du projet : P8-Modification emplacement Filtre air neuf SDL
+14:32:27:899 - INFO - Run - [doExportEcm]Traitement du projet : PANNEAUX LUMINEUX - REJET/SORTIE/INFORMATION FRET/MD ENREGISTREMENT FRET
+14:32:29:359 - INFO - Run - [doExportEcm]Traitement du projet : PASSENGER HOLDING AREA POST FRENCH CONTROLS 
+14:32:30:887 - INFO - Run - [doExportEcm]Traitement du projet : PAX 2020 - REDESIGN DU SYSTEME DE DETECTION ET D' EXTINCTION INCENDIE
+14:32:32:285 - INFO - Run - [doExportEcm]Traitement du projet : PILOTE IOT
+14:32:33:753 - INFO - Run - [doExportEcm]Traitement du projet : PLAFONNIER LUMIERE ORIENTABLE
+14:32:35:227 - INFO - Run - [doExportEcm]Traitement du projet : PLANCHERS PORTEURS ARBEL
+14:32:36:506 - INFO - Run - [doExportEcm]Traitement du projet : Planning 4 pagodes
+14:32:37:505 - INFO - Run - [doExportEcm]Traitement du projet : PLATEFORME VOIE 36
+14:32:38:997 - INFO - Run - [doExportEcm]Traitement du projet : PLATFORM CCTV
+14:32:40:473 - INFO - Run - [doExportEcm]Traitement du projet : POMPE A GRAISSE AUTOMATIQUE POUR VENTILATEUR DE REFROIDISSEMENT LOCO
+14:32:41:943 - INFO - Run - [doExportEcm]Traitement du projet : POMPE HYDRAULIQUE A ENGRENAGE DDL ET:20471
+14:32:43:428 - INFO - Run - [doExportEcm]Traitement du projet : PORTABLE BATTERY PACKS FOR INFRA WORKS
+14:32:44:867 - INFO - Run - [doExportEcm]Traitement du projet : P-Remplacement véhicules SDL (SDL2)
+14:32:46:066 - INFO - Run - [doExportEcm]Traitement du projet : PROGRAMME OPMV PAX-2020
+14:32:46:917 - INFO - Run - [doExportEcm]Traitement du projet : Projet Infra
+14:32:47:918 - INFO - Run - [doExportEcm]Traitement du projet : Projet tests OLLA
+14:32:48:962 - INFO - Run - [doExportEcm]Traitement du projet : Protection écrous demi coquilles attelages SP Bréda
+14:32:50:407 - INFO - Run - [doExportEcm]Traitement du projet : Protection main montoire, panneau isolation frein, centrale FDE HGVL
+14:32:51:794 - INFO - Run - [doExportEcm]Traitement du projet : PX-DEFINITION PLAN ACTION CABLAGE
+14:32:52:840 - INFO - Run - [doExportEcm]Traitement du projet : QRQC 22 Validation Prototype POP BOX
+14:32:54:383 - INFO - Run - [doExportEcm]Traitement du projet : QRQC 235 Corrosion tuyauterie aluminium frein DDL SDL
+14:32:55:776 - INFO - Run - [doExportEcm]Traitement du projet : RÉAMÉNAGEMENT DE L'ACCUEIL  DU SI?GE  D'EXPLOITATION
+14:32:57:238 - INFO - Run - [doExportEcm]Traitement du projet : RÉAMÉNAGEMENT DU "CUBE" DANS LE HALL DU CIFFCO 
+14:32:58:721 - INFO - Run - [doExportEcm]Traitement du projet : Recalibration Disjoncteurs éclairage sur véhicules PAX
+14:33:00:118 - INFO - Run - [doExportEcm]Traitement du projet : REFECTION DES JOINTS DE BAIES SUR VEHICULES PAX
+14:33:01:701 - INFO - Run - [doExportEcm]Traitement du projet : RÉFECTION DES LONGRINES DES VOIES DE CHARGEMENTS
+14:33:03:114 - INFO - Run - [doExportEcm]Traitement du projet : Refurbishment of 4 STTS for ELECLINK
+14:33:04:109 - INFO - Run - [doExportEcm]Traitement du projet : REFURBISHMENT OF STAFF TOILETS AND INSTALLATION OF M/F SHOWERS VHB
+14:33:05:622 - INFO - Run - [doExportEcm]Traitement du projet : REFURCBISHMENT OF 2 X TTX PRD MODULES
+14:33:07:086 - INFO - Run - [doExportEcm]Traitement du projet : RÉHABILITATION STRUCTURE DES AILES
+14:33:08:572 - INFO - Run - [doExportEcm]Traitement du projet : RELOCATE CURTAIN CHECK AND EXIT CHECK 
+14:33:10:036 - INFO - Run - [doExportEcm]Traitement du projet : REMISE EN ÉTAT DES GOUTTI?RES DU XOVER FR
+14:33:11:453 - INFO - Run - [doExportEcm]Traitement du projet : Remise en état des portes d'accés ? l'aménity aréa SDL
+14:33:12:919 - INFO - Run - [doExportEcm]Traitement du projet : Remise en service des véhicules incendiés
+14:33:13:917 - INFO - Run - [doExportEcm]Traitement du projet : REMOVAL OF INTERCONNECTING WALL
+14:33:15:394 - INFO - Run - [doExportEcm]Traitement du projet : REMOVAL WALL BETWEEN COACH PASSPORT CHECK UNIT AND BAGEL STREET UNIT UK PTB
+14:33:16:962 - INFO - Run - [doExportEcm]Traitement du projet : REMOVE OLD UK CHECK IN EQUIPMENT  LANE 1 TO 4. 
+14:33:18:400 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT CVS PARIZZI AMC
+14:33:19:875 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DALLES AMIANTÉES EN TUNNEL DE SERVICE
+14:33:21:289 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DE 22 ADV SUR LES TERMINAUX
+14:33:22:810 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES DRD
+14:33:24:281 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES GROUPES-FROIDS C09
+14:33:25:737 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES JOINTS D'OUVRAGE SUR LES QUAIS ET PONTS DU TERMINAL FR
+14:33:27:135 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES MOTEURS ET DES PORTAILS D'ACC?S DU SITE FR 
+14:33:28:647 - INFO - Run - [doExportEcm]Traitement du projet : remplacement des phares des krupp par éclairage ? LED
+14:33:30:120 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES SOUFFLETS D'INTERCIRCULATION PAX 
+14:33:31:535 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DES TAMPONS DE DRAINAGE PRINCIPAL EN TUNNELS FERRO CÔTÉ FR
+14:33:32:997 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT DU TCS EUROSCAN FRANCE
+14:33:34:445 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT PLC - LOT 2 MVT
+14:33:35:907 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT PLC - LOT 3 MDT
+14:33:37:313 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT PORTES BATTANTES PAR PORTES AUTOMATIQUES AU B03
+14:33:38:812 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT PROTECTION CONTRE-POIDS CATENAIRE TUNNELS
+14:33:40:296 - INFO - Run - [doExportEcm]Traitement du projet : Remplacement tube néon par tube ? led
+14:33:41:387 - INFO - Run - [doExportEcm]Traitement du projet : REMPLACEMENT VANNES DU RÉSEAU INCENDIE ET  PARTIEL JOINTS VICKING
+14:33:42:800 - INFO - Run - [doExportEcm]Traitement du projet : REMPLISSAGE DES CAVITÉS V23 ET V24 DU F40
+14:33:44:192 - INFO - Run - [doExportEcm]Traitement du projet : RENFORCEMENT DEFENSE PASSIVE EXTERIEUR CHARLES DICKENS
+14:33:45:676 - INFO - Run - [doExportEcm]Traitement du projet : RENFORCEMENT DU SYSTEME CATENAIRE 
+14:33:47:150 - INFO - Run - [doExportEcm]Traitement du projet : Renforcement trappes accés attelage PAX
+14:33:48:594 - INFO - Run - [doExportEcm]Traitement du projet : RÉNOVATION DE L'ACCUEIL DU SI?GE D'EXPLOITATION
+14:33:50:014 - INFO - Run - [doExportEcm]Traitement du projet : RÉNOVATION ET UPGRADE DE LA CATÉNAIRE DANS LES ZONES HUMIDES
+14:33:51:505 - INFO - Run - [doExportEcm]Traitement du projet : Rénovation planchers DDC/SDC et trottoirs SDC
+14:33:52:990 - INFO - Run - [doExportEcm]Traitement du projet : REPARATION DES PISTES DU TERMINAL FRANCE
+14:33:54:550 - INFO - Run - [doExportEcm]Traitement du projet : REP?RE PHOTO LUMINESCENT ? BORD DES CLUB CARS
+14:33:55:939 - INFO - Run - [doExportEcm]Traitement du projet : REPLACEMENT OF FIRE SUPPRESSION SYSTEM ON, KRUPPS 
+14:33:57:412 - INFO - Run - [doExportEcm]Traitement du projet : REPLACEMENT OF KRUPP LIGHTS WITH RAIL APPROVED LED LIGHTS
+14:33:58:811 - INFO - Run - [doExportEcm]Traitement du projet : REPLACEMENT OF OBSOLETE/RUSTY BARRIERS - SAMPHIRE HOE
+14:34:00:298 - INFO - Run - [doExportEcm]Traitement du projet : REPLACEMENT OF TTM - TERMINAL TRAFFIC SYSTEM FIELD EQUIPMENT.
+14:34:01:909 - INFO - Run - [doExportEcm]Traitement du projet : REPLACEMENT OF TTX WAGONS
+14:34:03:367 - INFO - Run - [doExportEcm]Traitement du projet : RETROFIT GROUPES-FROIDS BÂTIMENTS C03 B22 C04 D44 D32
+14:34:04:836 - INFO - Run - [doExportEcm]Traitement du projet : Revision/Remplacement de la Vacma
+14:34:07:003 - INFO - Run - [doExportEcm]Traitement du projet : Révison du syst?me cooling LOCO
+14:34:08:001 - INFO - Run - [doExportEcm]Traitement du projet : SAFETY IMPROVEMENTS UK CHECK IN EMERGENCY EVACUATION BARRIER'S
+14:34:09:493 - INFO - Run - [doExportEcm]Traitement du projet : SALLE DE COMMUNICATION C03
+14:34:10:899 - INFO - Run - [doExportEcm]Traitement du projet : SAMPHIRE HOE - ADIT 1 / PS19 - WINCH
+14:34:12:155 - INFO - Run - [doExportEcm]Traitement du projet : Scénario 1: acquisition de 2 AMC3 suivant l’ORR5577 v4 (en cours)
+14:34:13:041 - INFO - Run - [doExportEcm]Traitement du projet : Scénario 2: acquisition de 21 AMC3 suivant l’ORR5577 v4
+14:34:13:840 - INFO - Run - [doExportEcm]Traitement du projet : Scénario 3: acquisition de 21 AMC nouvelle génération
+14:34:14:835 - INFO - Run - [doExportEcm]Traitement du projet : SDC/DDC - RÉFECTION DALLES, GAINES, CONNECTEURS PHASE 2 SDC / DDC
+14:34:16:307 - INFO - Run - [doExportEcm]Traitement du projet : SEA WATER COOLING - MISE EN CONFORMITÉ DES CHILLERS 
+14:34:17:767 - INFO - Run - [doExportEcm]Traitement du projet : Sécurisation des passages piétons/voies
+14:34:19:322 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION DES PRISES 220 V DANS LES AMC COSTA ET BREDA
+14:34:20:722 - INFO - Run - [doExportEcm]Traitement du projet : Sécurisation diode transyl CVS 110/24 SDL PAX
+14:34:22:197 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION PHASE 1 - DETECTION SUR CLOTURES et PAR CABLES ENTERRES
+14:34:23:670 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION PHASE 2 - NOUVEAU PCS
+14:34:25:141 - INFO - Run - [doExportEcm]Traitement du projet : Sécurisation portes et trappes d'accés de coffres sous caisse PAX
+14:34:26:540 - INFO - Run - [doExportEcm]Traitement du projet : SECURISATION SYSTEME DE VERROUILLAGE DES PORTES STTS
+14:34:28:017 - INFO - Run - [doExportEcm]Traitement du projet : SERVICE TUNNEL FIREMAIN CORROSSION SURVEY
+14:34:29:473 - INFO - Run - [doExportEcm]Traitement du projet : SERVICE VEHICLE WASH BAY AT U91
+14:34:30:884 - INFO - Run - [doExportEcm]Traitement du projet : SERVICE VEHILCE WASH BAY 
+14:34:32:374 - INFO - Run - [doExportEcm]Traitement du projet : shunt pour connecteurs papi
+14:34:33:864 - INFO - Run - [doExportEcm]Traitement du projet : SIMPLIFICATION DU CÂBLAGE VÉHICULE HGVC
+14:34:35:338 - INFO - Run - [doExportEcm]Traitement du projet : Suggestion : Fiabilisation cablage fire barriere sd 
+14:34:36:327 - INFO - Run - [doExportEcm]Traitement du projet : Suggestion : Suppression des pompes de chasse toilette PAX 
+14:34:37:418 - INFO - Run - [doExportEcm]Traitement du projet : SUIVI QUANTI/QUALI NAPPE + INSTALLATION/ENTRETIEN DE PIÉZOM?TRES
+14:34:38:854 - INFO - Run - [doExportEcm]Traitement du projet : SUPPORT EQUIPE PROJETS INFRA - ELECLINK FR / UK
+14:34:40:337 - INFO - Run - [doExportEcm]Traitement du projet : SUPPRESSION DE LA GESTION DE L'ALARME 2/3 SUR LES TRAINS FRET BREDA
+14:34:41:800 - INFO - Run - [doExportEcm]Traitement du projet : SUPPRESSION EXTINCTION HALON 1301 DANS LES DDL. (? supprimer?)
+14:34:43:299 - INFO - Run - [doExportEcm]Traitement du projet : SUPPRESSION TOLES D'EXTREMITE SOUS DDC
+14:34:44:716 - INFO - Run - [doExportEcm]Traitement du projet : SUPPRIMER L'APPEL PUBLIC ADRESS EN TUNNEL DE SERVICE AVANT LA MANOEUVRE CPD
+14:34:46:183 - INFO - Run - [doExportEcm]Traitement du projet : SYST?ME INDIGO VISION DANS LES BUREAUX ODM FR ET UK
+14:34:47:628 - INFO - Run - [doExportEcm]Traitement du projet : TEMPORARY PASSPORT CONTROL BOOTHS AND LANES (UK CONTROLS PASSENGER)
+14:34:49:026 - INFO - Run - [doExportEcm]Traitement du projet : TERMINAL DIGITAL BILLBOARDS
+14:34:50:474 - INFO - Run - [doExportEcm]Traitement du projet : test
+14:34:51:544 - INFO - Run - [doExportEcm]Traitement du projet : test1
+14:34:52:744 - INFO - Run - [doExportEcm]Traitement du projet : TEST1306
+14:34:53:994 - INFO - Run - [doExportEcm]Traitement du projet : TEST1306/2
+14:34:54:785 - INFO - Run - [doExportEcm]Traitement du projet : TEST 13064
+14:34:55:431 - INFO - Run - [doExportEcm]Traitement du projet : TEST 1 FDu
+14:34:56:436 - INFO - Run - [doExportEcm]Traitement du projet : test 3 maj respect des objectifs
+14:34:57:502 - INFO - Run - [doExportEcm]Traitement du projet : TEST AJOUT DE LIGNES RESPECT DES OBJECTIFS
+14:34:58:713 - INFO - Run - [doExportEcm]Traitement du projet : TEST BARRIERES
+14:34:59:648 - INFO - Run - [doExportEcm]Traitement du projet : TEST DE L'ENVIRONNEMENT TELEMANN
+14:35:00:446 - INFO - Run - [doExportEcm]Traitement du projet : TEST DE PROJET
+14:35:01:309 - INFO - Run - [doExportEcm]Traitement du projet : test de projet pour historique
+14:35:02:099 - INFO - Run - [doExportEcm]Traitement du projet : test de projets antoine
+14:35:02:942 - INFO - Run - [doExportEcm]Traitement du projet : Test import
+14:35:03:744 - INFO - Run - [doExportEcm]Traitement du projet : TEST JAU
+14:35:05:058 - INFO - Run - [doExportEcm]Traitement du projet : TEST REINE 
+14:35:06:055 - INFO - Run - [doExportEcm]Traitement du projet : TEST RESPECT DES OBJECTIFS AJOUT DE LIGNES
+14:35:07:114 - INFO - Run - [doExportEcm]Traitement du projet : test tam 11
+14:35:08:521 - INFO - Run - [doExportEcm]Traitement du projet : test tam 11062
+14:35:10:048 - INFO - Run - [doExportEcm]Traitement du projet : TEST TAM 12
+14:35:11:303 - INFO - Run - [doExportEcm]Traitement du projet : TEST TAM 1306/3
+14:35:12:290 - INFO - Run - [doExportEcm]Traitement du projet : TRACKSNET
+14:35:13:764 - INFO - Run - [doExportEcm]Traitement du projet : TRAFFIC CONTROL LIGHTS MC4
+14:35:15:251 - INFO - Run - [doExportEcm]Traitement du projet : TUNNEL FIRE DETECTION SYSTEM DEVELOPMENT / REPLACEMENT
+14:35:16:674 - INFO - Run - [doExportEcm]Traitement du projet : TWO LANE OPERATION AT MC5 UK 
+14:35:18:163 - INFO - Run - [doExportEcm]Traitement du projet : TWO NEW LANES FOR PAF  CONTROLS PASENGER UK 
+14:35:19:687 - INFO - Run - [doExportEcm]Traitement du projet : U091A TOILET REPLACEMENT
+14:35:21:152 - INFO - Run - [doExportEcm]Traitement du projet : UKBF CHERITON PARKING
+14:35:22:564 - INFO - Run - [doExportEcm]Traitement du projet : UKBF PAX BOOTH REFIRBISHMENT - FRANCE 
+14:35:24:066 - INFO - Run - [doExportEcm]Traitement du projet : UK COACH HALL COQUELLES
+14:35:25:528 - INFO - Run - [doExportEcm]Traitement du projet : UK EXIT CHECK SAFETY IMPROVMENTS LANE 3&4 
+14:35:26:969 - INFO - Run - [doExportEcm]Traitement du projet : UK & FR CROSS-OVER GUIDENCE TRACK DEBRIS BLOWERS
+14:35:28:372 - INFO - Run - [doExportEcm]Traitement du projet : UK & FR CROSS-OVER MAINTENANCE BOX NORTH SIDE
+14:35:29:836 - INFO - Run - [doExportEcm]Traitement du projet : UK HANGER AND PASSPORT SIGNS
+14:35:31:324 - INFO - Run - [doExportEcm]Traitement du projet : UK PORTAL INFRARED SECURITY BEAMS NETWORKED TO U81 M&E WORKSHOP 
+14:35:32:784 - INFO - Run - [doExportEcm]Traitement du projet : UK TERMINAL BUILDINGS AIR HANDLING UNITS
+14:35:34:190 - INFO - Run - [doExportEcm]Traitement du projet : UPGRADE BÂTIMENT F43
+14:35:35:652 - INFO - Run - [doExportEcm]Traitement du projet : UPGRADE KRUPP 906/907 DEPOLLUTION SYSTEM
+14:35:37:182 - INFO - Run - [doExportEcm]Traitement du projet : UPGRADE OF TCC LIFT 
+14:35:38:669 - INFO - Run - [doExportEcm]Traitement du projet : VEHICLE IMPACT STUDY
+14:35:40:128 - INFO - Run - [doExportEcm]Traitement du projet : VESTIAIRES F46
+14:35:41:588 - INFO - Run - [doExportEcm]Traitement du projet : VHB MEETING ROOM 2 REFURBISHMENT
+14:35:43:048 - INFO - Run - [doExportEcm]Traitement du projet : VICTOR HUGO BUILDING CONSTANT TEMPERATURE HEATING PUMPS
+14:35:44:543 - INFO - Run - [doExportEcm]Traitement du projet : VISION 2020 ANALYTICS TRAFIC  CCTV
+14:35:46:030 - INFO - Run - [doExportEcm]Traitement du projet : VISUALISATION DES QUAIS FR ET UK DANS LES 2 RCC
+14:35:47:439 - INFO - Run - [doExportEcm]Traitement du projet : VP SIGNS ON PAX UK TERMINAL
+14:35:48:919 - INFO - Run - [doExportEcm]Traitement du projet : VP SIGNS ON PAX UK TERMINAL
+14:35:50:358 - INFO - Run - [doExportEcm]Traitement du projet : WIFI EN TUNNEL DE SERVICE
+14:35:51:858 - INFO - Run - [doExportEcm]Traitement du projet : Z48 - Remplacement de la production et du traitement d'air des Zephirs
+14:35:52:269 - INFO - Run - [doExportEcm]Ecriture du fichier: Sat Jun 16 14:35:52 CEST 2018
+14:35:52:869 - INFO - Run - [doExportEcm] Fin Exportation des données XML pour ECM: Sat Jun 16 14:35:52 CEST 2018
+14:35:53:114 - INFO - Run - [main] Fermeture de l'API: Sat Jun 16 14:35:53 CEST 2018

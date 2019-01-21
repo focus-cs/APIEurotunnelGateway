@@ -1,0 +1,19 @@
+18:56:18:691 - INFO - Run - [main][V1.8] Demarrage de l'API: Tue Mar 07 18:56:18 CET 2017
+18:56:18:698 - INFO - Run - [connexion] Chargement parametre connexion:Tue Mar 07 18:56:18 CET 2017
+18:56:18:698 - INFO - Run - [connexion] Initialisation de la Session:Tue Mar 07 18:56:18 CET 2017
+18:56:51:863 - INFO - Run - [connexion] Connecté: Tue Mar 07 18:56:51 CET 2017 Ã  l'instance sciforma
+18:56:51:864 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Tue Mar 07 18:56:51 CET 2017
+18:56:51:869 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Tue Mar 07 18:56:51 CET 2017
+18:56:51:870 - INFO - Run - [main] Aucun arguement passé au jar => Aucun traitement
+18:56:52:175 - INFO - Run - [main] Fermeture de l'API: Tue Mar 07 18:56:52 CET 2017
+18:58:01:775 - INFO - Run - [main][V1.8] Demarrage de l'API: Tue Mar 07 18:58:01 CET 2017
+18:58:01:779 - INFO - Run - [connexion] Chargement parametre connexion:Tue Mar 07 18:58:01 CET 2017
+18:58:01:780 - INFO - Run - [connexion] Initialisation de la Session:Tue Mar 07 18:58:01 CET 2017
+18:58:22:579 - INFO - Run - [main][V1.8] Demarrage de l'API: Tue Mar 07 18:58:22 CET 2017
+18:58:22:587 - INFO - Run - [connexion] Chargement parametre connexion:Tue Mar 07 18:58:22 CET 2017
+18:58:22:587 - INFO - Run - [connexion] Initialisation de la Session:Tue Mar 07 18:58:22 CET 2017
+18:58:56:369 - INFO - Run - [connexion] Connecté: Tue Mar 07 18:58:56 CET 2017 Ã  l'instance sciforma
+18:58:56:369 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Tue Mar 07 18:58:56 CET 2017
+18:58:56:374 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Tue Mar 07 18:58:56 CET 2017
+18:58:56:374 - WARN - Run - [main] Aucun arguement passé au jar => Aucun traitement
+18:58:56:607 - INFO - Run - [main] Fermeture de l'API: Tue Mar 07 18:58:56 CET 2017

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Eric/Documents/Professionnel/Eurotunnel/APIEurotunnelGateway/../saptosciforma.xsd.txt" uri="xml-resources/jaxb/SapBinding/saptosciforma.xsd.txt.xsd"/>
+    <system systemId="file:/C:/Users/Eric/Documents/Professionnel/Eurotunnel/APIEurotunnelGateway/../saptosciforma.xsd" uri="xml-resources/jaxb/SapBinding/saptosciforma.xsd"/>
+    <system systemId="file:/C:/Users/Eric/Documents/Professionnel/Eurotunnel/APIEurotunnelGateway/../ecm_import.xsd" uri="xml-resources/jaxb/ECRImportBinding/ecm_import.xsd"/>
+    <system systemId="file:/C:/Users/ERIC/Documents/Professionnel/Eurotunnel/APIEurotunnelGateway/../ecm_import.xsd" uri="xml-resources/jaxb/ECRImportBinding/ecm_import.xsd"/>
+    <system systemId="file:/C:/Users/ERIC/Documents/Professionnel/Eurotunnel/APIEurotunnelGateway/../ecm_export.xsd" uri="xml-resources/jaxb/ECMExportBinding/ecm_export.xsd"/>
+</catalog>

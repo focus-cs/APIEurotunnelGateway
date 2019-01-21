@@ -1,0 +1,111 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ECRs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ECR" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="categorie"/>
+              <xs:element type="xs:string" name="titre"/>
+              <xs:element type="xs:string" name="description"/>
+              <xs:element type="xs:string" name="type"/>
+              <xs:element name="types_de_vehicule">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="type_de_vehicule" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="systemes_primaires">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="systeme_primaire" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:int" name="fiche_de_lancement"/>
+              <xs:element type="xs:string" name="type_investissement"/>
+              <xs:element type="xs:string" name="resultat_cotation"/>
+              <xs:element type="xs:string" name="CIG_flag"/>
+              <xs:element type="xs:string" name="niveau_soumission_CIG"/>
+              <xs:element type="xs:string" name="CIG_criteres"/>
+              <xs:element type="xs:string" name="CIG_request"/>
+              <xs:element type="xs:string" name="commentaires_additionnels"/>
+              <xs:element type="xs:string" name="nom_demandeur"/>
+              <xs:element type="xs:string" name="date_demande"/>
+              <xs:element type="xs:string" name="date_affectation"/>
+              <xs:element type="xs:string" name="nomApprobateur"/>
+              <xs:element type="xs:string" name="raison_changement"/>
+              <xs:element type="xs:string" name="domaine"/>
+              <xs:element type="xs:string" name="budget"/>
+              <xs:element type="xs:string" name="service_demandeur"/>
+              <xs:element name="annees">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:short" name="annee" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="budget_obtenu"/>
+              <xs:element name="documents">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="document" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="Librairie" use="optional"/>
+                            <xs:attribute type="xs:int" name="docid" use="optional"/>
+                            <xs:attribute type="xs:string" name="titre" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="acteurs">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="acteur" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="titre" use="optional"/>
+                            <xs:attribute type="xs:string" name="login" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="impacts">
+                  <xs:complexType>
+                      <xs:sequence>
+                          <xs:element type="xs:string" name="analyse_risque_systeme"/>
+                          <xs:element type="xs:string" name="projet_vert"/>
+                          <xs:element type="xs:string" name="intervention_tunnel"/>
+                          <xs:element type="xs:string" name="impacts_rcc"/>
+                          <xs:element type="xs:string" name="masterplan"/>
+                          <xs:element type="xs:string" name="instruction_maintenance"/>
+                          <xs:element type="xs:string" name="CIR"/>
+                          <xs:element type="xs:string" name="contribution_reseau"/>
+                          <xs:element type="xs:string" name="impact_tableau_de_bord"/>
+                          <xs:element type="xs:string" name="programme"/>
+                          <xs:element type="xs:string" name="impact_identites_fonctionnelles"/>
+                          <xs:element type="xs:string" name="impact_sur_demande_DCA"/>
+                          <xs:element type="xs:string" name="impact_pocket_book"/>
+                          <xs:element type="xs:string" name="plan_de_maintenance"/>
+                          <xs:element type="xs:string" name="intervention_quais"/>
+                      </xs:sequence>
+                  </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="code_label"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,108 @@
+10:49:05:050 - INFO - Run - [main] Demarrage de l'API: Mon Nov 23 10:49:05 CET 2015
+10:49:05:136 - INFO - Run - [connexion] Chargement parametre connexion:Mon Nov 23 10:49:05 CET 2015
+10:49:05:137 - INFO - Run - [connexion] Initialisation de la Session:Mon Nov 23 10:49:05 CET 2015
+10:49:30:726 - INFO - Run - [connexion] Connecté: Mon Nov 23 10:49:30 CET 2015 Ã  l'instance sciforma
+10:49:30:726 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Mon Nov 23 10:49:30 CET 2015
+10:49:30:795 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Mon Nov 23 10:49:30 CET 2015
+10:49:30:796 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Mon Nov 23 10:49:30 CET 2015
+10:49:43:290 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+10:49:43:757 - ERROR - Run - [doImportEcm] ERREUR Données XML
+com.sciforma.psnext.api.InvalidDataException: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+com.sciforma.psnext.fieldengine.FieldPutDataException: Value "ROLLING STOCK.BOGIE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1292)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:288)
+	at com.eurotunnel.sciforma.Run.main(Run.java:143)
+
+Server timestamp: 23 Nov 2015 10:49:43 CET
+
+Servlet Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:148)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:980)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:936)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:288)
+	at com.eurotunnel.sciforma.Run.main(Run.java:143)
+Caused by: com.sciforma.psnext.fieldengine.FieldPutDataException: Value "ROLLING STOCK.BOGIE" was not found in the list of pick list values for this field.
+	at com.sciforma.psnext.fieldengine.UserField$UserListField.a(UserField.java:1292)
+	at com.sciforma.psnext.api.FieldAccessor.setListField(FieldAccessor.java:973)
+	... 3 more
+10:49:44:985 - INFO - Run - [doImportEcm]Projet enregistré : Mon Nov 23 10:49:44 CET 2015
+10:49:45:156 - INFO - Run - [main] Fermeture de l'API: Mon Nov 23 10:49:45 CET 2015
+10:50:37:219 - INFO - Run - [main] Demarrage de l'API: Mon Nov 23 10:50:37 CET 2015
+10:50:37:223 - INFO - Run - [connexion] Chargement parametre connexion:Mon Nov 23 10:50:37 CET 2015
+10:50:37:228 - INFO - Run - [connexion] Initialisation de la Session:Mon Nov 23 10:50:37 CET 2015
+10:51:02:048 - INFO - Run - [connexion] Connecté: Mon Nov 23 10:51:02 CET 2015 Ã  l'instance sciforma
+10:51:02:049 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Mon Nov 23 10:51:02 CET 2015
+10:51:02:307 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Mon Nov 23 10:51:02 CET 2015
+10:51:02:307 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Mon Nov 23 10:51:02 CET 2015
+10:51:17:769 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+10:51:18:932 - ERROR - Run - [doImportEcm] Erreur dans classe SciformaMon Nov 23 10:51:18 CET 2015
+com.sciforma.psnext.api.InternalFailure: 
+An unexpected error has occurred.If the cause for this error is not apparent, please contact Sciforma
+Technical Support and provide the following information: 
+
+Context:
+   Error when saving project in Project.serverSave():
+Exception and stack:
+com.sciforma.psnext.projectplanner.ProjectProcessor$SaveException: The project ID is not unique.  Please enter a different ID and try again.
+	at com.sciforma.psnext.projectplanner.ProjectProcessor.a(ProjectProcessor.java:148)
+	at com.sciforma.psnext.projectplanner.Project$1.a(Project.java:2386)
+	at com.sciforma.psnext.util.WorkerThreadManager.k(WorkerThreadManager.java:158)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:202)
+	at com.sciforma.psnext.util.WorkerThreadManager.a(WorkerThreadManager.java:176)
+	at com.sciforma.psnext.util.WorkerThreadManager.b(WorkerThreadManager.java:168)
+	at com.sciforma.psnext.util.WorkerThreadManager.f(WorkerThreadManager.java:164)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2393)
+	at com.sciforma.psnext.projectplanner.Project.a(Project.java:2466)
+	at com.sciforma.psnext.api.Project.save(Project.java:2293)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:777)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:659)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:541)
+	at com.eurotunnel.sciforma.Run.main(Run.java:143)
+
+
+Server timestamp: 23 Nov 2015 10:51:18 CET
+
+Servlet Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_51
+java.vm.vendor: Oracle Corporation
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.version: 24.45-b08
+
+Client Version: 6.0j (build 4 433) / Thu, 28-May-2015 01:03:09 
+java.version: 1.7.0_75
+java.vm.vendor: Oracle Corporation
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.version: 24.75-b04 [com.sciforma.psnext.api.PSException.wrap]
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:123)
+	at com.sciforma.psnext.api.PSException.wrap(PSException.java:28)
+	at com.sciforma.psnext.api.Project.save(Project.java:2310)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:777)
+	at com.sciforma.psnext.api.Project.saveAs(Project.java:659)
+	at com.eurotunnel.sciforma.Run.doImportEcm(Run.java:541)
+	at com.eurotunnel.sciforma.Run.main(Run.java:143)
+10:51:19:098 - INFO - Run - [main] Fermeture de l'API: Mon Nov 23 10:51:19 CET 2015
+11:08:59:439 - INFO - Run - [main] Demarrage de l'API: Mon Nov 23 11:08:59 CET 2015
+11:08:59:442 - INFO - Run - [connexion] Chargement parametre connexion:Mon Nov 23 11:08:59 CET 2015
+11:08:59:443 - INFO - Run - [connexion] Initialisation de la Session:Mon Nov 23 11:08:59 CET 2015
+11:09:19:695 - INFO - Run - [connexion] Connecté: Mon Nov 23 11:09:19 CET 2015 Ã  l'instance sciforma
+11:09:19:696 - INFO - Run - [chargementParametreSciforma] Demarrage du chargement des parametres de l'application:Mon Nov 23 11:09:19 CET 2015
+11:09:19:739 - INFO - Run - [chargementParametreSciforma] Fin du chargement des parametres de l'application:Mon Nov 23 11:09:19 CET 2015
+11:09:19:739 - INFO - Run - [doImportEcm]Importation des donnÃ©es XML de ECM: Mon Nov 23 11:09:19 CET 2015
+11:09:32:058 - INFO - Run - [doImportEcm] Lecture du fichier: C:\\Users\\Eric\\Documents\\Professionnel\\Eurotunnel\\ecm_import.xml
+11:09:33:459 - INFO - Run - [doImportEcm]Projet enregistré : Mon Nov 23 11:09:33 CET 2015
+11:09:33:633 - INFO - Run - [main] Fermeture de l'API: Mon Nov 23 11:09:33 CET 2015
